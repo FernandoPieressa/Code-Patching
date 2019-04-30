@@ -22,7 +22,7 @@ def parse_line_indices(text):
 
 def parse(org, project, commit_id, file_name):
 	valid_diffs = {}
-	with open(file_name, "r", encoding="utf8") as file:
+	with open(file_name, "r", encoding="utf8", errors='ignore') as file:
 		curr_file = curr_line = None # We'll use these variables to confirm we are in a valid diff
 		for line in file:
 			parts = line.rstrip().split(" ")
