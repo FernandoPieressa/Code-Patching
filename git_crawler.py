@@ -9,8 +9,10 @@ def get_git_revision_hash(path):
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
 
-def get_diff(path, commit_id, out_file):
-	return subprocess.call(['git', '-C', path, 'diff', commit_id + '~', commit_id, '-U0'], stdout=out_file)
+# Compute diff of commit ID, relative to previous commit if one exists
+def get_diff(path, commit_id, out_file, relative_to_parent=True):
+	if relative_to_parent: return subprocess.call(['git', '-C', path, 'diff', commit_id + '^1', commit_id, '-U0'], stdout=out_file)
+	else: return subprocess.call(['git', '-C', path, 'diff', commit_id, '-U0'], stdout=out_file)
 
 def parse_line_indices(text):
 	text = text.strip()
@@ -70,14 +72,14 @@ def main(in_dir, out_file):
 	for org in orgs_list:
 		projects_list = os.listdir(os.path.join(in_dir, org))
 		for project in projects_list:
-			print(project)
+			print("Processing {0}/{1}".format(org, project))
 			dir_path = os.path.join(in_dir, org, project)
 			curr_branch = get_git_revision_hash(dir_path)
 			all_commit_ids = get_entire_history(dir_path, curr_branch)
-			for commit_id in all_commit_ids:
-				print('Working on commit ' + commit_id)
+			for ix, commit_id in enumerate(all_commit_ids):
 				with open("output.diff", "w", encoding="utf8") as of:
-					get_diff(dir_path, commit_id, of)
+					is_last = ix == len(all_commit_ids) - 1
+					get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
 				parse(org, project, commit_id, 'output.diff')
 
 
