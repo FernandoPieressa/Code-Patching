@@ -44,9 +44,12 @@ def parse(org, project, commit_id, file_name):
 					curr_line = None
 				else: curr_line = add_start
 			
-			# Finally, if this is a line added (and provided we are in a valid file and line), store fix text.
+			# Before parsing the rest of the diff, check if we should
+			if curr_file == None: continue # Skip parsing if we are not in a valid file
+			elif curr_line == None: return # Otherwise, exit directly if we find a contradictory example (e.g. a Java file with non-aligned diff)
+			
+			# Finally, store line numbers and text of fix code.
 			elif line.startswith("+") and not line.startswith("+++"):
-				if curr_file == None or curr_line == None: continue
 				content = line[1:].lstrip()
 				if content.startswith("*") or content.startswith("//") or content.startswith("/*"): continue # Sanity check; not conclusive, but helps remove some comments right-away
 				fix_line = line.rstrip()[1:]
