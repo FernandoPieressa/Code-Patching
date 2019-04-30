@@ -1,4 +1,5 @@
 import os
+import sys
 import subprocess
 import csv
 
@@ -61,21 +62,26 @@ def parse(org, project, commit_id, file_name):
 			for line_ix, fix in valid_diffs[file].items():
 				writer.writerow([org, project, commit_id, file, line_ix, fix])
 
-in_dir = 'Repos'
-out_file = 'database.csv'
-orgs_list = os.listdir(in_dir)
-with open(out_file, 'w', encoding='utf8', newline='') as csv_file:
-	writer = csv.writer(csv_file, delimiter=',')
-	writer.writerow(['organization', 'project', 'commit', 'file', 'line_no', 'fix_line']) # Empty the output file safe for the header; we will append to it for every project
-for org in orgs_list:
-	projects_list = os.listdir(os.path.join("Repos", org))
-	for project in projects_list:
-		print(project)
-		dir_path = os.path.join("Repos", org, project)
-		curr_branch = get_git_revision_hash(dir_path)
-		all_commit_ids = get_entire_history(dir_path, curr_branch)
-		for commit_id in all_commit_ids:
-			print('Working on commit ' + commit_id)
-			with open("output.diff", "w", encoding="utf8") as of:
-				get_diff(dir_path, commit_id, of)
-			parse(org, project, commit_id, 'output.diff')
+def main(in_dir, out_file):
+	orgs_list = os.listdir(in_dir)
+	with open(out_file, 'w', encoding='utf8', newline='') as csv_file:
+		writer = csv.writer(csv_file, delimiter=',')
+		writer.writerow(['organization', 'project', 'commit', 'file', 'line_no', 'fix_line']) # Empty the output file safe for the header; we will append to it for every project
+	for org in orgs_list:
+		projects_list = os.listdir(os.path.join(in_dir, org))
+		for project in projects_list:
+			print(project)
+			dir_path = os.path.join(in_dir, org, project)
+			curr_branch = get_git_revision_hash(dir_path)
+			all_commit_ids = get_entire_history(dir_path, curr_branch)
+			for commit_id in all_commit_ids:
+				print('Working on commit ' + commit_id)
+				with open("output.diff", "w", encoding="utf8") as of:
+					get_diff(dir_path, commit_id, of)
+				parse(org, project, commit_id, 'output.diff')
+
+
+if __name__ == '__main__':
+	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
+	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
+	main(in_dir, out_file)
