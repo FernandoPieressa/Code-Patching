@@ -35,6 +35,8 @@ def parse(org, project, commit_id, file_name):
 					curr_file = parts[2][2:] # Remove the "a/" part. Should check that this is always sound
 				else: curr_file = None
 			
+			if curr_file == None: continue # Don't bother parsing if we are not in a valid file
+			
 			# Next, check that the exact line diff is valid. In our case, this means making sure that we can easily infer alignment (e.g. same line removed and added)
 			elif line.startswith("@@"):
 				if parts[1].startswith('+') or parts[2] == '@@': continue # Skip changes with no additions or deletions
@@ -45,13 +47,13 @@ def parse(org, project, commit_id, file_name):
 				else: curr_line = add_start
 			
 			# Before parsing the rest of the diff, check if we should
-			if curr_file == None: continue # Skip parsing if we are not in a valid file
-			elif curr_line == None: return # Otherwise, exit directly if we find a contradictory example (e.g. a Java file with non-aligned diff)
+			if curr_line == None: return # If we are in a correct file, but facing an incorrect (e.g. non-aligned) diff, exit directly
+			elif curr_file in valid_diffs: return # Tentatively, we also abandon parsing if we already have a diff in this file. We may relax this later when considering broader bug fixes
 			
 			# Finally, store line numbers and text of fix code.
 			elif line.startswith("+") and not line.startswith("+++"):
 				content = line[1:].lstrip()
-				if content.startswith("*") or content.startswith("//") or content.startswith("/*"): continue # Sanity check; not conclusive, but helps remove some comments right-away
+				if content.startswith("*") or content.startswith("//") or content.startswith("/*") or content.startswith("\""): continue # Sanity check; not conclusive, but helps remove some comments right-away
 				fix_line = line.rstrip()[1:]
 				if curr_file not in valid_diffs: valid_diffs[curr_file] = {}
 				valid_diffs[curr_file][curr_line] = fix_line
