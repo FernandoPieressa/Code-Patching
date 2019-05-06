@@ -1,5 +1,6 @@
 import os
 import sys
+import re
 import subprocess
 import csv
 
@@ -19,61 +20,73 @@ def parse_line_indices(text):
 	if text.startswith("+") or text.startswith("-"): text = text[1:] # Remove + or -
 	if "," in text:
 		s = text.split(",")
-		return int(s[0]), int(s[1])
+		start = int(s[0])
+		return start, start + int(s[1]) - 1
 	else: return int(text), int(text)
 
-def parse(org, project, commit_id, file_name):
+class Diff():
+	def __init__(self, org, project, commit_id):
+		self.org = org
+		self.project = project
+		self.commit_id = commit_id
+		self.files_changed = {}
+	
+	def add_changed_file(self, file):
+		if file in self.files_changed:
+			print("Changed file already recorded for commit?", file)
+			return
+		self.files_changed[file] = []
+	
+	def add_changed_lines(self, file, rm_start, rm_end, add_start, add_end):
+		if file not in self.files_changed:
+			print("Changed file not recorded for commit?", file)
+			return
+		self.files_changed[file].append((rm_start, rm_end, add_start, add_end))
+
+def parse(diff, file_name):
 	valid_diffs = {}
 	with open(file_name, "r", encoding="utf8", errors='ignore') as file:
 		curr_file = curr_line = None # We'll use these variables to confirm we are in a valid diff
+		offset_r = 0 # To track the shift in line alignment
 		for line in file:
-			parts = line.rstrip().split(" ")
-			
 			# First, if this line describes the files changed, assert that the extensions are appropriate (in our case, Java)
 			if line.startswith("diff --git"):
-				if ".java" in parts[2] and ".java" in parts[3]: # Check if we can easily infer alignment (e.g. same line removed and added)
-					curr_file = parts[2][2:] # Remove the "a/" part. Should check that this is always sound
+				start, end = [m.span() for m in re.finditer(" a/.+ b/", line)][0]
+				changed_file = line[start:end][3:-3].strip()
+				diff.add_changed_file(changed_file) # Store the changed file for bookkeeping, even if it is not valid
+				if changed_file.endswith(".java"):
+					curr_file = changed_file
+					offset_r = 0
 				else: curr_file = None
-			
 			if curr_file == None: continue # Don't bother parsing if we are not in a valid file
 			
 			# Next, check that the exact line diff is valid. In our case, this means making sure that we can easily infer alignment (e.g. same line removed and added)
-			elif line.startswith("@@"):
+			if line.startswith("@@"):
+				parts = line.rstrip().split(" ")
 				if parts[1].startswith('+') or parts[2] == '@@': continue # Skip changes with no additions or deletions
 				rm_start, rm_end = parse_line_indices(parts[1])
 				add_start, add_end = parse_line_indices(parts[2])
-				if rm_start != rm_end or rm_start != add_start or rm_end != add_end: # For now, skip any case where the diff is unequal
-					curr_line = None
-				else: curr_line = add_start
-			
-			# Before parsing the rest of the diff, check if we should
-			if curr_line == None: return # If we are in a correct file, but facing an incorrect (e.g. non-aligned) diff, exit directly
-			elif curr_file in valid_diffs: return # Tentatively, we also abandon parsing if we already have a diff in this file. We may relax this later when considering broader bug fixes
-			
-			# Finally, store line numbers and text of fix code.
-			elif line.startswith("+") and not line.startswith("+++"):
-				content = line[1:].lstrip()
-				if content.startswith("*") or content.startswith("//") or content.startswith("/*") or content.startswith("\""): continue # Sanity check; not conclusive, but helps remove some comments right-away
-				fix_line = line.rstrip()[1:]
-				if curr_file not in valid_diffs: valid_diffs[curr_file] = {}
-				valid_diffs[curr_file][curr_line] = fix_line
-				curr_line += 1
+				# To ensure we are capturing alignment, shift line numbers in new file, first in comparison, end then to store new offset
+				if rm_end < (add_start + offset_r) or (add_end + offset_r) < rm_start:
+					return # If we find a violation in alignment, exit immediately
+				offset_r += (rm_end - rm_start) - (add_end - add_start) # Captures degree to which new file is "ahead" (or behind)
+				diff.add_changed_lines(curr_file, rm_start, rm_end, add_start, add_end)
 	
-	# One more check: tentatively we only consider commits with a single changed permissable file
-	if len(valid_diffs) != 1: return
+	java_files_changed = len([f for f in diff.files_changed if f.endswith(".java")])
+	if java_files_changed == 0: return
 	
 	# Append results to data file
 	with open(out_file, 'a', encoding='utf8', newline='') as csv_file:
 		writer = csv.writer(csv_file, delimiter=',')
-		for file in valid_diffs.keys():
-			for line_ix, fix in valid_diffs[file].items():
-				writer.writerow([org, project, commit_id, file, line_ix, fix])
+		for file in diff.files_changed:
+			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
+				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
 
 def main(in_dir, out_file):
 	orgs_list = os.listdir(in_dir)
 	with open(out_file, 'w', encoding='utf8', newline='') as csv_file:
 		writer = csv.writer(csv_file, delimiter=',')
-		writer.writerow(['organization', 'project', 'commit', 'file', 'line_no', 'fix_line']) # Empty the output file safe for the header; we will append to it for every project
+		writer.writerow(['organization', 'project', 'commit', 'files_changed', 'java_files_changed', 'file', 'file_diffs', 'lines_removed', 'lines_added', 'line_rm_start', 'line_rm_end', 'line_add_start', 'line_add_end']) # Empty the output file safe for the header; we will append to it for every project
 	for org in orgs_list:
 		projects_list = os.listdir(os.path.join(in_dir, org))
 		for project in projects_list:
@@ -85,9 +98,11 @@ def main(in_dir, out_file):
 				with open("output.diff", "w", encoding="utf8") as of:
 					is_last = ix == len(all_commit_ids) - 1
 					get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
-				parse(org, project, commit_id, 'output.diff')
-
-
+				try:
+					parse(Diff(org, project, commit_id), 'output.diff')
+				except Exception as e:
+					print("Exception parsing diff", org, project, commit_id, "--", e)
+				
 if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
