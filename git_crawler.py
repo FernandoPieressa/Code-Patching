@@ -5,16 +5,16 @@ import subprocess
 import csv
 
 def get_git_revision_hash(path):
-    return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
+	return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
 
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
 
 def check_git_commit_message(path, hash):
-    message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
-    if any(s in message for s in ["fix", "bug"]):
-        return message
-    return None
+	message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
+	if any(s in message for s in ["fix", "bug", "typo", "error", "mistake", "fault", "defect", "flaw", "incorrect"]):
+		return message
+	return None
 
 # Compute diff of commit ID, relative to previous commit if one exists
 def get_diff(path, commit_id, out_file, relative_to_parent=True):
@@ -89,27 +89,27 @@ def parse(diff, file_name):
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
 
 def main(in_dir, out_file):
-    orgs_list = os.listdir(in_dir)
-    with open(out_file, 'w', encoding='utf8', newline='') as csv_file:
-        writer = csv.writer(csv_file, delimiter=',')
-        writer.writerow(['organization', 'project', 'commit', 'files_changed', 'java_files_changed', 'file', 'file_diffs', 'lines_removed', 'lines_added', 'line_rm_start', 'line_rm_end', 'line_add_start', 'line_add_end']) # Empty the output file safe for the header; we will append to it for every project
-    for org in orgs_list:
-        projects_list = os.listdir(os.path.join(in_dir, org))
-        for project in projects_list:
-            print("Processing {0}/{1}".format(org, project))
-            dir_path = os.path.join(in_dir, org, project)
-            curr_branch = get_git_revision_hash(dir_path)
-            all_commit_ids = get_entire_history(dir_path, curr_branch)
-            for ix, commit_id in enumerate(all_commit_ids):
-                fixline = check_git_commit_message(dir_path, commit_id)
-                if fixline:
-                    with open("output.diff", "w", encoding="utf8") as of:
-                        is_last = ix == len(all_commit_ids) - 1
-                        get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
-                    try:
-                        parse(Diff(org, project, commit_id), 'output.diff')
-                    except Exception as e:
-                        print("Exception parsing diff", org, project, commit_id, "--", e)
+	orgs_list = os.listdir(in_dir)
+	with open(out_file, 'w', encoding='utf8', newline='') as csv_file:
+		writer = csv.writer(csv_file, delimiter=',')
+		writer.writerow(['organization', 'project', 'commit', 'files_changed', 'java_files_changed', 'file', 'file_diffs', 'lines_removed', 'lines_added', 'line_rm_start', 'line_rm_end', 'line_add_start', 'line_add_end']) # Empty the output file safe for the header; we will append to it for every project
+	for org in orgs_list:
+		projects_list = os.listdir(os.path.join(in_dir, org))
+		for project in projects_list:
+			print("Processing {0}/{1}".format(org, project))
+			dir_path = os.path.join(in_dir, org, project)
+			curr_branch = get_git_revision_hash(dir_path)
+			all_commit_ids = get_entire_history(dir_path, curr_branch)
+			for ix, commit_id in enumerate(all_commit_ids):
+				fixline = check_git_commit_message(dir_path, commit_id)
+				if fixline:
+					with open("output.diff", "w", encoding="utf8") as of:
+						is_last = ix == len(all_commit_ids) - 1
+						get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
+					try:
+						parse(Diff(org, project, commit_id), 'output.diff')
+					except Exception as e:
+						print("Exception parsing diff", org, project, commit_id, "--", e)
 
 if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
