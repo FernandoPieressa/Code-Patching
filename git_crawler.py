@@ -5,10 +5,16 @@ import subprocess
 import csv
 
 def get_git_revision_hash(path):
-    return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
+	return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
 
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
+
+def check_git_commit_message(path, hash):
+	message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
+	if any(s in message for s in ["fix", "bug", "typo", "error", "mistake", "fault", "defect", "flaw", "incorrect"]):
+		return message
+	return None
 
 # Compute diff of commit ID, relative to previous commit if one exists
 def get_diff(path, commit_id, out_file, relative_to_parent=True):
@@ -30,13 +36,13 @@ class Diff():
 		self.project = project
 		self.commit_id = commit_id
 		self.files_changed = {}
-	
+
 	def add_changed_file(self, file):
 		if file in self.files_changed:
 			print("Changed file already recorded for commit?", file)
 			return
 		self.files_changed[file] = []
-	
+
 	def add_changed_lines(self, file, rm_start, rm_end, add_start, add_end):
 		if file not in self.files_changed:
 			print("Changed file not recorded for commit?", file)
@@ -59,7 +65,7 @@ def parse(diff, file_name):
 					offset_r = 0
 				else: curr_file = None
 			if curr_file == None: continue # Don't bother parsing if we are not in a valid file
-			
+
 			# Next, check that the exact line diff is valid. In our case, this means making sure that we can easily infer alignment (e.g. same line removed and added)
 			if line.startswith("@@"):
 				parts = line.rstrip().split(" ")
@@ -71,10 +77,10 @@ def parse(diff, file_name):
 					return # If we find a violation in alignment, exit immediately
 				offset_r += (rm_end - rm_start) - (add_end - add_start) # Captures degree to which new file is "ahead" (or behind)
 				diff.add_changed_lines(curr_file, rm_start, rm_end, add_start, add_end)
-	
+
 	java_files_changed = len([f for f in diff.files_changed if f.endswith(".java")])
 	if java_files_changed == 0: return
-	
+
 	# Append results to data file
 	with open(out_file, 'a', encoding='utf8', newline='') as csv_file:
 		writer = csv.writer(csv_file, delimiter=',')
@@ -95,14 +101,16 @@ def main(in_dir, out_file):
 			curr_branch = get_git_revision_hash(dir_path)
 			all_commit_ids = get_entire_history(dir_path, curr_branch)
 			for ix, commit_id in enumerate(all_commit_ids):
-				with open("output.diff", "w", encoding="utf8") as of:
-					is_last = ix == len(all_commit_ids) - 1
-					get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
-				try:
-					parse(Diff(org, project, commit_id), 'output.diff')
-				except Exception as e:
-					print("Exception parsing diff", org, project, commit_id, "--", e)
-				
+				fixline = check_git_commit_message(dir_path, commit_id)
+				if fixline:
+					with open("output.diff", "w", encoding="utf8") as of:
+						is_last = ix == len(all_commit_ids) - 1
+						get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
+					try:
+						parse(Diff(org, project, commit_id), 'output.diff')
+					except Exception as e:
+						print("Exception parsing diff", org, project, commit_id, "--", e)
+
 if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
