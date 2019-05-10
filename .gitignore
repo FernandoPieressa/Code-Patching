@@ -2,5 +2,5 @@ database.csv
 output.diff
 files
 lexedfiles
-.gitignore
+__pycache__
 Repos
