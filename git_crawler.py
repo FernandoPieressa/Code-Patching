@@ -16,7 +16,7 @@ def get_diff(path, commit_id, out_file, relative_to_parent=True):
 	else: return subprocess.call(['git', '-C', path, 'diff', commit_id, '-U0'], stdout=out_file)
 
 def get_precommit_file(path, commit_id, file, out_file):
-	return subprocess.call(['git', '-C', path, 'show', commit_id + ':' + file], stdout=out_file)
+	return subprocess.call(['git', '-C', path, 'show', commit_id + '~1:' + file], stdout=out_file)
 
 def parse_line_indices(text):
 	text = text.strip()
@@ -84,7 +84,7 @@ def parse(diff, file_name, dir_path):
 		for file in diff.files_changed:
 			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
-			with open("files/" + diff.commit_id + "_pre.txt", "w", encoding="utf8") as of:
+			with open("files/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_pre.txt", "w", encoding="utf8") as of:
 				get_precommit_file(dir_path, diff.commit_id, file, of)
 
 def main(in_dir, out_file):
