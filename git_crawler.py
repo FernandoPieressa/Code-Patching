@@ -116,4 +116,4 @@ if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
 	main(in_dir, out_file)
-	shutil.rmtree('/files')
+	shutil.rmtree('files')
