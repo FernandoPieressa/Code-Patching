@@ -2,3 +2,5 @@ database.csv
 output.diff
 files
 lexedfiles
+Repos
+__pycache__
