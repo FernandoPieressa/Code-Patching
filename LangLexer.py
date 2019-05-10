@@ -15,7 +15,6 @@ def lex_file(language, file):
 	exts = lexer.filenames
 	if language.lower() == 'plpgsql':
 		exts.append('*.sql')
-	print("Will use lexer %s, lexing files with extensions: %s" % (lexer, exts))
 	with open(file, "r", encoding='ascii', errors='ignore') as inFile, open("lexedfiles/"+file[6:], "w", encoding='ascii', errors='ignore') as outFile:
 		content = inFile.read()
 		tokens = pygments.lex(content, lexer)

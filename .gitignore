@@ -4,3 +4,4 @@ files
 lexedfiles
 Repos
 __pycache__
+.DS_STORE
