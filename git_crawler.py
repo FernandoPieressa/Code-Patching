@@ -3,9 +3,10 @@ import sys
 import re
 import subprocess
 import csv
+from LangLexer import lex_file
 
 def get_git_revision_hash(path):
-    return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
+	return subprocess.check_output(['git', '-C', path, 'rev-parse', '--abbrev-ref', 'HEAD']).decode("utf-8").rstrip("\n")
 
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
@@ -33,13 +34,13 @@ class Diff():
 		self.project = project
 		self.commit_id = commit_id
 		self.files_changed = {}
-	
+
 	def add_changed_file(self, file):
 		if file in self.files_changed:
 			print("Changed file already recorded for commit?", file)
 			return
 		self.files_changed[file] = []
-	
+
 	def add_changed_lines(self, file, rm_start, rm_end, add_start, add_end):
 		if file not in self.files_changed:
 			print("Changed file not recorded for commit?", file)
@@ -62,7 +63,7 @@ def parse(diff, file_name, dir_path):
 					offset_r = 0
 				else: curr_file = None
 			if curr_file == None: continue # Don't bother parsing if we are not in a valid file
-			
+
 			# Next, check that the exact line diff is valid. In our case, this means making sure that we can easily infer alignment (e.g. same line removed and added)
 			if line.startswith("@@"):
 				parts = line.rstrip().split(" ")
@@ -74,18 +75,20 @@ def parse(diff, file_name, dir_path):
 					return # If we find a violation in alignment, exit immediately
 				offset_r += (rm_end - rm_start) - (add_end - add_start) # Captures degree to which new file is "ahead" (or behind)
 				diff.add_changed_lines(curr_file, rm_start, rm_end, add_start, add_end)
-	
+
 	java_files_changed = len([f for f in diff.files_changed if f.endswith(".java")])
 	if java_files_changed == 0: return
-	
+
 	# Append results to data file
 	with open(out_file, 'a', encoding='utf8', newline='') as csv_file:
 		writer = csv.writer(csv_file, delimiter=',')
 		for file in diff.files_changed:
 			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
-			with open("files/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_pre.txt", "w", encoding="utf8") as of:
+			file_name = "files/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_pre.java"
+			with open(file_name, "w", encoding="utf8") as of:
 				get_precommit_file(dir_path, diff.commit_id, file, of)
+				lex_file("java", file_name)
 
 def main(in_dir, out_file):
 	orgs_list = os.listdir(in_dir)
@@ -107,7 +110,7 @@ def main(in_dir, out_file):
 					parse(Diff(org, project, commit_id), 'output.diff', dir_path)
 				except Exception as e:
 					print("Exception parsing diff", org, project, commit_id, "--", e)
-				
+
 if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
