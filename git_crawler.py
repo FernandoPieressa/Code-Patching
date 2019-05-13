@@ -12,6 +12,12 @@ def get_git_revision_hash(path):
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
 
+def check_git_commit_message(path, hash):
+	message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
+	if any(s in message for s in ["fix", "bug", "typo", "error", "mistake", "fault", "defect", "flaw", "incorrect"]):
+		return message
+	return None
+
 # Compute diff of commit ID, relative to previous commit if one exists
 def get_diff(path, commit_id, out_file, relative_to_parent=True):
 	if relative_to_parent: return subprocess.call(['git', '-C', path, 'diff', commit_id + '^1', commit_id, '-U0'], stdout=out_file)
@@ -110,13 +116,15 @@ def main(in_dir, out_file):
 			curr_branch = get_git_revision_hash(dir_path)
 			all_commit_ids = get_entire_history(dir_path, curr_branch)
 			for ix, commit_id in enumerate(all_commit_ids):
-				with open("output.diff", "w", encoding="utf8") as of:
-					is_last = ix == len(all_commit_ids) - 1
-					get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
-				try:
-					parse(Diff(org, project, commit_id), 'output.diff', dir_path)
-				except Exception as e:
-					print("Exception parsing diff", org, project, commit_id, "--", e)
+				fixline = check_git_commit_message(dir_path, commit_id)
+				if fixline:
+					with open("output.diff", "w", encoding="utf8") as of:
+						is_last = ix == len(all_commit_ids) - 1
+						get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
+					try:
+						parse(Diff(org, project, commit_id), 'output.diff')
+					except Exception as e:
+						print("Exception parsing diff", org, project, commit_id, "--", e)
 
 if __name__ == '__main__':
 	if not os.path.exists("files"):
