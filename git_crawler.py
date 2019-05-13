@@ -20,6 +20,9 @@ def get_diff(path, commit_id, out_file, relative_to_parent=True):
 def get_precommit_file(path, commit_id, file, out_file):
 	return subprocess.call(['git', '-C', path, 'show', commit_id + '~1:' + file], stdout=out_file)
 
+def get_postcommit_file(path, commit_id, file, out_file):
+	return subprocess.call(['git', '-C', path, 'show', commit_id + ':' + file], stdout=out_file)
+
 def parse_line_indices(text):
 	text = text.strip()
 	if text.startswith("+") or text.startswith("-"): text = text[1:] # Remove + or -
@@ -87,9 +90,12 @@ def parse(diff, file_name, dir_path):
 			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
 			file_name = "files/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_pre.java"
+			file_name2 = "filespost/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_post.java"
 			with open(file_name, "w", encoding="utf8") as of:
 				get_precommit_file(dir_path, diff.commit_id, file, of)
 				lex_file("java", file_name)
+			with open(file_name2, "w", encoding="utf8") as of:
+				get_postcommit_file(dir_path, diff.commit_id, file, of)
 
 def main(in_dir, out_file):
 	orgs_list = os.listdir(in_dir)
@@ -113,6 +119,10 @@ def main(in_dir, out_file):
 					print("Exception parsing diff", org, project, commit_id, "--", e)
 
 if __name__ == '__main__':
+	if not os.path.exists("files"):
+		os.mkdir("files")
+	if not os.path.exists("filespost"):
+		os.mkdir("filespost")
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
 	main(in_dir, out_file)
