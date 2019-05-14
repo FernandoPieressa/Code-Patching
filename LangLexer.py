@@ -6,23 +6,23 @@ from pygments.lexers import get_lexer_by_name
 from pygments.token import Comment, Text, String, Name
 import fnmatch
 
-def lex_file(language, file):
-	if not os.path.exists("lexedfiles"):
-		os.mkdir("lexedfiles")
+def lex_file(language, file, dir1, dir2):
 	# Acquire lexer from Pygments
 	enc = sys.getfilesystemencoding()
 	lexer = get_lexer_by_name(language)
 	exts = lexer.filenames
 	if language.lower() == 'plpgsql':
 		exts.append('*.sql')
-	with open(file, "r", encoding='ascii', errors='ignore') as inFile, open("lexedfiles/"+file[6:], "w", encoding='ascii', errors='ignore') as outFile:
+	with open(dir1+"/"+file, "r", encoding='ascii', errors='ignore') as inFile, open(dir2+"/"+file, "w", encoding='ascii', errors='ignore') as outFile:
 		content = inFile.read()
 		tokens = pygments.lex(content, lexer)
 		inString = False
 		for ttype, value in tokens:
 			if ttype in String.Doc:
 				continue
-			#print("%s, %s" % (ttype, value))
+			if str(ttype) == "Token.Comment.Multiline":
+				for i in range(value.count("\n")):
+					outFile.write("%s" % "\n")
 			if ttype in String:
 				if not False:
 					if inString:

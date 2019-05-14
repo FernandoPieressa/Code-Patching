@@ -12,12 +12,6 @@ def get_git_revision_hash(path):
 def get_entire_history(path, curr_branch):
 	return subprocess.check_output(['git', '-C', path, 'rev-list', curr_branch, '--first-parent']).decode("utf-8").rstrip("\n").split("\n")
 
-def check_git_commit_message(path, hash):
-	message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
-	if any(s in message for s in ["fix", "bug", "typo", "error", "mistake", "fault", "defect", "flaw", "incorrect"]):
-		return message
-	return None
-
 # Compute diff of commit ID, relative to previous commit if one exists
 def get_diff(path, commit_id, out_file, relative_to_parent=True):
 	if relative_to_parent: return subprocess.call(['git', '-C', path, 'diff', commit_id + '^1', commit_id, '-U0'], stdout=out_file)
@@ -28,6 +22,12 @@ def get_precommit_file(path, commit_id, file, out_file):
 
 def get_postcommit_file(path, commit_id, file, out_file):
 	return subprocess.call(['git', '-C', path, 'show', commit_id + ':' + file], stdout=out_file)
+
+def check_git_commit_message(path, hash):
+	message = subprocess.check_output(['git', '-C', path, 'show-branch', '--no-name', hash]).decode("utf-8").rstrip("\n")
+	if any(s in message for s in ["fix", "bug", "typo", "error", "mistake", "fault", "defect", "flaw", "incorrect"]):
+		return message
+	return None
 
 def parse_line_indices(text):
 	text = text.strip()
@@ -95,13 +95,18 @@ def parse(diff, file_name, dir_path):
 		for file in diff.files_changed:
 			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
-			file_name = "files/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_pre.java"
-			file_name2 = "filespost/" + diff.org + '_' + diff.project + '_' + diff.commit_id + "_post.java"
-			with open(file_name, "w", encoding="utf8") as of:
+			file_name = diff.org + '_' + diff.project + '_' + diff.commit_id + '_' "_pre.java"
+			file_name2 = diff.org + '_' + diff.project + '_' + diff.commit_id + "_post.java"
+			with open("files/"+file_name, "w", encoding="utf8") as of:
 				get_precommit_file(dir_path, diff.commit_id, file, of)
-				lex_file("java", file_name)
-			with open(file_name2, "w", encoding="utf8") as of:
+				if not os.path.exists("lexedfiles"):
+					os.mkdir("lexedfiles")
+				lex_file("java", file_name, "files", "lexedfiles")
+			with open("filespost/"+file_name2, "w", encoding="utf8") as of:
+				if not os.path.exists("lexedfilespost"):
+					os.mkdir("lexedfilespost")
 				get_postcommit_file(dir_path, diff.commit_id, file, of)
+				lex_file("java", file_name2, "filespost", "lexedfilespost")
 
 def main(in_dir, out_file):
 	orgs_list = os.listdir(in_dir)
@@ -122,9 +127,29 @@ def main(in_dir, out_file):
 						is_last = ix == len(all_commit_ids) - 1
 						get_diff(dir_path, commit_id, of, relative_to_parent=not is_last)
 					try:
-						parse(Diff(org, project, commit_id), 'output.diff')
+						parse(Diff(org, project, commit_id), 'output.diff', dir_path)
 					except Exception as e:
 						print("Exception parsing diff", org, project, commit_id, "--", e)
+
+	with open(out_file) as csv_file, open('postlinelexed.csv', mode='w') as outFile:
+		writer = csv.writer(outFile, delimiter=',', quotechar='"')
+		writer.writerow(['hash', 'line'])
+		csv_reader = csv.reader(csv_file, delimiter=',')
+		next(csv_reader)
+		for row in csv_reader:
+			dir_path = os.path.join(in_dir, row[0], row[1])
+			fixline = check_git_commit_message(dir_path, row[2])
+			if fixline:
+				result = [row[2]]
+				with open("lexedfilespost/"+row[0]+"_"+row[1]+"_"+row[2]+"_post.java", "r", encoding='ascii', errors='ignore') as inFile:
+					newline = ""
+					for j, line in enumerate(inFile):
+						temp1 = int(row[11])
+						temp2 = int(row[12])
+						if temp1-1 <= j <= temp2-1:
+							newline += line+"\n"
+					result.append(newline+"\n")
+				writer.writerow(result)
 
 if __name__ == '__main__':
 	if not os.path.exists("files"):
@@ -134,4 +159,3 @@ if __name__ == '__main__':
 	in_dir = sys.argv[1] if len(sys.argv) > 1 else 'Repos'
 	out_file = sys.argv[2] if len(sys.argv) > 2 else  'database.csv'
 	main(in_dir, out_file)
-	shutil.rmtree('files')
