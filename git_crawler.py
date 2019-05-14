@@ -95,8 +95,8 @@ def parse(diff, file_name, dir_path):
 		for file in diff.files_changed:
 			for (rm_start, rm_end, add_start, add_end) in diff.files_changed[file]:
 				writer.writerow([diff.org, diff.project, diff.commit_id, len(diff.files_changed), java_files_changed, file, len(diff.files_changed[file]), rm_end - rm_start + 1, add_end - add_start + 1, rm_start, rm_end, add_start, add_end])
-			file_name = diff.org + '_' + diff.project + '_' + diff.commit_id + '_' "_pre.java"
-			file_name2 = diff.org + '_' + diff.project + '_' + diff.commit_id + "_post.java"
+			file_name = diff.org + '_' + diff.project + '_' + diff.commit_id + '_' + str(file[:-5]).replace("/","") + "_pre.java"
+			file_name2 = diff.org + '_' + diff.project + '_' + diff.commit_id + '_' + str(file[:-5]).replace("/","") + "_post.java"
 			with open("files/"+file_name, "w", encoding="utf8") as of:
 				get_precommit_file(dir_path, diff.commit_id, file, of)
 				if not os.path.exists("lexedfiles"):
@@ -141,7 +141,7 @@ def main(in_dir, out_file):
 			fixline = check_git_commit_message(dir_path, row[2])
 			if fixline:
 				result = [row[2]]
-				with open("lexedfilespost/"+row[0]+"_"+row[1]+"_"+row[2]+"_post.java", "r", encoding='ascii', errors='ignore') as inFile:
+				with open("lexedfilespost/"+row[0]+"_"+row[1]+"_"+row[2]+"_"+row[5][:-5].replace("/","")+"_post.java", "r", encoding='ascii', errors='ignore') as inFile:
 					newline = ""
 					for j, line in enumerate(inFile):
 						temp1 = int(row[11])
