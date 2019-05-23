@@ -1,12 +1,12 @@
 database.csv
 output.diff
-<<<<<<< HEAD
 files
 lexedfiles
 Repos
 __pycache__
 .DS_STORE
-=======
 Repos
 .DS_Store
->>>>>>> 718edf7d645c4155c6dec7fe88379891409361ee
+filespost
+lexedfilespost
+postlinelexed.csv
