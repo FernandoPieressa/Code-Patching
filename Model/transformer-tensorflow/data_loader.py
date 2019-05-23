@@ -139,12 +139,12 @@ def advanced_tokenizer(line):
     processed_data = []
     for token in encoded_data:
         processed_data.append(process_token(token))
-    return processed_data 
+    return processed_data
 
 def process_token(token):
     removed_parentheses = ""
     for char in token:
-        if char != '_':
+        if char != '_' and char != '_':
             removed_parentheses += char
 
     if (removed_parentheses.isdigit() or (removed_parentheses.startswith('-') and removed_parentheses[1:].isdigit())):
@@ -161,7 +161,6 @@ def build_vocab(in_fname, out_fname, normalize_digits=True):
             for line in tqdm(f.readlines()):
                 line = line.decode('utf-8')
                 for token in advanced_tokenizer(line):
-                    token = process_token(token)
                     if not token in vocab:
                         vocab[token] = 0
                     vocab[token] += 1
