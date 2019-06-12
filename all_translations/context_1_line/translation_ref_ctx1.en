@@ -1,0 +1,1000 @@
+ @Exported	(	name	=	"str"	,	inline	=	true	)	 public	List	<	CaseResult	>	getChildren	(	)	{	
+case	2	:	 return	doInvoke	(	args	.	first	(	)	 ,	(	args	=	args	.	rest	(	)	)	.	first	(	)	
+public	TreeSet	<	String	>	getProjects	(	@DottedClassName	String	className	)	{	 TreeSet	<	String	>	results	=	new	TreeSet	<	>	(	)	;	 for	(	Map	.	Entry	<	String	,	PrefixFilter	>	e	:	map	.	entrySet	(	)	)	{	
+return	targetArea	;	 }	 
+public	static	<	T	>	List	<	T	>	listOf	(	Iterator	<	T	>	iterator	)	{	 ArrayList	<	T	>	list	=	new	ArrayList	<	>	(	)	;	 while	(	iterator	.	hasNext	(	)	)	{	
+assertTrue	(	outgoingMessages	.	contains	(	new	RaftMessages	.	Directed	(	state	.	leader	(	)	,	 new	RaftMessages	.	HeartbeatResponse	(	myself	)	)	)	)	;	 }	
+externalFileAction	)	;	 RepositoryFunction	.	addExternalFilesDependencies	(	rootedPath	,	isDirectory	,	directories	,	env	)	;	 }	
+public	class	NotificationPluginRegistry	{	 private	final	Map	<	String	,	Set	<	String	>	>	notificationNameToPluginsInterestedMap	=	new	ConcurrentHashMap	<	>	(	)	;	 
+ private	String	getCacheKey	(	String	group	,	String	key	)	{	 return	group	+	Constant	.	CONNECTOR	+	key	;	
+public	EditorCell	createEditorCell	(	EditorContext	context	,	SNode	node	)	{	 return	this	.	createCollection1225468425966	(	context	,	node	)	;	 }	
+ import	org	.	junit	.	Assert	;	 
+ public	class	LinkElementHandler	extends	LineToContentMapReader5Handler	.	ElementHandler	{	 private	String	[	]	requiredAttributes	=	new	String	[	]	{	"str"	}	;	
+}	 patternVar_concept	=	nodeToMatch_CopySrcListMacro_Behavior_26ny8p_a0a0b0a	.	getReferent	(	"str"	)	;	 }	
+ client	.	run	(	jG	,	true	)	;	 
+ buffer	.	append	(	statement	.	getIndexName	(	)	)	.	append	(	"str"	)	;	 buffer	.	append	(	database	.	escapeTableName	(	statement	.	getTableSchemaName	(	)	,	statement	.	getTableName	(	)	)	)	.	append	(	"str"	)	;	
+public	static	final	Setting	<	ByteSizeValue	>	SETTING_HTTP_NETTY_RECEIVE_PREDICTOR_SIZE	=	 Setting	.	byteSizeSetting	(	"str"	,	new	ByteSizeValue	(	64	,	ByteSizeUnit	.	KB	)	,	Property	.	NodeScope	)	;	 public	static	final	Setting	<	ByteSizeValue	>	SETTING_HTTP_NETTY_RECEIVE_PREDICTOR_MIN	=	
+import static	io	.	aeron	.	protocol	.	HeaderFlyweight	.	HDR_TYPE_PAD	;	 import static	io	.	aeron	.	protocol	.	DataHeaderFlyweight	.	HEADER_LENGTH	;	 
+public	void	shouldCreateParamsObjectWithRequiredParameters	(	)	{	 tagParams	=	TagParams	.	create	(	IMAGE	,	REPOSITORY	)	;	 
+if	(	this	.	state	.	isTerminated	(	)	)	{	 sb	.	append	(	"str"	+	complited	+	"str"	+	total	+	"str"	)	;	 testName	=	"str"	;	
+boolean	isAbstractMethod	=	(	(	boolean	)	(	Boolean	)	BHReflection	.	invoke0	(	SNodeOperations	.	cast	(	baseMethod	,	MetaAdapterFactory	.	getConcept	(	0xf3061a5392264cc5L	,	0xa443f952ceaf5816L	,	0xf8cc56b21dL	,	"str"	)	)	,	MetaAdapterFactory	.	getConcept	(	0xf3061a5392264cc5L	,	0xa443f952ceaf5816L	,	0xf8cc56b1fcL	,	"str"	)	,	SMethodTrimmedId	.	create	(	"str"	,	null	,	"str"	)	)	)	;	 SNode	defaultExpr	=	null	;	 if	(	isAbstractMethod	)	{	
+ Map	<	String	,	DetectorNode	>	nodeMap	=	new	HashMap	<	>	(	)	;	 ConstraintGraph	interPassConstraintGraph	=	buildConstraintGraph	(	nodeMap	,	
+ if	(	offlineTableConfig	=	=	null	|	|	offlineTableConfig	.	getValidationConfig	(	)	=	=	null	)	{	 LOGGER	.	info	(	"str"	,	offlineTableName	)	;	
+ fireTreeStructureChanged	(	this	,	path	,	null	,	(	Object	[	]	)	null	)	;	 }	
+return	getNext	(	s	,	yytext	(	)	)	;	 }	 case	54	:	break	;	
+Object	id	;	 if	(	firstToBeRenderedInClient	>	=	0	)	{	 if	(	firstToBeRenderedInClient	<	totalRows	)	{	
+error_message	=	Messages	.	getString	(	"str"	,	sequenceFrom	)	;	 cr	=	new	CheckResult	(	CheckResult	.	TYPE_RESULT_OK	,	error_message	,	stepMeta	)	;	 remarks	.	add	(	cr	)	;	
+ public	static	com	.	liferay	.	portal	.	kernel	.	model	.	PersistedModel	getPersistedModel	(	 java	.	io	.	Serializable	primaryKeyObj	)	
+try	{	 s	=	getPersistentProperty	(	BaseConcept	.	ALIAS	)	;	 if	(	s	=	=	null	)	{	
+ public	Class	<	?	extends	DeciderScoreComparatorFactory	>	getDeciderScoreComparatorClass	(	)	{	 return	deciderScoreComparatorClass	;	
+ private	static	void	setupBasic_Constant_3584_2	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+}	catch	(	java	.	io	.	IOException	e	)	{	 LOGGER	.	log	(	Level	.	FINEST	,	"str"	,	e	)	;	 }	
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_Property_1526_0	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+else	if	(	seen	=	=	IMUL	)	 newValue	=	new	Item	(	"str"	,	(	(	Integer	)	it2	.	getConstant	(	)	)	*	(	(	Integer	)	it	.	getConstant	(	)	)	)	;	 else	if	(	seen	=	=	IDIV	)	
+}	  if	(	!	targetType	.	isAssignableFrom	(	fallbackType	)	)	{	
+ private	void	checkIfClosed	(	)	{	 Preconditions	.	checkState	(	!	mClosed	,	"str"	)	;	
+boolean	autoUpdate	=	jsonObject	.	getBoolean	(	"str"	,	true	)	;	 final	boolean	validateDocbook	=	jsonObject	.	getBoolean	(	"str"	,	false	)	;	 String	clipboardImageFilePattern	=	jsonObject	.	getString	(	"str"	,	"str"	)	;	
+conf	.	setOption	(	ClockTypeOption	.	get	(	"str"	)	)	;	 conf	.	setOption	(	TimedRuleExecutionOption	.	YES	)	;	 
+case	STARTUPPER	:	token	=	token	.	substring	(	0	,	1	)	.	toUpperCase	(	)	 +	token	.	substring	(	1	)	;	break	;	 case	ALLUPPER	:	token	=	token	.	toUpperCase	(	)	;	break	;	
+ XSendEvent	(	x11	.	display	,	XSelectionRequestEvent	.	requestor	(	request	)	,	False	,	0	,	response	)	;	 break	;	
+@JsonProperty	(	"str"	)	 private	Duration	messageJournalFlushAge	=	Duration	.	standardMinutes	(	1L	)	;	 
+@BeforeClass	 static	public	void	setup	(	)	{	TestUtil	.	stall_till_cloudsize	(	5	)	;	}	 
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_refNode_initBlock1225460806241	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+while	(	index	<	chars	.	length	)	{	 index	=	this	.	typeSigReader	.	createBTypeFromSig	(	new	RuntimeTypeCreator	(	packageInfo	)	,	chars	,	index	,	typeStack	)	;	 }	
+if	(	(	urlEntry	.	url	(	)	=	=	null	)	|	|	(	urlEntry	.	url	(	)	.	toString	(	)	.	length	(	)	<	10	)	)	{	 log	.	logSevere	(	stats	+	"str"	+	(	(	urlEntry	.	hash	(	)	=	=	null	)	?	"str"	:	urlEntry	.	hash	(	)	)	)	;	 return	true	;	
+ public	static	String	getDefaultAlias	(	String	sourceName	)	 {	
+if	(	s1	.	startsWith	(	s2	)	)	{	 return	1	;	 }	
+public	HttpServerAtta	(	int	maxBody	,	int	maxLine	)	{	 decoder	=	new	RequestDecoder	(	maxBody	,	maxLine	)	;	 }	
+public	SolrQueryParser	(	QParser	parser	,	String	defaultField	,	Analyzer	analyzer	)	{	 super	(	Version	.	LUCENE_24	,	defaultField	,	analyzer	)	;	 this	.	schema	=	parser	.	getReq	(	)	.	getSchema	(	)	;	
+@Parameter	(	value	=	"str"	,	required	=	true	,	validator	=	PositiveIntegerValidator	.	class	)	 private	int	ringSize	=	65536	;	 
+ if	(	url	=	=	null	|	|	url	.	trim	(	)	.	length	(	)	=	=	0	)	{	 return	;	
+ static	ArrayList	<	BugLeafNode	>	selectedBugLeafNodes	=	new	ArrayList	<	>	(	)	;	 
+DISTRIBUTED_DEPLOYCHUNK_TASK_SYNCH_TIMEOUT	(	"str"	,	 "str"	,	Long	.	class	,	60000l	,	true	)	,	 
+import static	org	.	sonar	.	core	.	permission	.	GlobalPermissions	.	SYSTEM_ADMIN	;	 import static	org	.	sonarqube	.	ws	.	client	.	permission	.	PermissionsWsParameters	.	PARAM_ORGANIZATION	;	 import static	org	.	sonarqube	.	ws	.	client	.	permission	.	PermissionsWsParameters	.	PARAM_TEMPLATE_ID	;	
+{	 return	URI	.	create	(	mavenRepoUri	+	toPath	(	)	)	;	 }	
+ public	EditorCell	createConstant_8108_3	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+HostExpr	.	emitUnboxArg	(	objx	,	gen	,	field	.	getType	(	)	)	;	 gen	.	putField	(	getType	(	targetClass	)	,	fieldName	,	Type	.	getType	(	field	.	getType	(	)	)	)	;	 }	
+public	DBColumnInfo	(	String	name	,	Class	type	,	Integer	length	)	{	 this	(	name	,	type	,	length	,	null	,	true	)	;	 }	
+else	{	 log	(	ast	,	"str"	)	;	 }	
+ protected	void	resetAndClearRefs	(	)	{	 try	{	
+generationByCommandFailed	=	generationByCommandFailed	|	|	!	genOK	;	 addMessage	(	new	Message	(	genOK	?	MessageKind	.	INFORMATION	:	MessageKind	.	WARNING	,	model	.	getModelUID	(	)	+	"str"	+	(	genOK	?	"str"	:	"str"	)	)	)	;	 }	catch	(	GenerationCanceledException	gce	)	{	
+ public	JavadocTag	(	int	line	,	int	column	,	String	tag	,	String	arg1	)	 {	
+ public	EditorCell	createConstant1225468426938	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+try	{	 SortAlgorithm	<	E	>	instance	=	new	Worker2	<	>	(	elements	,	outEdges	)	;	 return	instance	.	compute	(	)	;	
+}	catch	(	IllegalAccessException	e	)	{	 LOG	.	error	(	e	)	;	 }	
+ private	void	updateEligibility	(	)	 {	
+ position	.	set	(	Position	.	KEY_INDEX	,	parser	.	nextHexInt	(	)	)	;	 
+public	String	getDescriptionText	(	String	pattern	)	{	 return	"str"	;	 }	
+ waitForJobExecutorToProcessAllJobs	(	6000	)	;	 
+}	 public	static	SNode	sourceNodeQuery_54995655298113566210	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	(	SNode	)	Type__BehaviorDescriptor	.	getBoxedType_idhEwIzNC	.	invoke	(	_context	.	getNode	(	)	)	;	
+}	 public	static	SNode	sourceNodeQuery_35671420849457819150	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	SLinkOperations	.	getTarget	(	_context	.	getNode	(	)	,	MetaAdapterFactory	.	getContainmentLink	(	0x8388864671ce4f1cL	,	0x9c53c54016f6ad4fL	,	0x7818f71827244b5L	,	0x7818f71827244b6L	,	"str"	)	)	;	
+ public	ODocument	getOutVertex	(	final	ODocument	iEdge	)	{	 if	(	!	iEdge	.	getSchemaClass	(	)	.	isSubClassOf	(	edgeBaseClass	)	)	
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_property_name_1225468426136	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+TestSubscriber	<	Integer	>	ts	=	new	TestSubscriber	<	Integer	>	(	)	;	 Observable	.	range	(	0	,	RxRingBuffer	.	SIZE	*	10	)	.	onBackpressureDrop	(	)	.	observeOn	(	Schedulers	.	io	(	)	)	.	subscribe	(	ts	)	;	 ts	.	awaitTerminalEvent	(	)	;	
+}	 package	org	.	languagetool	.	server	;	 
+if	(	targetId	>	0	)	{	 mTargetIds	.	remove	(	(	Integer	)	targetId	)	;	 }	
+}	 if	(	!	foundThrowable	)	{	 
+RestRequestMetrics	requestMetrics	=	 restRequest	.	getSSLSession	(	)	!	=	null	?	metrics	.	getPeersSSLMetrics	:	metrics	.	getPeersMetrics	;	 restRequest	.	getMetricsTracker	(	)	.	injectMetrics	(	requestMetrics	)	;	
+int	subtaskIndex	)	throws	Exception	{	 super	(	operator	,	maxParallelism	,	parallelism	,	subtaskIndex	)	;	 
+e	.	printStackTrace	(	)	;	 System	.	err	.	println	(	"str"	+	JMETER_INSTALLATION_DIRECTORY	)	;	 }	
+if	(	userRC	!	=	null	)	{	 this	.	endResultReceived	=	false	;	 this	.	userRC	.	clearResults	(	)	;	
+long	start	=	System	.	currentTimeMillis	(	)	;	 List	<	Neighbor	<	String	,	String	>	>	neighbors	=	new	ArrayList	<	>	(	)	;	 for	(	int	i	=	1000	;	i	<	1100	;	i	+	+	)	{	
+String	[	]	pairs	=	envParams	.	split	(	"str"	)	;	 logger	.	info	(	"str"	,	envParams	)	;	 for	(	int	i	=	0	;	i	<	pairs	.	length	;	i	+	+	)	{	
+channel	.	writeByte	(	OQueryResponse	.	RECORD_TYPE_EDGE	)	;	 writeDocument	(	channel	,	row	.	getElement	(	)	.	get	(	)	.	getRecord	(	)	,	recordSerializer	)	;	 }	
+ static	final	String	EXCHANGE_ATTRIBUTE_NAME	=	"str"	;	 
+ private	final	Location	spawnLocation	=	new	Location	(	null	,	0	,	128	,	0	)	;	 
+@JsonProperty	(	"str"	)	 private	List	<	Tag	>	tags	=	new	ArrayList	<	>	(	)	;	 
+ g	.	drawLine	(	chartMask	.	x	,	y	,	chartMask	.	x	+	chartMask	.	width	,	y	)	;	 }	catch	(	ArithmeticException	e	)	{	
+AtomicMapFieldUpdater	(	AtomicReferenceFieldUpdater	<	C	,	Map	>	updater	)	{	 this	.	updater	=	(	AtomicReferenceFieldUpdater	)	updater	;	 }	
+public	void	setDateHeader	(	String	name	,	long	value	)	{	 if	(	name	.	equalsIgnoreCase	(	LAST_MODIFIED	)	)	{	 lastModifiedData	.	updateLastModified	(	value	)	;	
+@Test	(	enabled	=	true	)	 public	void	shouldShutdownServerWithDirectCall	(	)	throws	Exception	{	 
+public	void	testTypingStaticBlockBody	(	)	throws	Exception	{	 performTest	(	"str"	,	1029	,	"str"	,	"str"	)	;	 }	
+blockEnds	=	bytes	.	getBlockEnds	(	)	;	 currentBlockNumber	=	bytes	.	fillAndGetIndex	(	term	,	termOrdToBytesOffset	.	get	(	0	)	)	;	 end	=	blockEnds	[	currentBlockNumber	]	;	
+}	 public	static	SNode	sourceNodeQuery_12382516657360	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	SLinkOperations	.	getTarget	(	_context	.	getNode	(	)	,	MetaAdapterFactory	.	getContainmentLink	(	0xdf345b11b8c74213L	,	0xac6648d2a9b75d88L	,	0x1204d897032L	,	0x1204d89beb2L	,	"str"	)	)	;	
+ public	AttributeDataset	parse	(	String	name	,	URI	uri	)	throws	IOException	,	ParseException	{	 return	parse	(	name	,	new	File	(	uri	)	)	;	
+}	catch	(	kelondroException	e	)	{	 serverLog	.	logSevere	(	"str"	,	"str"	+	e	.	getMessage	(	)	+	"str"	)	;	 i2	.	deleteComplete	(	)	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_3263_5	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+name	=	name	!	=	null	?	name	:	"str"	;	 add	(	new	TextTreeNode	(	"str"	+	TreeTextUtil	.	toHtml	(	name	)	+	"str"	+	TreeTextUtil	.	toHtml	(	node	.	getShortConceptName	(	)	)	+	"str"	+	node	.	getId	(	)	+	"str"	)	{	 public	Icon	getIcon	(	boolean	expanded	)	{	
+private	boolean	handleSpecialBuiltinStructTypes	(	BSymbol	symbol	)	{	 if	(	symbol	.	kind	!	=	SymbolKind	.	RECORD	)	{	 return	false	;	
+{	 return	value	;	 }	
+.	stream	(	)	 .	filter	(	DistributableNode	:	:	isUncacheable	)	 .	map	(	DistributableNode	:	:	getTargetName	)	
+int	executorCoreSize	=	0	;	 int	executorMaxSize	=	200	;	 long	executorKeepAliveTimeSeconds	=	60	;	
+@Override	 public	void	createUsersWithArrayInput	(	List	<	User	>	user	)	throws	Exception	{	 
+ private	final	Set	<	InfixExpression	>	objectEqualityChecks	=	new	HashSet	<	>	(	)	;	 
+provider	.	setAllowsEmptyTarget	(	false	)	;	 EditorCell	cellWithRole	=	this	.	createProperty_3263_6_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+ private	static	CharSequence	generateGroupProperty	(	 final	String	groupName	,	final	Token	token	,	final	String	cppTypeForNumInGroup	,	final	String	indent	)	
+ ByteStreams	.	copy	(	entryInputStream	,	Preconditions	.	checkNotNull	(	jar	)	)	;	 }	
+@SuppressWarnings	(	"str"	)	 public	synchronized	CheckpointService	getCheckpointService	(	)	{	 if	(	ac	=	=	null	)	{	
+}	catch	(	ExecutionException	e	)	{	 throw	new	IllegalStateException	(	"str"	+	username	+	"str"	,	e	)	;	 }	
+public	static	String	getHostnameColonPortString	(	String	server	,	int	defaultPort	)	{	 return	HostAndPort	.	fromString	(	server	)	.	withDefaultPort	(	defaultPort	)	.	toString	(	)	;	 }	
+public	String	classifier	;	 private	String	mavenRepoUri	=	"str"	;	 
+ WebElement	webElement	=	getWebElement	(	locator	,	timeout	)	;	 
+if	(	BigDecimal_TYPE	.	equals	(	rType	)	&	&	Integer_TYPE	.	equals	(	getWrapper	(	aType	)	)	)	{	 mv	.	visitMethodInsn	(	INVOKESTATIC	,	"str"	,	"str"	,	"str"	,	false	)	;	 }	else	if	(	BigInteger_TYPE	.	equals	(	rType	)	&	&	Integer_TYPE	.	equals	(	getWrapper	(	aType	)	)	)	{	
+ public	EditorCell	createConstant_7061_3	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+ final	class	DefaultFutureListeners	{	 
+if	(	urlstring	.	matches	(	urlmask	)	)	{	 snippet	=	snippetCache	.	retrieve	(	url	,	queryhashes	,	false	,	260	)	;	 if	(	snippet	.	source	=	=	plasmaSnippetCache	.	ERROR_NO_MATCH	)	{	
+ private	Boolean	fallbackToUnaugmentedProperty	;	 
+@Override	 public	PsiElement	getContainer	(	PsiElement	context	)	{	 
+@Test	 public	void	testIgnoreOverriddenMethods	(	)	throws	Exception	 {	
+String	aaa	=	Utilities	.	deleteChar	(	tokenVal	,	"str"	)	;	 NumberExpander	.	expandReal	(	aaa	,	wordRelation	,	tokenItem	)	;	 
+protected	int	tickTime	=	ZooKeeperServer	.	DEFAULT_TICK_TIME	;	 protected	int	maxClientCnxns	=	60	;	 
+public	void	Category_Super_Reference_is_Correct	(	)	{	 assertEquals	(	QConstructorTest_CategorySuperclass	.	class	,	QConstructorTest_Category	.	category	.	_super	.	getClass	(	)	)	;	 assertEquals	(	Category	.	class	,	QConstructorTest_Category	.	category	.	_super	.	getType	(	)	)	;	
+{	 applyToPrivate	=	applyTo	;	 }	
+ public	Debugger	(	JavaEditor	editor	)	{	 this	.	editor	=	editor	;	
+ package	org	.	languagetool	.	synthesis	.	nl	;	 
+folder	=	getInboxFolder	(	)	;	 final	Set	<	String	>	contents	=	new	HashSet	<	>	(	)	;	 Message	[	]	messagesInBox	=	folder	.	getMessages	(	)	;	
+ private	static	final	class	ByteTypeAdapter	implements	JsonSerializer	<	Byte	>	,	JsonDeserializer	<	Byte	>	{	 public	JsonElement	serialize	(	Byte	src	,	Type	typeOfSrc	,	JsonSerializationContext	context	)	{	
+deleteZone	.	setOverlappingViews	(	new	View	[	]	{	allAppsButton	,	divider	,	configureButton	}	)	;	 }	else	{	 deleteZone	.	setOverlappingView	(	findViewById	(	R	.	id	.	all_apps_button_cluster	)	)	;	
+ return	START_NOT_STICKY	;	 }	
+ private	Boolean	acceptMessagesWhileStopping	=	false	;	 
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_RefNode_0097_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+if	(	(	child	.	refreshFlags	&	RF_TRANSFORM	)	!	=	0	)	 continue	;	 
+JsonParser	parser	=	pbJSON	.	getJsonFactory	(	)	.	createJsonParser	(	array	)	;	 pbJSON	.	mergeFrom	(	parser	,	builder	)	;	 parser	.	close	(	)	;	
+public	void	parse	(	File	file	)	throws	IOException	{	 InputSource	src	=	new	InputSource	(	file	.	toURI	(	)	.	toASCIIString	(	)	)	;	 parse	(	src	)	;	
+ protected	final	byte	[	]	buf	;	 
+Main	prg	=	new	Main	(	verbose	,	language	)	;	 if	(	recursive	)	{	 prg	.	runRecursive	(	filename	)	;	
+ExternalResolver	.	setExternalResolveInfo	(	reference	)	;	 setNotNullAttribute	(	linkElement	,	EXT_RESOLVE_INFO	,	importElement	.	getReferenceID	(	)	+	"str"	+	(	(	ExternalReference	)	reference	)	.	getExtResolveInfo	(	)	)	;	 }	else	{	
+ Set	<	ClassDescriptor	>	classes	=	new	HashSet	<	>	(	)	;	 @Override	
+assertEquals	(	encodedRegion	+	"str"	+	 tableName	.	getNameAsString	(	)	.	replace	(	TableName	.	NAMESPACE_DELIM	,	"str"	)	,	 HFileLink	.	createBackReferenceName	(	FSUtils	.	getTableName	(	tableDir	)	.	getNameAsString	(	)	,	
+ private	FileContents	currentContents	;	 
+@Override	 protected	DBObject	complete	(	QueryBuilder	criteria	,	Sort	sort	)	{	 
+short	shortAtOffset	=	getShortVolatile	(	obj	,	offset	)	;	 if	(	compareAndSetShort	(	obj	,	offset	,	shortAtOffset	,	value	)	)	{	 return	shortAtOffset	;	
+lightMdl	=	new	Geometry	(	"str"	,	new	Sphere	(	10	,	10	,	0.1f	)	)	;	 lightMdl	.	setMaterial	(	(	Material	)	assetManager	.	loadAsset	(	new	MaterialKey	(	"str"	)	)	)	;	 rootNode	.	attachChild	(	lightMdl	)	;	
+while	(	(	h1	.	messages	.	size	(	)	<	1	)	|	|	(	h2	.	messages	.	size	(	)	<	1	)	|	|	(	h3	.	messages	.	size	(	)	<	1	)	)	{	 Thread	.	sleep	(	10	)	;	 }	
+ private	boolean	isPublic	(	DetailAST	typeDef	)	 {	
+ restoreDependentsFromTrash	(	curFoldersAndArticles	,	trashEntryId	)	;	 
+{	 private	final	State	state	;	 private	final	MetaStoreClient	metadata	;	
+{	 final	List	<	DetailAST	>	params	=	getParameters	(	parent	)	;	 final	List	<	DetailAST	>	typeParams	=	CheckUtils	
+if	(	shouldDenyPrivilege	(	identity	.	getUser	(	)	,	tableName	.	getObjectName	(	)	,	CREATE_VIEW_WITH_SELECT_TABLE	)	)	{	 denyCreateViewWithSelect	(	tableName	.	toString	(	)	,	identity	)	;	 }	
+}	 public	static	SNode	sourceNodeQuery_12402408412970	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	ClassifierTypeUtil	.	getTypeCoercedToClassifierType	(	SLinkOperations	.	getTarget	(	_context	.	getNode	(	)	,	MetaAdapterFactory	.	getContainmentLink	(	0x8388864671ce4f1cL	,	0x9c53c54016f6ad4fL	,	0x116db7e6bcbL	,	0x116db7f62a8L	,	"str"	)	)	)	;	
+ statement	.	setWhere	(	where	)	;	 
+return	innerProcessor	.	getSupportedOptions	(	)	;	 }	catch	(	RuntimeException	|	Error	e	)	{	 throw	wrapAnnotationProcessorCrashException	(	e	)	;	
+for	(	int	i	=	0	;	i	<	items	.	size	(	)	;	+	+	i	)	{	 values	[	i	]	=	Integer	.	parseInt	(	items	.	get	(	i	)	.	trim	(	)	)	;	 }	
+ public	com	.	liferay	.	portal	.	kernel	.	service	.	ClassNameLocalService	getClassNameLocalService	(	)	{	 return	classNameLocalService	;	
+}	 return	JBUI	.	Fonts	.	create	(	Font	.	DIALOG	,	12	)	;	 }	
+ int	size	=	unsortedUsers	.	size	(	)	;	 List	<	RatingContext	>	rcs	=	new	ArrayList	<	>	(	size	)	;	
+public	void	shouldGetMethodTypeOfTupledFunction7	(	)	{	 final	Function7	<	Object	,	Object	,	Object	,	Object	,	Object	,	Object	,	Object	,	Object	>	lambda	=	(	o1	,	o2	,	o3	,	o4	,	o5	,	o6	,	o7	)	-	>	o1	;	 final	MethodType	actual	=	lambda	.	tupled	(	)	.	getType	(	)	;	
+if	(	result	.	hasDefined	(	FAILURE_DESCRIPTION	)	)	{	 return	result	.	get	(	FAILURE_DESCRIPTION	)	.	toString	(	)	;	 }	
+public	LocalFileBlockReader	(	String	path	)	throws	IOException	{	 mFilePath	=	Preconditions	.	checkNotNull	(	path	,	"str"	)	;	 mLocalFile	=	mCloser	.	register	(	new	RandomAccessFile	(	mFilePath	,	"str"	)	)	;	
+ Set	<	String	>	commonProperties	=	new	HashSet	<	>	(	getMethods	.	keySet	(	)	)	;	 commonProperties	.	retainAll	(	setMethods	.	keySet	(	)	)	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_7442_2	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+new	OCreateDatabaseFinalizeResponseHandler	(	)	)	;	 coordinator	.	reply	(	sender	,	sessionOperationId	,	new	OCreateDatabaseSubmitResponse	(	true	,	"str"	)	)	;	 }	else	{	
+BallerinaException	exception	=	new	BallerinaException	(	"str"	+	 HttpConstants	.	HTTP_CLIENT	+	"str"	+	clientConnectorException	.	getMessage	(	)	,	context	)	;	 dataContext	.	notifyReply	(	null	,	HttpUtil	.	getHttpConnectorError	(	context	,	exception	)	)	;	
+}	 return	readSum	>	=	minLength	;	 
+ Set	<	XField	>	needsRefactoringToBeFinal	=	new	HashSet	<	>	(	)	;	 
+ private	static	void	setupBasic_Constant_6321_12	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+Env	env	=	unit	.	get	(	Env	.	class	)	;	 expect	(	env	.	router	(	)	)	.	andReturn	(	routes	)	;	 MetricHandler	handler	=	unit	.	constructor	(	MetricHandler	.	class	)	.	build	(	)	;	
+double	delta_qif	=	rho	*	n	*	sum_w	[	f	]	+	(	1	-	rho	)	*	puf	;	 QS	.	add	(	i	,	f	,	lRate	*	(	cmg	*	delta_qif	-	regI	*	qif	)	)	;	 loss	+	=	regI	*	qif	*	qif	;	
+if	(	sentence	.	contains	(	"str"	)	)	{	 String	imei	=	sentence	.	substring	(	6	,	sentence	.	length	(	)	-	3	)	;	 try	{	
+assertTrue	(	qpm2	.	terminal	)	;	 assertEquals	(	1F	,	qpm2	.	boost	,	0	)	;	 assertEquals	(	1	,	qpm2	.	subMap	.	size	(	)	)	;	
+}	else	{	 this	.	receivedChunk	=	true	;	 }	
+}	 if	(	mapTemplate	=	=	null	|	|	mapTemplate	.	isEmpty	(	)	)	{	 LOG	.	trace	(	"str"	)	;	
+defaults	.	put	(	"str"	,	false	)	;	 defaults	.	put	(	"str"	,	JmeVersion	.	FULL_NAME	)	;	 defaults	.	put	(	"str"	,	LWJGL_OPENGL2	)	;	
+PowerMockito	.	mockStatic	(	NomadScheduler	.	class	)	;	 PowerMockito	.	when	(	NomadScheduler	.	getFetchCommand	(	Mockito	.	any	(	)	,	Mockito	.	any	(	)	,	Mockito	.	any	(	)	)	)	 .	thenReturn	(	TOPOLOGY_DOWNLOAD_CMD	)	;	
+private	com	.	google	.	protobuf	.	MapField	<	java	.	lang	.	String	,	org	.	sonarqube	.	ws	.	WsScanner	.	WsProjectResponse	.	FileDataByPath	>	 internalGetMutableFileDataByModuleAndPath	(	)	{	 onChanged	(	)	;	;	
+iContext	.	setVariable	(	iName	,	iValue	)	;	 debug	(	iContext	,	"str"	,	iName	,	iValue	)	;	 }	
+ public	boolean	lineIsComment	(	int	lineNo	)	 {	
+ private	void	visitMethodDef	(	DetailAST	methodDef	)	 {	
+import	org	.	kie	.	event	.	rule	.	ActivationUnMatchListener	;	 import	org	.	kie	.	runtime	.	rule	.	Match	;	 import	org	.	kie	.	runtime	.	rule	.	RuleContext	;	
+ requestedJoinPosition	=	(	(	termId	-	requestedInitialTermId	)	*	(	long	)	termLength	)	+	termOffset	;	 
+public	long	waitFor	(	final	long	sequence	,	final	Sequence	cursor	,	final	Sequence	[	]	dependents	,	final	SequenceBarrier	barrier	,	 final	long	timeout	,	final	TimeUnit	sourceUnit	)	 throws	AlertException	,	InterruptedException	
+storage	.	setItem	(	"str"	,	"str"	)	;	 throw	new	Error	(	"str"	)	;	 }	catch	(	AssertionError	e	)	{	
+}	  
+ public	EditorCell	createCollection_2608_0	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createVertical	(	context	,	node	)	;	
+ List	<	DBSObjectReference	>	objects	=	new	ArrayList	<	>	(	)	;	 
+ public	void	handle	(	AtmosphereFramework	framework	,	Class	<	Object	>	annotatedClass	)	{	 try	{	
+ List	tasksPotentialOwners	=	(	List	)	pm	.	queryWithParametersInTransaction	(	"str"	,	 pm	.	addParametersToMap	(	"str"	,	tasksIds	)	)	;	
+this	.	content	.	setPickOnBounds	(	false	)	;	 contentHolder	.	getChildren	(	)	.	setAll	(	content	)	;	 }	
+ ArrayList	<	Range	>	ranges	=	null	;	 long	contentLength	=	-	1L	;	
+public	String	getibean	(	final	org	.	jooby	.	Request	req	,	final	IBean	bean	)	throws	Exception	{	 assertEquals	(	req	.	param	(	"str"	)	.	value	(	)	,	bean	.	name	(	)	)	;	 assertEquals	(	req	.	param	(	"str"	)	.	booleanValue	(	)	,	bean	.	isValid	(	)	)	;	
+long	__functionAddress	=	commandBuffer	.	getCapabilities	(	)	.	vkCmdUpdateBuffer	;	 callPJJJPV	(	__functionAddress	,	commandBuffer	.	address	(	)	,	dstBuffer	,	dstOffset	,	Integer	.	toUnsignedLong	(	pData	.	length	)	<	<	3	,	pData	)	;	 }	
+  
+EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createVertical	(	context	,	node	)	;	 setupBasic_Collection_1215_0	(	editorCell	,	node	,	context	)	;	 editorCell	.	setGridLayout	(	false	)	;	
+case	85	:	 return	QueriesGenerated	.	sourceNodeQuery_3567142084946185154	(	ctx	)	;	 case	86	:	
+INDArray	ag	=	(	is2dInput	?	ifogAs	.	get	(	NDArrayIndex	.	all	(	)	,	interval	(	3	*	hiddenLayerSize	,	4	*	hiddenLayerSize	)	)	 :	ifogAs	.	tensorAlongDimension	(	t	,	1	,	0	)	.	get	(	NDArrayIndex	.	all	(	)	,	interval	(	3	*	hiddenLayerSize	,	4	*	hiddenLayerSize	)	)	)	;	 INDArray	deltai	=	nablaCellState	.	mul	(	ag	)	
+ runManager	.	addConfiguration	(	settings	)	;	 runManager	.	setSelectedConfiguration	(	settings	)	;	
+ if	(	!	isLocalIP	)	{	 serverCore	.	checkInterruption	(	)	;	
+ assertTrue	(	(	(	Object	[	]	)	c	.	call	(	)	)	[	0	]	.	toString	(	)	.	startsWith	(	DummyClassLoader	.	class	.	getName	(	)	)	)	;	 }	
+import	buildcraft	.	api	.	core	.	BCLog	;	 import	buildcraft	.	lib	.	container	.	BCContainer_BC8	;	 import	buildcraft	.	lib	.	net	.	command	.	*	;	
+for	(	String	typeToColor	:	typeToColorList	)	{	 String	[	]	typeAndColor	=	typeToColor	.	split	(	COLOR_SPLITTER_REGEXP_COLON	)	;	 if	(	typeAndColor	.	length	!	=	2	)	{	
+ private	Boolean	ignoreLeadingWhitespaces	=	true	;	 
+ public	List	<	TableRow	>	getAllRows	(	String	projectId	,	String	datasetId	,	String	tableId	)	 throws	InterruptedException	,	IOException	{	
+public	static	DSLContext	using	(	DataSource	datasource	,	SQLDialect	dialect	,	Settings	settings	)	{	 return	new	DefaultDSLContext	(	datasource	,	dialect	,	settings	)	;	 }	
+BaseIntentionProvider	intentionProvider	=	null	;	 typeCheckingContext	.	createEquation	(	(	SNode	)	typeCheckingContext	.	typeOf	(	_nodeToCheck_1029348928467	,	"str"	,	"str"	,	true	)	,	(	SNode	)	new	_Quotations	.	QuotationClass_119	(	)	.	createNode	(	typeCheckingContext	)	,	_nodeToCheck_1029348928467	,	null	,	"str"	,	"str"	,	intentionProvider	)	;	 }	
+public	static	final	int	TERM_WIDTH	=	120	;	 public	static	final	int	TERM_HEIGHT	=	400	;	 private	final	static	Logger	LOG	=	LoggerFactory	.	getLogger	(	TerminalServlet	.	class	)	;	
+@Override	 public	void	bindView	(	ViewHolder	viewHolder	,	List	<	Object	>	payloads	)	{	 super	.	bindView	(	viewHolder	,	payloads	)	;	
+ public	default	<	R	>	R	compute	(	IgniteFunction	<	D	,	R	>	map	,	IgniteBinaryOperator	<	R	>	reduce	)	{	 return	compute	(	(	data	,	partIdx	)	-	>	map	.	apply	(	data	)	,	reduce	)	;	
+os	.	writeString	(	e	.	getKey	(	)	.	serialize	(	)	)	;	 os	.	writeString	(	e	.	getValue	(	)	=	=	null	?	"str"	:	e	.	getValue	(	)	)	;	 }	
+v8	.	checkThread	(	)	;	 checkReleased	(	)	;	 return	v8	.	getType	(	v8	.	getV8RuntimePtr	(	)	,	getHandle	(	)	,	index	)	;	
+ public	void	testForall	(	)	throws	Exception	{	 final	PackageBuilder	builder	=	new	PackageBuilder	(	)	;	
+List	<	Map	>	pipelineAttributes	=	(	List	)	pipelinesAttributes	;	 List	<	EnvironmentPipelineConfig	>	newProposed	=	new	ArrayList	<	>	(	)	;	 for	(	Map	attributeMap	:	pipelineAttributes	)	{	
+try	{	 persistableKeys	=	VertexProgram	.	createVertexProgram	(	graph	,	 ConfUtil	.	makeApacheConfiguration	(	taskAttemptContext	.	getConfiguration	(	)	)	)	.	getElementComputeKeys	(	)	;	
+ public	synchronized	boolean	intentionIsDisabled	(	Intention	intention	)	{	 checkLoaded	(	)	;	
+if	(	p	=	=	null	|	|	p	.	size	(	)	=	=	0	)	continue	;	 for	(	PathData	pd	:	p	.	values	(	)	)	{	 if	(	!	pd	.	isFresh	(	)	)	continue	outer	;	
+case	17	:	 return	QueriesGenerated	.	sourceNodeQuery_45405085096954709910	(	ctx	)	;	 case	18	:	
+ public	PropertyElementHandler	(	)	{	 }	
+try	{	 clazz	=	Class	.	forName	(	className	,	false	,	tccl	)	;	 }	catch	(	ClassNotFoundException	e	)	{	
+public	void	testMoreCandidatesTypingReturnFromLambdaBlock	(	)	throws	Exception	{	 performTest	(	"str"	,	1102	,	"str"	,	"str"	,	"str"	)	;	 }	
+ public	static	final	SMethod	<	Boolean	>	isLValue_idhEwJgmE	=	new	SMethodBuilder	<	Boolean	>	(	new	SJavaCompoundTypeImpl	(	Boolean	.	TYPE	)	)	.	name	(	"str"	)	.	modifiers	(	SModifiersImpl	.	create	(	8	,	AccessPrivileges	.	PUBLIC	)	)	.	concept	(	CONCEPT	)	.	id	(	"str"	)	.	registry	(	REGISTRY	)	.	build	(	)	;	 
+ Hashtable	<	Integer	,	JLabel	>	labelTable	=	new	Hashtable	<	>	(	)	;	 labelTable	.	put	(	1	,	new	JLabel	(	String	.	valueOf	(	1	)	)	)	;	
+ if	(	lastSemicolon	<	firstClosedParenthesis	)	{	 
+ public	EditorCell	createRefNode1228495417822	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	RefNodeCellProvider	(	node	,	context	)	;	
+}	 for	(	final	Iterator	<	Tag	>	iter	=	tags	.	iterator	(	)	;	iter	.	hasNext	(	)	;	)	{	 final	Tag	tag	=	iter	.	next	(	)	;	
+ private	final	com	.	insightfullogic	.	java8	.	answers	.	chapter4	.	ArtistsFixed	optionalExamples	=	new	ArtistsFixed	(	SampleData	.	getThreeArtists	(	)	)	;	 
+ public	void	_testTwoWait	(	)	throws	Exception	{	 waitInterceptor	.	setDelay	(	0	)	;	
+Context	context	=	new	Context	(	0	,	col	,	header	.	getKey	(	)	)	;	 header	.	onBrowserEvent	(	context	,	headerParent	,	event	)	;	 }	
+coltypes	[	i	]	=	"str"	;	 for	(	int	j	=	0	;	j	<	len	;	j	+	+	)	{	strCells	[	j	+	H	]	[	i	]	=	vec	.	isNA	(	off	+	j	)	?	"str"	:	vec	.	atStr	(	tmpStr	,	off	+	j	)	.	toString	(	)	;	dblCells	[	j	+	H	]	[	i	]	=	TwoDimTable	.	emptyDouble	;	}	 break	;	
+}	catch	(	IOException	e	)	{	 if	(	log	!	=	null	)	log	.	logError	(	"str"	+	e	.	getMessage	(	)	)	;	 e	.	printStackTrace	(	)	;	
+.	setParam	(	PARAM_PERMISSION	,	permission	)	 .	setParam	(	PARAM_ORGANIZATION	,	organizationDto	.	getKey	(	)	)	 .	execute	(	)	;	
+OptionSpec	option	=	help	.	options	(	)	.	get	(	0	)	;	 Text	[	]	[	]	row	=	renderer	.	render	(	option	,	parameterRenderer	,	help	.	colorScheme	(	)	)	;	 assertEquals	(	1	,	row	.	length	)	;	
+ public	AttributeDataset	parse	(	String	name	,	File	file	)	throws	IOException	,	ParseException	{	 return	parse	(	name	,	new	FileInputStream	(	file	)	)	;	
+{	 if	(	edgeId	<	=	EdgeIterator	.	NO_EDGE	|	|	edgeId	>	edgeCount	)	 throw	new	IllegalStateException	(	"str"	+	edgeId	+	"str"	+	nf	(	edgeCount	)	+	"str"	)	;	
+}	 return	new	ReduceOperator	<	T	>	(	this	,	dataSet	.	clean	(	reducer	)	,	Utils	.	getCallLocationName	(	)	)	;	 }	
+catch	(	final	CommitStepException	exc	)	{	 Frame	frame	=	JOptionPane	.	getFrameForComponent	(	currentStep	.	getComponent	(	)	)	;	 Messages	.	showErrorDialog	(	
+if	(	post	.	isDoS_blackout	(	)	)	{	response	.	sendError	(	503	,	"str"	)	;	return	;	}	 if	(	!	post	.	isLocalhostAccess	(	)	)	{	response	.	sendError	(	503	,	"str"	+	post	.	getClientHost	(	)	)	;	return	;	}	 
+ private	final	DebugButton	tabButton	=	new	DebugButton	(	Icon	.	TESTBENCH	,	 "str"	)	;	
+ return	rss	.	getBytes	(	StringPool	.	UTF8	)	;	 }	
+else	if	(	seen	=	=	LXOR	)	 newValue	=	new	Item	(	"str"	,	(	(	Long	)	it2	.	getConstant	(	)	)	^	(	(	Long	)	it	.	getConstant	(	)	)	)	;	 else	if	(	seen	=	=	LSHL	)	
+public	void	testTypingInstanceofTypeWithinInitOfField	(	)	throws	Exception	{	 performTest	(	"str"	,	945	,	"str"	,	"str"	)	;	 }	
+assertQuery	(	title	.	startsWith	(	"str"	)	,	 dbo	(	"str"	,	dbo	(	"str"	,	"str"	)	)	)	;	 assertQuery	(	title	.	startsWithIgnoreCase	(	"str"	)	,	
+while	(	enu	.	hasNext	(	)	)	{	 ys	=	yacySeed	.	genRemoteSeed	(	(	String	)	enu	.	next	(	)	,	null	,	true	)	;	 if	(	(	ys	!	=	null	)	&	&	(	ys	.	isProper	(	)	=	=	null	)	&	&	
+ public	void	addInstanceMethod	(	final	String	name	)	 {	
+defaultGuiLocale	=	messages	.	getString	(	defaultLocale	.	getLanguage	(	)	+	"str"	+	defaultLocale	.	getCountry	(	)	)	;	 }	catch	(	final	MissingResourceException	e	)	{	 
+ Map	<	Integer	,	List	<	Item	>	>	jumpStackEntries	=	new	HashMap	<	>	(	)	;	 
+}	 int	[	]	retArr	=	new	int	[	ret	.	size	(	)	]	;	 for	(	int	i	=	0	;	i	<	ret	.	size	(	)	;	i	+	+	)	{	
+{	 return	indentCheck	;	 }	
+ public	EditorCell	createProperty_4050_1	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+public	class	SpecExampleVisitorExt	{	 public	static	<	V	extends	SpecExampleVisitor	>	VisitHandler	<	?	>	[	]	VISIT_HANDLERS	(	final	V	visitor	)	{	 return	new	VisitHandler	<	?	>	[	]	{	
+import static	org	.	hamcrest	.	MatcherAssert	.	assertThat	;	 import static	org	.	hamcrest	.	Matchers	.	*	;	 import static	org	.	junit	.	Assert	.	assertEquals	;	
+processMap	.	put	(	"str"	,	new	resourceResponseGet	(	)	)	;	 processMap	.	put	(	"str"	,	new	resourcePoolGetAll	(	)	)	;	 processMap	.	put	(	"str"	,	new	resourceGet	(	)	)	;	
+public	Boolean	isBulkInsertable	(	Class	<	?	extends	PersistentObject	>	persistentObjectClass	)	{	 return	bulkInsertableMap	!	=	null	&	&	bulkInsertableMap	.	containsKey	(	persistentObjectClass	)	&	&	bulkInsertableMap	.	get	(	persistentObjectClass	)	=	=	true	;	 }	
+if	(	propNames	.	size	(	)	>	0	)	{	 fail	(	"str"	+	Arrays	.	toString	(	propNames	.	toArray	(	)	)	+	"str"	)	;	 }	
+ private	int	maxSwallowSize	=	2097152	;	 
+@JsonProperty	(	"str"	)	 private	Map	<	String	,	Map	<	String	,	String	>	>	mapMapOfString	=	new	HashMap	<	>	(	)	;	 
+AbstractConfigNodeValue	indentedValue	;	 if	(	value	instanceof	ConfigNodeComplexValue	&	&	!	indentation	.	isEmpty	(	)	)	{	 indentedValue	=	(	(	ConfigNodeComplexValue	)	value	)	.	indentText	(	indentation	.	get	(	indentation	.	size	(	)	-	1	)	)	;	
+ public	EditorCell	createCollection_0097_9	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	
+ private	static	void	setupLabel_Constant_1225460805974_1225460805974	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+Pair	<	Baked	,	TRSRTransformation	>	p	=	transforms	.	get	(	cameraTransformType	)	;	 return	Pair	.	of	(	(	IBakedModel	)	p	.	getLeft	(	)	,	p	.	getRight	(	)	.	getMatrix	(	)	)	;	 }	
+ public	enum	Operator	{	 positive	,	
+public	void	buildInfo	(	Closure	<	?	>	taskConfigurer	)	{	 BuildInfo	bootBuildInfo	=	this	.	project	.	getTasks	(	)	.	create	(	"str"	,	 BuildInfo	.	class	)	;	
+assertThat	(	underTest	.	selectByKeys	(	dbTester	.	getSession	(	)	,	Collections	.	<	RuleKey	>	emptyList	(	)	)	)	.	isEmpty	(	)	;	 assertThat	(	underTest	.	selectByKeys	(	dbTester	.	getSession	(	)	,	asList	(	RuleKey	.	of	(	"str"	,	"str"	)	)	)	)	.	isEmpty	(	)	;	 
+private	final	int	sliceSize	=	1024	;	 private	final	DirectBufferCache	cache	=	new	DirectBufferCache	(	sliceSize	,	sliceSize	*	10480	)	;	 private	static	final	int	MAX_CACHE_FILE_SIZE	=	2048	*	1024	;	
+ public	InequationSystem	getInequationsForHole	(	SNode	hole	,	boolean	holeIsAType	)	{	 TypeCheckingContext	typeCheckingContext	=	NodeTypesComponentsRepository	.	getInstance	(	)	.	createTypeCheckingContext	(	hole	.	getContainingRoot	(	)	)	;	
+import	org	.	tron	.	core	.	capsule	.	WitnessCapsule	;	 import	org	.	tron	.	protos	.	Contract	.	VoteWitnessContract	;	 import	org	.	tron	.	protos	.	Protocal	.	Transaction	;	
+private	final	TemplateParser	templateParser	;	 private	boolean	infer	=	false	;	 private	boolean	materialise	=	false	;	
+ private	final	JList	<	String	>	sourceList	=	new	JList	<	>	(	)	;	 
+for	(	IModule	dependent	:	ListSequence	.	fromList	(	dependency	)	)	{	 if	(	!	(	dependent	instanceof	Generator	)	&	&	!	(	SetSequence	.	fromSet	(	modules	)	.	contains	(	dependent	)	)	&	&	!	(	dependent	.	isPackaged	(	)	)	&	&	dependent	.	getDescriptorFile	(	)	!	=	null	)	{	 String	errorText	=	"str"	+	dependent	.	getModuleFqName	(	)	+	"str"	+	module	.	getModuleFqName	(	)	+	"str"	;	
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_property_emptyCaption_1225468425934	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+rule	=	new	PatternRule	(	id	,	language	,	elementList	,	 description	,	"str"	,	shortMessage	.	toString	(	)	)	;	 prepareRule	(	rule	)	;	
+ServerBriefInfo	executorInfo	=	getServerBriefInfo	(	executor	,	curatorFrameworkOp	)	;	 if	(	expectedServerStatus	=	=	null	|	|	executorInfo	.	getStatus	(	)	=	=	expectedServerStatus	)	{	 executorInfoList	.	add	(	executorInfo	)	;	
+ private	int	pollNameServerInterval	=	1000	*	30	;	 
+int	column	=	from	.	getColumnNo	(	)	+	1	;	 while	(	line	<	text	.	length	&	&	column	>	=	text	[	line	]	.	length	(	)	)	{	 
+ private	double	[	]	ignoreNumbers	=	{	-	1	,	0	,	1	,	2	}	;	 
+if	(	post	.	get	(	"str"	)	=	=	null	|	|	authorization	.	getIdentity	(	)	=	=	null	)	{	 throw	new	APIException	(	401	,	"str"	)	;	 }	
+}	catch	(	ClassCastException	e	)	{	 res	.	addSubResult	(	errorResult	(	new	Exception	(	binURL	+	"str"	)	,	new	HTTPSampleResult	(	res	)	)	)	;	 res	.	setSuccessful	(	false	)	;	
+public	BaseAdapter	getContainingRoot	(	)	{	 return	BaseAdapter	.	fromNode	(	getNode	(	)	.	getContainingRoot	(	)	)	;	 }	
+}	catch	(	UnixException	x	)	{	 if	(	x	.	errno	(	)	!	=	EAGAIN	&	&	x	.	errno	(	)	!	=	EWOULDBLOCK	)	 throw	x	;	
+if	(	chainHeight	!	=	0	)	{	 confidence	.	setDepthInBlocks	(	chainHeight	-	confidence	.	getAppearedAtChainHeight	(	)	+	1	)	;	 }	
+ public	Boolean	getIncludeAllJMSXProperties	(	)	{	 return	includeAllJMSXProperties	;	
+ InterpreterResult	interpreterResult	=	t	.	interpret	(	sqlQuery	,	new	InterpreterContext	(	"str"	,	"str"	,	"str"	,	"str"	,	null	,	null	,	null	,	null	,	null	)	)	;	 
+provider	.	setAllowsEmptyTarget	(	false	)	;	 EditorCell	cellWithRole	=	this	.	createProperty1228495418211_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+scanChar	(	)	;	 if	(	ch	=	=	"str"	&	&	JdbcConstants	.	POSTGRESQL	.	equals	(	dbType	)	)	{	 scanChar	(	)	;	
+@NativeType	(	"str"	)	 public	class	NkTextUndoState	extends	Struct	{	 
+ List	<	Tree	>	model	=	new	ArrayList	<	>	(	ntrees	)	;	 for	(	int	i	=	0	;	i	<	ntrees	;	i	+	+	)	{	
+DESERT_GENIE	(	new	WorldPoint	(	3363	,	2905	,	0	)	,	DESERT	,	"str"	)	,	 DESERT_ALKHARID_MINE	(	new	WorldPoint	(	3282	,	3270	,	0	)	,	DESERT	,	"str"	)	,	 DESERT_MENAPHOS_GATE	(	new	WorldPoint	(	3224	,	2816	,	0	)	,	DESERT	,	"str"	)	,	
+private	List	<	URIReference	>	testCases	(	Graph	xunitGraph	)	{	 List	<	URIReference	>	testCases	=	new	ArrayList	<	>	(	)	;	 
+ protected	static	native	RenderingGenerationResult	generateRenderingIndirect	(	RenderingContext	rc	,	long	searchResultHandler	,	 boolean	isTransparent	,	RenderingRuleSearchRequest	render	,	boolean	encodePng	)	;	
+long	transactionStartTime	=	0	;	 for	(	long	i	=	0	;	i	<	numRecords	;	i	+	+	)	{	 if	(	transactionsEnabled	&	&	currentTransactionSize	=	=	0	)	{	
+private	String	getProtocol	(	)	{	 return	useSSL	?	"str"	:	"str"	;	 }	
+ List	<	SearchItem	>	getAllItems	(	)	{	 List	<	SearchItem	>	list	=	new	ArrayList	<	>	(	)	;	
+import static	com	.	facebook	.	presto	.	hive	.	HiveErrorCode	.	HIVE_INVALID_METADATA	;	 import static	com	.	facebook	.	presto	.	hive	.	HiveErrorCode	.	HIVE_PARTITION_DROPPED_DURING_QUERY	;	 import static	com	.	facebook	.	presto	.	hive	.	HiveErrorCode	.	HIVE_PARTITION_SCHEMA_MISMATCH	;	
+if	(	input	.	isRequired	(	)	)	{	 encodeRequiredIndicator	(	writer	,	label	)	;	 }	
+ Logger	.	getLogger	(	"str"	)	.	setLevel	(	Level	.	INFO	)	;	 Logger	.	getLogger	(	"str"	)	.	addHandler	(	logFile	)	;	
+public	EditorCell	createEditorCell	(	EditorContext	context	,	SNode	node	)	{	 return	this	.	createProperty_7061_1	(	context	,	node	)	;	 }	
+ public	EditorCell	createConstant1225468426140	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+ private	static	void	setupBasic_Collection_0528_0	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+EditorCell_Collection	editorCell	=	this	.	myListHandler_6590_0	.	createCells	(	context	,	new	CellLayout_Vertical	(	)	,	false	)	;	 setupBasic_RefNodeList_6590_0	(	editorCell	,	node	,	context	)	;	 editorCell	.	setGridLayout	(	false	)	;	
+ List	<	String	>	failureBuildURLs	=	new	ArrayList	<	>	(	)	;	 
+defaultFlags	.	angularPass	=	false	;	 defaultFlags	.	applyInputSourceMaps	=	true	;	 defaultFlags	.	assumeFunctionWrapper	=	false	;	
+"str"	+	channel	.	socket	.	getInetAddress	(	)	.	getHostAddress	(	)	+	"str"	+	request	.	httpMethod	+	"str"	 +	URLDecoder	.	decode	(	command	,	"str"	)	)	;	 
+ if	(	node	.	getParentId	(	)	!	=	0	&	&	parentId	.	equals	(	node	.	getParentId	(	)	)	)	{	 recursionFn	(	nodeList	,	node	,	parentId	)	;	
+v8	.	checkThread	(	)	;	 checkReleased	(	)	;	 receiver	=	receiver	!	=	null	?	receiver	:	v8	;	
+|	|	isAllCharactersEscaped	(	literal	)	 |	|	(	allowEscapesForControlCharacters	 &	&	isOnlyUnicodeValidChars	(	literal	,	sUnicodeControl	)	)	
+}	else	if	(	psiClaz	.	isInterface	(	)	)	{	 return	(	SConcept	)	SConceptRepository	.	getInstance	(	)	.	getConcept	(	BootstrapLanguages	.	concept_baseLanguage_Interface	)	;	 }	else	if	(	psiClaz	.	isEnum	(	)	)	{	
+public	List	<	String	>	toCsvLine	(	)	{	 return	buildCsvLineWithLongs	(	timeMillisSpend	,	moveCountPerStepMeasurement	.	getAcceptedMoveCount	(	)	,	 moveCountPerStepMeasurement	.	getSelectedMoveCount	(	)	)	;	
+ showNonDefault	.	setSelection	(	CommonUtils	.	getBoolean	(	connectionInfo	.	getProviderProperty	(	PostgreConstants	.	PROP_SHOW_NON_DEFAULT_DB	)	,	false	)	)	;	 showTemplates	.	setSelection	(	CommonUtils	.	getBoolean	(	connectionInfo	.	getProviderProperty	(	PostgreConstants	.	PROP_SHOW_TEMPLATES_DB	)	,	false	)	)	;	
+}	 public	static	SNode	sourceNodeQuery_34528931382104956720	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	SLinkOperations	.	getTarget	(	SNodeOperations	.	cast	(	SLinkOperations	.	getTarget	(	_context	.	getNode	(	)	,	MetaAdapterFactory	.	getContainmentLink	(	0xf3061a5392264cc5L	,	0xa443f952ceaf5816L	,	0x11b0d00332cL	,	0xf8c77f1e97L	,	"str"	)	)	,	MetaAdapterFactory	.	getConcept	(	0x8388864671ce4f1cL	,	0x9c53c54016f6ad4fL	,	0x116ea555a25L	,	"str"	)	)	,	MetaAdapterFactory	.	getContainmentLink	(	0x8388864671ce4f1cL	,	0x9c53c54016f6ad4fL	,	0x116ea555a25L	,	0x116ea57b648L	,	"str"	)	)	;	
+ public	EditorCell	createRefNode_8108_5	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	RefNodeCellProvider	(	node	,	context	)	;	
+public	class	StageStatusCache	implements	StageStatusListener	{	 private	Map	<	StageConfigIdentifier	,	Stage	>	stages	=	new	Hashtable	<	>	(	)	;	 private	final	StageDao	stageDao	;	
+(	original	.	getType	(	)	=	=	Token	.	AND	)	|	|	(	original	.	getType	(	)	=	=	Token	.	OR	)	,	 "str"	,	Token	.	name	(	original	.	getType	(	)	)	)	;	 Node	left	=	original	.	getFirstChild	(	)	;	
+}	 int	comp	=	table	.	compareTypeSafe	(	a	,	b	)	;	 if	(	(	sortType	&	SortOrder	.	DESCENDING	)	!	=	0	)	{	
+@GetMapping	(	path	=	"str"	,	produces	=	"str"	)	 public	String	ambiguousProducesJson	(	)	{	 return	"str"	;	
+throws	IOException	{	 return	classifyAndWriteAnswers	(	testFile	,	defaultReaderAndWriter	(	)	,	outputScores	)	;	 }	
+response	.	setProperty	(	"str"	,	startOffsets	.	toString	(	)	)	;	 }	catch	(	Throwable	e	)	{	 throw	new	RuntimeException	(	e	)	;	
+public	void	testAfterTypingDefaultKeyword	(	)	throws	Exception	{	 performTest	(	"str"	,	907	,	"str"	,	"str"	)	;	 }	
+@Override	 public	void	auditStarted	(	AuditEvent	event	)	{	 writer	.	println	(	"str"	)	;	
+Member	member	=	req	.	params	(	Member	.	class	)	;	 EntityManager	em	=	req	.	require	(	EntityManager	.	class	)	;	 em	.	persist	(	member	)	;	
+private	MethodInfo	[	]	computeMethodsInCallOrder	(	)	{	 final	Map	<	String	,	MethodInfo	>	map	=	new	HashMap	<	>	(	)	;	 
+ ClassBC	classBytecode	=	BytecodeLoader	.	parse	(	getClass	(	)	.	getName	(	)	,	lines	,	false	)	;	 
+ @Test	(	groups	=	{	"str"	,	"str"	}	)	 public	void	asyncDoGetQueryStringTest	(	)	throws	Exception	{	
+stringLongMap	=	new	HashMap	<	>	(	)	;	 stringLongMap	.	put	(	classified	,	1L	)	;	 counts	.	put	(	correctAnswer	,	stringLongMap	)	;	
+if	(	audio_pkt	.	pts	(	)	!	=	AV_NOPTS_VALUE	)	{	 audio_pkt	.	pts	(	av_rescale_q	(	audio_pkt	.	pts	(	)	,	audio_c	.	time_base	(	)	,	audio_st	.	time_base	(	)	)	)	;	 }	
+ public	AttributeDataset	parse	(	String	path	)	throws	IOException	,	ParseException	{	 return	parse	(	new	File	(	path	)	)	;	
+ categoryBars	.	setBase	(	Arrays	.	asList	(	(	Object	[	]	)	array1	)	)	;	 
+@Override	 public	final	boolean	replace	(	@net.openhft.lang.model.constraints.NotNull	K	key	,	@net.openhft.lang.model.constraints.NotNull	V	oldValue	,	@net.openhft.lang.model.constraints.NotNull	V	newValue	)	{	 checkValue	(	oldValue	)	;	
+TypeSerializerSchemaCompatibility	<	K	>	keySerializerSchemaCompat	=	 rocksDBKeyedStateBackend	.	checkKeySerializerSchemaCompatibility	(	serializationProxy	.	getKeySerializerSnapshot	(	)	)	;	 if	(	keySerializerSchemaCompat	.	isCompatibleAfterMigration	(	)	|	|	keySerializerSchemaCompat	.	isIncompatible	(	)	)	{	
+"str"	+	logPath	+	"str"	+	isCorrupted	+	 "str"	+	progress_failed	;	 LOG	.	info	(	msg	)	;	
+{	 return	entries	.	contains	(	element	)	;	 }	
+double	[	]	coordinates	=	new	double	[	reference	.	coordinate	(	)	.	length	]	;	 Arrays	.	fill	(	coordinates	,	-	Double	.	MAX_VALUE	)	;	 return	pointValue	(	reference	.	getCoordinateReferenceSystem	(	)	,	coordinates	)	;	
+@Test	 public	void	testLambdexpression	(	)	throws	Exception	 {	
+ private	static	void	generateCharacterEncodingMethod	(	 final	StringBuilder	sb	,	final	String	propertyName	,	final	String	encoding	,	final	String	indent	)	
+public	abstract	class	Global	{	 private	static	final	InheritableThreadLocal	<	IAnalysisCache	>	analysisCacheThreadLocal	=	new	InheritableThreadLocal	<	>	(	)	;	 
+public	ChannelGroup	getAllChannels	(	)	{	 return	allChannels	;	 }	
+ private	Boolean	useInlineAttachments	;	 
+import	com	.	liferay	.	portal	.	kernel	.	util	.	OrderByComparator	;	 import	com	.	liferay	.	portal	.	kernel	.	service	.	ServiceContext	;	 
+ public	EditorCell	createCollection_4462_0	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	
+if	(	keySchemaId	!	=	null	)	{	 keySchema	=	keySerializer	.	getById	(	keySchemaId	)	;	 }	else	if	(	schemaHolder	.	getKeySchema	(	)	!	=	null	)	{	
+Label	forItemClassIfEnd_	=	new	Label	(	)	,	forItemClassIfElse_	=	new	Label	(	)	;	 if	(	elementClass	!	=	null	&	&	Modifier	.	isPublic	(	elementClass	.	getModifiers	(	)	)	)	{	 mw	.	visitVarInsn	(	ALOAD	,	context	.	var	(	"str"	)	)	;	
+ public	static	List	<	List	<	BigDecimal	>	>	getElementPropertyAsBigDecimalListDataListByStack	(	 RStack	stack	,	
+ private	final	static	long	MAX_TIMESTAMP_VALUE	=	(	long	)	(	Math	.	pow	(	3	,	27	)	-	1	)	/	2	;	 
+this	.	conf	=	conf	;	 this	.	dir	=	new	Path	(	Path	.	CUR_DIR	)	;	 this	.	regionName	=	new	Text	(	)	;	
+public	int	compare	(	double	o2	,	double	o1	)	{	 return	(	Double	.	compare	(	o1	,	o2	)	)	;	 }	
+ if	(	pageNumber	=	=	null	|	|	pageNumber	<	=	0	)	{	 pageNumber	=	1	;	
+{	 int	fdArrayIndex	=	this	.	fdSelect	.	getFDIndex	(	gid	)	;	 if	(	fdArrayIndex	=	=	-	1	)	
+int	j	=	i	;	 for	(	;	j	>	l	&	&	arr	[	j	-	1	]	.	compareTo	(	e	)	>	0	;	j	-	-	)	 arr	[	j	]	=	arr	[	j	-	1	]	;	
+}	catch	(	Exception	e	)	{	 yacyCore	.	log	.	logSevere	(	"str"	+	e	.	getMessage	(	)	)	;	 return	-	1	;	
+FileDownloadModel	.	DESC	,	 FileDownloadModel	.	PROGRESS_CALLBACK_TIMES	,	 FileDownloadModel	.	STATUS	,	
+mItems	.	size	(	)	<	mAdapter	.	getCount	(	)	;	 int	newCurrItem	=	mCurItem	;	 
+public	static	final	int	V_5_3_1_ID_UNRELEASED	=	5030199	;	 public	static	final	Version	V_5_3_1_UNRELEASED	=	new	Version	(	V_5_3_1_ID_UNRELEASED	,	org	.	apache	.	lucene	.	util	.	Version	.	LUCENE_6_4_2	)	;	 public	static	final	int	V_5_4_0_ID_UNRELEASED	=	5040099	;	
+}	 log	.	debug	(	"str"	+	getName	(	)	+	"str"	)	;	 
+ public	ReadAll	withHost	(	String	host	)	{	 SpannerConfig	config	=	getSpannerConfig	(	)	;	
+ HashMap	<	String	,	Object	>	zipFileContents	=	new	HashMap	<	String	,	Object	>	(	)	;	 
+int	maxLength	=	ModelHintsUtil	.	getMaxLength	(	 FriendlyURLEntryLocalization	.	class	.	getName	(	)	,	"str"	)	;	 
+ private	static	void	setupLabel_refNode_beforeWriteBlock_1225468426311	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+Multiname	n	=	a	.	constants	.	constant_multiname	.	get	(	ii	.	name_index	)	;	 if	(	n	.	getNamespace	(	a	.	constants	)	.	kind	=	=	Namespace	.	KIND_PACKAGE	&	&	n	.	getNamespace	(	a	.	constants	)	.	getName	(	a	.	constants	,	true	)	.	equals	(	nsname	)	)	{	 Reference	<	String	>	outName	=	new	Reference	<	>	(	"str"	)	;	
+textField	.	setText	(	textField	.	getText	(	0	,	pos	)	+	expansion	.	toString	(	)	 +	textField	.	getText	(	pos	,	textField	.	getText	(	)	.	length	(	)	-	textField	.	getText	(	0	,	pos	)	.	length	(	)	)	)	;	 }	
+Double	dValue	=	arrValue	.	get	(	0	)	;	 assertEquals	(	1.0	,	dValue	)	;	 
+EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	 setupBasic_Collection_12254608016111225460801611	(	editorCell	,	node	,	context	)	;	 editorCell	.	setGridLayout	(	false	)	;	
+if	(	sourceFunc	instanceof	DebugHook	.	DebugOnSubscribe	)	{	 sourceFunc	=	(	OnSubscribe	<	T	>	)	(	(	SafeSubscriber	)	sourceFunc	)	.	getActual	(	)	;	 }	
+ public	ByteArrayBodyGenerator	(	byte	[	]	bytes	)	{	 this	.	bytes	=	bytes	;	
+XMPPServer	server	=	XMPPServer	.	getInstance	(	)	;	 _serverDomain	=	server	.	getServerInfo	(	)	.	getXMPPDomain	(	)	;	 }	
+ private	DRL5xParser	parse	(	final	String	text	)	throws	Exception	{	 this	.	parser	=	newParser	(	newTokenStream	(	newLexer	(	newCharStream	(	text	)	)	)	)	;	
+ private	static	GroupEntry	parseGroupEntry	(	ByteBuffer	content	,	String	groupingType	)	{	 GroupEntry	groupEntry	;	
+{	 log	.	logError	(	APP_NAME	,	Messages	.	getString	(	"str"	)	)	;	 return	;	
+}	 int	offset	=	fqName	.	lastIndexOf	(	"str"	)	;	 if	(	offset	<	0	)	{	
+ assertThat	(	measure	.	isPresent	(	)	)	.	isTrue	(	)	;	 assertThat	(	measure	.	get	(	)	.	getValueType	(	)	)	.	isEqualTo	(	Measure	.	ValueType	.	INT	)	;	
+  protected	String	[	]	getRunCommandForOther	(	String	command	,	
+public	void	sourceNoLongerAdvertised	(	)	{	 m_logger	.	debug	(	"str"	+	m_generation	+	 "str"	+	m_tableSignature	+	"str"	+	partitionId	+	"str"	)	;	
+}	 MethodNode	method	=	new	MethodNode	(	 buildUniqueName	(	ownerClassNode	,	METHOD_LABEL	,	annotatedMethod	)	,	
+char	c	=	text	.	charAt	(	i	)	;	 if	(	c	=	=	ESCAPE_SEPARATOR	&	&	i	<	length	-	1	)	{	 char	nextChar	=	text	.	charAt	(	i	+	1	)	;	
+endAddress	+	=	size	;	 long	lastActionIndex	=	getPrevAddress	(	addresses	,	endAddress	-	1	)	;	 Action	lastAction	=	null	;	
+ public	EditorCell	createConstant_9241_12	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+ private	volatile	List	<	String	>	beanDefinitionNames	=	new	ArrayList	<	String	>	(	256	)	;	 
+if	(	getIndentCheck	(	)	.	getHandlerFactory	(	)	.	isHandledType	(	tree	.	getType	(	)	)	 |	|	tree	.	getLineNo	(	)	<	0	)	 {	
+if	(	!	warns	.	isEmpty	(	)	)	{	 warns	.	forEach	(	warn	-	>	code	.	startLine	(	"str"	)	.	addMultiLine	(	warn	.	getWarn	(	)	)	.	add	(	"str"	)	)	;	 }	
+final	Function	scope	=	ExpressionSemanticUtil	.	getScope	(	debugStatement	)	;	 return	scope	!	=	null	&	&	configuration	.	contains	(	scope	instanceof	Method	?	scope	.	getFQN	(	)	:	scope	.	getName	(	)	)	;	 }	
+start	.	set	(	Calendar	.	MONTH	,	startMonth	)	;	 start	.	set	(	Calendar	.	DAY_OF_MONTH	,	startDay	)	;	 start	=	truncateToMidnight	(	start	)	;	
+DEAD	.	stop	(	"str"	)	;	 while	(	rst	.	isAlive	(	)	)	{	 Thread	.	sleep	(	500	)	;	
+ waitForJobExecutorToProcessAllJobs	(	16000	)	;	 
+@JsonProperty	(	"str"	)	 private	Map	<	String	,	Boolean	>	directMap	=	new	HashMap	<	String	,	Boolean	>	(	)	;	 
+ public	EditorCell	createProperty_0936_1	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+null	:	Boolean	.	FALSE	.	toString	(	)	)	;	 Integer	limit	=	(	(	Integer	)	outgoingSpinner	.	getValue	(	)	)	;	 boolean	deflimit	=	LIMIT_ALLOCATIONS_DEFAULT	.	equals	(	limit	)	;	
+byte	[	]	serialize	(	T	obj	)	;	 T	deserialize	(	byte	[	]	b	)	;	 }	
+private	static	final	LoadingCache	<	Class	,	Map	<	String	,	Enum	>	>	ENUM_CONSTANTS	=	 CacheBuilder	.	newBuilder	(	)	 .	weakKeys	(	)	
+Assert	.	assertEquals	(	message	,	m	)	;	 inputStream	.	close	(	)	;	 outputStream	.	close	(	)	;	
+if	(	type	!	=	null	)	{	 dataFormat	=	type	.	getDataFormat	(	routeContext	)	;	 }	
+ import	com	.	google	.	common	.	collect	.	Sets	;	 import	org	.	slf4j	.	Logger	;	
+ public	EditorCell	createProperty1225468421460	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+ private	static	void	setupBasic_Collection_4233_4	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+ return	_getRolesPage	(	myUserAccountId	)	;	 }	
+public	void	shouldCreateParamsObjectWithRequiredParameters	(	)	{	 stopContainerParams	=	StopContainerParams	.	create	(	CONTAINER	)	;	 
+assertEquals	(	id1	,	new	Twitter	(	id3	,	pass3	)	.	getAuthenticatedUser	(	)	.	getName	(	)	)	;	 assertEquals	(	id1	,	new	Twitter	(	id3	,	pass3	)	.	verifyCredentials	(	)	.	getName	(	)	)	;	 }	
+if	(	relativeToChangelogFile	!	=	null	&	&	relativeToChangelogFile	)	{	 file	=	getChangeSet	(	)	.	getFilePath	(	)	.	replaceFirst	(	"str"	,	"str"	)	+	file	;	 }	
+out	.	append	(	line	)	;	 out	.	append	(	"str"	)	;	 content	.	append	(	line	)	;	
+double	dist	=	Math	.	sqrt	(	Math	.	pow	(	deviceBounds	.	getMaxX	(	)	-	deviceBounds	.	getMinX	(	)	,	2	)	+	 Math	.	pow	(	deviceBounds	.	getMaxY	(	)	-	deviceBounds	.	getMinY	(	)	,	2	)	)	;	 factor	=	(	int	)	Math	.	ceil	(	dist	)	;	
+err	.	jspError	(	"str"	,	 "str"	,	uri	)	;	 }	
+public	void	testLocateFinest	(	)	{	 assertEquals	(	"str"	,	icRoot	,	icRoot	 .	locateFinest	(	"str"	)	)	;	
+public	void	testExistentTargetFilePlainOutputToNonExistentFile	(	)	 throws	Exception	{	 
+if	(	keyword	!	=	null	)	{	 criteria	.	andKeywordsLike	(	"str"	+	keyword	+	"str"	)	;	 }	
+fieldNames	=	reader	.	getFieldNames	(	)	;	 assertEquals	(	8	,	fieldNames	.	size	(	)	)	;	 assertTrue	(	fieldNames	.	contains	(	"str"	)	)	;	
+if	(	argumentType	instanceof	GraphQLInputObjectType	)	{	 List	<	String	>	path	=	new	ArrayList	<	>	(	)	;	 path	.	add	(	argumentType	.	getName	(	)	)	;	
+SModelInternal	modelInternal	=	(	SModelInternal	)	model	;	 for	(	SLanguage	language	:	modelInternal	.	getModelDepsManager	(	)	.	getAllImportedLanguagesIds	(	)	)	{	 LanguageRuntime	languageRuntime	=	LanguageRegistry	.	getInstance	(	)	.	getLanguage	(	language	.	getQualifiedName	(	)	)	;	
+ throw	new	AssertionFailure	(	"str"	,	e	)	;	 }	
+editorCell	.	addEditorCell	(	this	.	createIndentCell7753_0	(	context	,	node	)	)	;	 editorCell	.	addEditorCell	(	this	.	createCollection1225460806040	(	context	,	node	)	)	;	 return	editorCell	;	
+public	Value	multiply	(	Value	v	)	{	 throw	throwUnsupportedExceptionForType	(	"str"	)	;	 }	
+if	(	className	.	equals	(	Classes	.	COROUTINE_NAME	)	)	 return	null	;	 
+EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	 setupBasic_Collection_12284954198021228495419802	(	editorCell	,	node	,	context	)	;	 editorCell	.	setGridLayout	(	false	)	;	
+WordVectors	vectorsStatic	=	WordVectorSerializer	.	readWord2VecModel	(	binaryFile	,	false	)	;	  INDArray	arrayLive	=	vectorsLive	.	getWordVectorMatrix	(	"str"	)	;	
+}	 if	(	!	OsmandPlugin	.	onDestinationReached	(	)	)	{	 clearCurrentRoute	(	null	,	null	)	;	
+public	Map	<	String	,	Object	>	getAttributes	(	boolean	addSecureFields	)	{	 Map	<	String	,	Object	>	materialMap	=	new	HashMap	<	>	(	)	;	 materialMap	.	put	(	"str"	,	"str"	)	;	
+result	=	4	;	 }	else	if	(	batteryVp	>	medium	)	{	 result	=	3	;	
+debuggee	.	redirectStderr	(	out	)	;	 log2	(	debuggeeName	+	"str"	)	;	 debuggee	.	resume	(	)	;	
+_get	(	mw	,	context	,	property	)	;	 mw	.	visitTypeInsn	(	CHECKCAST	,	getType	(	List	.	class	)	)	;	 mw	.	visitVarInsn	(	ASTORE	,	context	.	var	(	"str"	)	)	;	
+public	<	RET	>	RET	save	(	final	Object	iContent	,	OPERATION_MODE	iMode	,	final	ORecordCallback	<	?	extends	Number	>	iCallback	)	{	 return	(	RET	)	save	(	iContent	,	null	,	iMode	,	iCallback	)	;	 }	
+p0	=	0	;	while	(	(	p0	=	result	.	indexOf	(	"str"	,	p0	)	)	>	=	0	)	result	=	result	.	substring	(	0	,	p0	)	+	"str"	+	result	.	substring	(	p0	+	1	)	;	 p0	=	0	;	while	(	(	p0	=	result	.	indexOf	(	"str"	,	p0	)	)	>	=	0	)	{	result	=	result	.	substring	(	0	,	p0	)	+	"str"	+	result	.	substring	(	p0	+	1	)	;	p0	+	+	;	}	 p0	=	0	;	while	(	(	p0	=	result	.	indexOf	(	"str"	,	p0	)	)	>	=	0	)	result	=	result	.	substring	(	0	,	p0	)	+	"str"	+	result	.	substring	(	p0	+	1	)	;	
+ public	EditorCell	createConstant_7442_10	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+ private	boolean	mIsInGlobalElement	=	false	;	 
+ private	static	void	setupLabel_Constant_7515_2	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+case	271	:	 return	QueriesGenerated	.	sourceNodeQuery_30090441466212320050	(	ctx	)	;	 case	272	:	
+ public	DefineBinaryDataTag	(	SWF	swf	,	byte	[	]	data	,	int	version	,	long	pos	)	throws	IOException	{	 super	(	swf	,	ID	,	"str"	,	data	,	pos	)	;	
+public	Boolean	isBulkInsertable	(	Class	<	?	extends	PersistentObject	>	persistentObjectClass	)	{	 return	bulkInsertableMap	!	=	null	&	&	bulkInsertableMap	.	containsKey	(	persistentObjectClass	)	&	&	bulkInsertableMap	.	get	(	entityClass	)	=	=	true	;	 }	
+DLFileEntryMetadataLocalServiceUtil	.	 getFileVersionFileEntryMetadatas	(	 dlFileVersion	.	getFileVersionId	(	)	)	;	
+{	 final	DetailAST	dot	=	methodCall	.	getFirstChild	(	)	;	 if	(	dot	.	getType	(	)	!	=	TokenTypes	.	DOT	)	{	
+long	ops	=	jsonMapList	.	size	(	)	*	1000	/	duration	;	 if	(	duration	>	throttling_time_threshold	&	&	ops	<	throttling_ops_threshold	)	{	 regulator	=	(	long	)	(	throttling_factor	*	duration	)	;	
+public	void	setIsCustomTreeIndent	(	final	boolean	isCustomTreeIndent	)	{	 this	.	isCustomTreeIndentEnabled	=	isCustomTreeIndent	;	 }	
+ if	(	ScopeUtils	.	inInterfaceOrAnnotationBlock	(	ast	)	)	{	 return	;	
+public	void	shouldBeAbleToGetExecInfo	(	)	throws	IOException	,	JsonParseException	{	 GetExecInfoParams	getExecInfoParams	=	GetExecInfoParams	.	create	(	EXEC_ID	)	;	 
+prop	.	put	(	"str"	,	1	)	;	 plasmaCrawlNURL	.	Entry	[	]	crawlerList	=	switchboard	.	urlPool	.	noticeURL	.	top	(	plasmaCrawlNURL	.	STACK_TYPE_CORE	,	(	int	)	(	showLimit	*	1.20	)	)	;	 
+}	 }	 
+ public	SparseDataset	parse	(	File	file	)	throws	IOException	,	ParseException	{	 String	name	=	file	.	getPath	(	)	;	
+ public	EditorCell	createConstant1225468425952	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+ private	static	void	download	(	Downloader	downloader	,	String	filename	,	File	tempFile	)	{	 try	{	
+ package	org	.	languagetool	.	tagging	.	cs	;	 
+fireProgressStateChanged	(	 startDate	,	endDate	,	keywords	,	(	int	)	currentProgress	)	;	 }	
+public	boolean	visit	(	SQLCreateTableStatement	x	)	{	 printCreateTable	(	x	,	true	)	;	 
+public	ByteGreaterOrEqualPredicate	(	HasByteValue	<	ENTITY	,	D	>	field	,	byte	value	)	{	 super	(	PredicateType	.	GREATER_OR_EQUAL	,	field	,	entity	-	>	field	.	getAsByte	(	entity	)	>	=	value	)	;	 this	.	value	=	value	;	
+ JavaScriptMenuItem	javaScriptMenuItem	=	_addJavaScriptUIItem	(	 new	JavaScriptMenuItem	(	)	,	menuItems	,	DLUIItemKeys	.	COMPARE_TO	,	
+ protected	boolean	gzip	=	false	;	 
+ @Shadow	@Final	private	List	<	net	.	minecraftforge	.	common	.	util	.	BlockSnapshot	>	blockSnapshots	;	 
+ public	EditorCell	createProperty_6671_2_internal	(	EditorContext	context	,	SNode	node	,	CellProviderWithRole	aProvider	)	{	 CellProviderWithRole	provider	=	aProvider	;	
+ private	static	void	setupBasic_refNode_generateBlock1225468426937	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+import static	org	.	sonarqube	.	ws	.	client	.	permission	.	PermissionsWsParameters	.	PARAM_GROUP_NAME	;	 import static	org	.	sonarqube	.	ws	.	client	.	permission	.	PermissionsWsParameters	.	PARAM_ORGANIZATION	;	 import static	org	.	sonarqube	.	ws	.	client	.	permission	.	PermissionsWsParameters	.	PARAM_PERMISSION	;	
+graphDef	.	setTimeZone	(	TimeZone	.	getDefault	(	)	)	;	 graphDef	.	setLocale	(	Locale	.	ROOT	)	;	 
+ private	static	void	setupLabel_Property_8123_0	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+new	EmoteClue	(	"str"	,	new	WorldPoint	(	3105	,	3420	,	0	)	,	SPIN	,	SALUTE	,	item	(	PURPLE_GLOVES	)	,	item	(	STEEL_KITESHIELD	)	,	item	(	MITHRIL_FULL_HELM	)	)	,	 new	EmoteClue	(	"str"	,	new	WorldPoint	(	3030	,	4522	,	0	)	,	STOMP	,	item	(	DRAGON_AXE	)	)	,	 new	EmoteClue	(	"str"	,	new	WorldPoint	(	3159	,	3298	,	0	)	,	THINK	,	item	(	BLUE_ROBE_TOP	)	,	item	(	TURQUOISE_ROBE_BOTTOMS	)	,	item	(	OAK_SHORTBOW	)	)	,	
+SkylarkList	inputs	,	 Object	executableUnchecked	,	 SkylarkList	arguments	,	
+ if	(	slistAST	=	=	null	&	&	!	isElseIf	&	&	!	skipStatement	)	{	 log	(	ast	.	getLineNo	(	)	,	MSG_KEY_NEED_BRACES	,	ast	.	getText	(	)	)	;	
+ private	static	void	setupLabel_Constant_1228495418526_1228495418526	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ void	noop	(	)	throws	RemoteException	;	 
+ private	final	List	<	ExecutionJobVertex	>	jobVertices	;	 
+ public	EditorCell	createConstant1225460806528	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+@Test	 public	void	testRemove_withSetBackedValueCollection	(	)	throws	Exception	{	 MultiMap	<	Integer	,	Integer	>	multiMap	=	client	.	getMultiMap	(	SET_MAP	)	;	
+private	void	animate	(	int	duration	)	{	 double	top	=	0	,	bottom	=	0	;	 int	i	=	0	,	visibleIndex	=	-	1	;	
+@Override	 public	FSDataOutputStream	create	(	final	Path	f	,	final	FsPermission	permission	,	final	boolean	overwrite	,	final	int	bufferSize	,	final	short	replication	,	final	long	blockSize	,	final	Progressable	progress	)	throws	IOException	{	 return	null	;	
+if	(	to	!	=	null	)	{	 for	(	final	String	recipient	:	to	)	{	 email	.	addTo	(	recipient	)	;	
+Class	<	?	>	declaringClass	=	method	.	getDeclaringClass	(	)	;	 return	constructor	.	newInstance	(	declaringClass	,	MethodHandles	.	Lookup	.	PUBLIC	|	MethodHandles	.	Lookup	.	PRIVATE	)	 .	unreflectSpecial	(	method	,	declaringClass	)	
+val	.	getVersion	(	)	,	 new	PartitionHolder	<	ObjectType	>	(	val	.	getPartitionHolder	(	)	)	 )	
+final	Arbitrator	acceptedArbitratorByAddress	=	user	.	getAcceptedArbitratorByAddress	(	trade	.	getArbitratorNodeAddress	(	)	)	;	 checkNotNull	(	acceptedArbitratorByAddress	,	"str"	)	;	 Dispute	dispute	=	new	Dispute	(	disputeManager	.	getDisputeStorage	(	)	,	
+public	void	scanMain	(	)	{	 EmitterProcessor	<	Integer	>	test	=	EmitterProcessor	.	create	(	123	)	;	 assertThat	(	test	.	scan	(	BUFFERED	)	)	.	isEqualTo	(	0	)	;	
+ private	static	void	setupBasic_Collection_0649_1	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+div	.	addClassName	(	"str"	)	;	 throw	new	Error	(	)	;	 }	catch	(	AssertionError	e	)	{	
+testDashboardConfigResource	=	 new	DashboardConfigResource	(	mockDataCache	,	mockQueryCache	,	null	,	null	,	null	,	objectMapper	)	;	 }	
+ private	static	void	setupLabel_Property_4462_0	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ public	EditorCell	createConstant_2359_0	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+else	if	(	it	.	getRegisterNumber	(	)	>	=	0	)	 push	(	it	)	;	 else	{	
+ public	void	set	(	int	r	,	double	value	)	{	 data	.	set	(	r	,	value	)	;	
+public	EditorCell	createEditorCell	(	EditorContext	context	,	SNode	node	)	{	 return	this	.	createCollection1225468426146	(	context	,	node	)	;	 }	
+for	(	TypePlugin	plugin	:	getTypePlugins	(	)	)	{	 StampPair	stamp	=	plugin	.	interceptType	(	parsingIntrinsic	,	type	,	nonNull	)	;	 if	(	stamp	!	=	null	)	{	
+final	ResourceErrorHandling	resourceErrorHandling	=	global	.	getResourceErrorHandling	(	)	;	 return	resourceErrorHandling	!	=	null	&	&	!	ResourceErrorHandling	.	SKIP_MISCONFIGURED_LAYERS	.	equals	(	 resourceErrorHandling	)	;	
+protected	void	doAssertLuceneQuery	(	TemplateQueryBuilder	queryBuilder	,	Query	query	,	QueryShardContext	context	)	throws	IOException	{	 assertEquals	(	templateBase	.	toQuery	(	context	)	,	query	)	;	 }	
+while	(	bb	.	hasRemaining	(	)	)	{	 if	(	bb	.	get	(	)	=	=	SEMICOLON_BYTE	)	{	 break	;	
+@Override	 public	final	OperatorSnapshotFutures	snapshotState	(	 long	checkpointId	,	
+{	 allowMissingParamTags	=	flag	;	 }	
+@JsonProperty	(	"str"	)	 private	Map	<	String	,	Map	<	String	,	String	>	>	mapOfMapProperty	=	new	HashMap	<	String	,	Map	<	String	,	String	>	>	(	)	;	 
+assertEquals	(	1	,	services	.	size	(	)	)	;	 for	(	final	RegisteredService	rs	:	this	.	manager	.	getAllServices	(	)	)	{	 assertTrue	(	rs	instanceof	RegexRegisteredService	)	;	
+assertThat	(	buildTriggered	.	isSignaled	(	)	,	is	(	false	)	)	;	 }	 
+if	(	addMessages	)	{	 primaryAnnotations	=	new	IdentityHashMap	<	>	(	)	;	 primaryAnnotations	.	put	(	getPrimarySourceLineAnnotation	(	)	,	null	)	;	
+ public	ModelAccessor	_modelAcessorFactory_1225460806103	(	final	EditorContext	editorContext	,	final	SNode	node	)	{	 return	new	ModelAccessor	(	)	{	
+@JsonProperty	(	"str"	)	 private	List	<	List	<	BigDecimal	>	>	arrayArrayNumber	=	new	ArrayList	<	List	<	BigDecimal	>	>	(	)	;	 
+if	(	task	.	isUriIsDirectory	(	)	)	{	 uri	=	Uri	.	fromFile	(	file	)	;	 }	else	{	
+@Index	(	name	=	"str"	,	columnNames	=	{	"str"	}	)	 @AdminPresentation	(	excluded	=	true	,	friendlyName	=	"str"	,	order	=	3	,	group	=	"str"	,	prominent	=	true	)	 @Deprecated	
+&	&	(	jarEntry	.	getName	(	)	.	startsWith	(	inputFileName	)	)	)	{	 File	newDstPath	=	getOutFile	(	jarEntry	.	getName	(	)	)	;	 copyFileOrDirectoryFromJar	(	jarFileName	,	jarEntry	.	getName	(	)	,	
+ if	(	source	!	=	null	&	&	(	!	classNode	.	isSynthetic	(	)	)	&	&	(	!	"str"	.	equals	(	System	.	getProperty	(	"str"	)	)	)	)	{	 JSRVariableScopeCodeVisitor	scopeVisitor	=	new	JSRVariableScopeCodeVisitor	(	null	,	source	)	;	
+@Override	 public	void	beginTree	(	DetailAST	rootAST	)	 {	
+ private	static	void	setupBasic_Property_0649_0	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+public	boolean	accept	(	SNode	it	)	{	 return	SNodeOperations	.	isInstanceOf	(	it	,	"str"	)	&	&	!	(	SNodeOperations	.	isInstanceOf	(	it	,	"str"	)	)	;	 }	
+ PoolBagEntry	notinuse	=	new	PoolBagEntry	(	null	,	0	,	pool	)	;	 bag	.	add	(	notinuse	)	;	
+myTemplateModels	=	myGenerationStepController	.	getTemplateModels	(	)	;	 myMappingConfigurations	=	CollectionUtil	.	listAsSet	(	myGenerationStepController	.	getMappings	(	)	)	;	 }	else	{	
+public	static	SNode	call_getDotExpression_1224687669172	(	SNode	thisNode	)	{	 return	SNodeOperations	.	as	(	SNodeOperations	.	getParent	(	thisNode	)	,	"str"	)	;	 }	
+SNodePointer	pointer	=	SNODE_POINTER_9ehkah_a0a0a0a0b0c0a0a0a0a0a0c	;	 if	(	!	(	PatternUtil	.	matchReferentWithNode	(	pointer	,	nodeToMatch_Boolean_extends_boolean_2_7vgvj3_a0a	.	getReferent	(	"str"	)	)	)	)	{	 return	false	;	
+weight	=	p	.	weight	;	 edgeIds	=	new	TIntArrayList	(	p	.	edgeIds	)	;	 edgeEntry	=	p	.	edgeEntry	;	
+private	static	SourceChecksResult	_processJavaTermCheck	(	 SourceChecksResult	sourceChecksResult	,	JavaTermCheck	javaTermCheck	,	 JavaClass	javaClass	,	List	<	JavaClass	>	anonymousClasses	,	
+public	void	testUnRegister	(	)	{	 assertEquals	(	0	,	getRegisteredSize	(	)	)	;	 dubboRegistry	.	register	(	serviceURL	)	;	
+}	 catch	(	Throwable	e	)	{	 snapshotProgressListener	.	snapshotAborted	(	)	;	
+public	void	acceptLabelAttribute	(	Label	labelToCheck	,	Attribute	attribute	)	{	 checkForNullLabel	(	labelToCheck	,	attribute	)	;	 }	
+public	DefaultDSLContext	(	ConnectionProvider	connectionProvider	,	SQLDialect	dialect	,	Settings	settings	)	{	 this	(	new	DefaultConfiguration	(	connectionProvider	,	null	,	null	,	null	,	null	,	null	,	null	,	null	,	null	,	null	,	null	,	dialect	,	settings	,	null	)	)	;	 }	
+if	(	defaultFn	!	=	null	)	{	 return	new	DefaultDebtRemediationFunction	(	DebtRemediationFunction	.	Type	.	valueOf	(	defaultFn	)	,	dto	.	getDefRemediationGapMultiplier	(	)	,	dto	.	getDefRemediationBaseEffort	(	)	)	;	 }	
+db	.	commit	(	)	;	 assertEquals	(	1L	<	<	Store	.	FEAT_COMP_LZF	,	getBitField	(	)	)	;	 db	.	close	(	)	;	
+FieldAnnotation	f	=	i	.	next	(	)	;	 if	(	f	.	getClassName	(	)	.	equals	(	betterClassName	)	&	&	mode	<	=	WRITTEN_LOCKED	)	 localLocks	.	add	(	f	)	;	
+@Deployment	(	resources	=	{	"str"	}	)	 public	void	FAILING_testEnableOnParentResumeInsideStage	(	)	{	 
+public	static	final	int	APACHE_SSL_PORT	=	9443	;	 public	static	final	int	BUFFER_SIZE	=	Integer	.	getInteger	(	"str"	,	1024	*	16	-	20	)	;	 public	static	final	DebuggingSlicePool	SSL_BUFFER_POOL	=	new	DebuggingSlicePool	(	new	DefaultByteBufferPool	(	true	,	17	*	1024	)	)	;	
+ abstract	CountingMigrationAwareService	createMigrationAwareService	(	)	;	 
+private	static	final	float	MIN_PRECISION	=	0.99f	;	 private	static	final	float	MIN_RECALL	=	0.1f	;	 
+import	org	.	camunda	.	bpm	.	engine	.	impl	.	interceptor	.	CommandContext	;	 import	org	.	camunda	.	bpm	.	engine	.	impl	.	persistence	.	entity	.	EventSubscriptionEntity	;	 
+for	(	List	e	:	collectErrors	)	{	 if	(	e	!	=	null	&	&	!	e	.	isEmpty	(	)	)	{	 success	=	false	;	
+{	 return	new	DefaultConfiguration	(	classObj	.	getName	(	)	)	;	 }	
+public	void	testAfterPackageDecl	(	)	throws	Exception	{	 performTest	(	"str"	,	822	,	null	,	"str"	)	;	 }	
+ private	static	void	setupBasic_Constant_9522_1	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+public	boolean	isHasMoreData	(	)	{	 return	getExecutionContext	(	)	!	=	null	&	&	dataReceiver	.	isHasMoreData	(	)	;	 }	
+ private	boolean	isMaxButtonEnabled	=	false	;	 
+final	int	tabWidth	=	4	;	 check	.	setTabWidth	(	tabWidth	)	;	 
+builder	.	append	(	"str"	)	;	 builder	.	append	(	hex	.	toUpperCase	(	)	)	;	 }	else	{	
+{	 pushFollow	(	FOLLOW_retval_constraint_in_constraint_expression2572	)	;	 rvc	=	retval_constraint	(	)	;	
+EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	 setupBasic_Collection_3190_0	(	editorCell	,	node	,	context	)	;	 editorCell	.	setGridLayout	(	false	)	;	
+@UriParam	(	defaultValue	=	"str"	,	enums	=	"str"	)	 private	ServiceNowRelease	release	=	ServiceNowRelease	.	HELSINKI	;	 
+ protected	boolean	isMatch	(	int	lineNumber	,	String	line	)	 {	
+ package	org	.	languagetool	.	gui	;	 
+public	EditorCell	createEditorCell	(	EditorContext	context	,	SNode	node	)	{	 return	this	.	createCollection1228495419268	(	context	,	node	)	;	 }	
+ package	edu	.	umd	.	cs	.	findbugs	.	ba	;	 
+ private	final	AtomicReference	<	CopyOnWriteArrayList	<	TableView	>	>	dependentViews	=	new	AtomicReference	<	>	(	)	;	 private	ArrayList	<	TableSynonym	>	synonyms	;	
+this	.	stopWatch	(	)	;	 doTestSuite	(	new	GraphTestSuite	(	this	)	,	ImmutableSet	.	of	(	"str"	,	"str"	)	)	;	 printTestPerformance	(	"str"	,	this	.	stopWatch	(	)	)	;	
+}	 newSeqId	+	=	safetyBumper	;	 
+)	;	 dbSession	.	commit	(	)	;	 
+STARTED	(	true	,	true	,	false	)	,	 MUST_COMPLETE	(	true	,	false	,	false	)	,	 COMPLETING	(	true	,	false	,	false	)	,	
+StringBundler	sb	=	new	StringBundler	(	12	)	;	  sb	.	append	(	"str"	)	;	
+ private	static	void	setupLabel_refNode_initBlock_1225460806266	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+if	(	cubes	!	=	null	&	&	cubes	.	size	(	)	!	=	0	)	{	 dataModelDesc	.	init	(	getConfig	(	)	,	getMetadataManager	(	)	.	getAllTablesMap	(	project	)	,	 getMetadataManager	(	)	.	listDataModels	(	)	)	;	
+ private	Environment	environment	=	new	StandardEnvironment	(	)	;	 
+ document	=	PDDocument	.	load	(	pdfFile	,	(	String	)	null	)	;	 new	PDFRenderer	(	document	)	.	renderImage	(	0	)	;	
+printReserved	(	)	;	 StringBuffer	lLine	=	null	;	 int	lLineNumberCount	=	-	1	;	
+ else	if	(	(	Modifier	.	isTransient	(	field	.	getModifiers	(	)	)	&	&	null	=	=	field	.	getAnnotation	(	Column	.	class	)	)	 |	|	(	shouldUseColumn	&	&	(	null	=	=	field	.	getAnnotation	(	Column	.	class	)	
+channel	.	writeBytes	(	null	)	;	 OLogManager	.	instance	(	)	.	error	(	this	,	"str"	+	iRecord	.	getIdentity	(	)	.	toString	(	)	+	"str"	+	e	+	"str"	,	 OSerializationException	.	class	)	;	
+crc	.	update	(	chunkBuffer	.	array	(	)	,	chunkBuffer	.	position	(	)	,	chunkBuffer	 .	remaining	(	)	)	;	 chunkBuffer	.	position	(	crcPosition	)	;	
+ List	<	DB2ServerApplication	>	listApplications	=	new	ArrayList	<	>	(	)	;	 JDBCPreparedStatement	dbStat	=	session	.	prepareStatement	(	SEL_APP	)	;	
+{	 return	fullPackage	;	 }	
+public	void	delete	(	DbSession	session	,	DTO	item	,	DTO	.	.	.	others	)	{	 delete	(	session	,	Lists	.	asList	(	item	,	others	)	)	;	 }	
+ if	(	name	.	startsWith	(	"str"	)	&	&	(	m	.	getReturnType	(	)	=	=	ClassHelper	.	VOID_TYPE	|	|	m	.	getParameters	(	)	.	length	!	=	0	)	)	{	 return	null	;	
+ public	EditorCell	createProperty_6321_5	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+}	catch	(	Exception	e	)	{	 serverLog	.	logSevere	(	"str"	,	"str"	+	e	.	toString	(	)	,	e	)	;	 }	
+ private	static	void	setupLabel_property_icon_1228495419402	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ private	final	Collection	<	BugInstance	>	pendingBugs	=	new	LinkedList	<	>	(	)	;	 
+{	 SNode	childVar_OrPattern2_pf9dr6_a0a_0	=	nodeToMatch_OrPattern2_pf9dr6_a0	.	getChildren	(	childRole_OrPattern2_pf9dr6__4	)	.	get	(	0	)	;	 {	
+import	com	.	google	.	common	.	util	.	concurrent	.	Futures	;	 import	com	.	google	.	common	.	util	.	concurrent	.	ListenableFutureTask	;	 import	com	.	google	.	common	.	util	.	concurrent	.	ListeningExecutorService	;	
+ private	static	void	setupLabel_Property_2253_1	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+AssetListEntry	assetListEntry	=	 _assetListEntryService	.	getAssetListEntry	(	contentSetId	)	;	 
+@Ignore	(	SAFARI	)	 @Ignore	(	value	=	MARIONETTE	,	issue	=	"str"	)	 public	void	shouldReturnDocumentElementIfDocumentIsReturned	(	)	{	
+ private	static	Language	detectLanguageOfString	(	final	String	text	)	{	 final	LanguageIdentifier	identifier	=	new	LanguageIdentifier	(	text	)	;	
+public	boolean	canConvert	(	Class	type	)	{	 return	type	!	=	null	&	&	LocalDateTime	.	class	.	getPackage	(	)	.	equals	(	type	.	getPackage	(	)	)	;	 }	
+private	final	Log	kafkaLog	;	 private	final	File	committedReadOffsetFile	;	 private	final	AtomicLong	committedOffset	=	new	AtomicLong	(	Long	.	MIN_VALUE	)	;	
+}	 data	.	two_dummy	=	data	.	two	!	=	null	?	new	Row	(	data	.	two	)	:	new	Row	(	)	;	 for	(	int	i	=	0	;	i	<	data	.	two_dummy	.	size	(	)	;	+	+	i	)	
+final	String	caseSensitive	=	currentAttributes	.	getValue	(	"str"	)	;	 if	(	caseSensitive	!	=	null	)	{	 pt	.	setCaseSensitive	(	Boolean	.	parseBoolean	(	caseSensitive	)	)	;	
+this	.	status	=	status	;	 this	.	activationTime	=	activationTime	;	 this	.	name	=	name	;	
+ public	void	setDebugId	(	String	id	)	{	 throw	new	UnsupportedOperationException	(	
+ public	void	destroy	(	)	{	 _serviceTracker	.	close	(	)	;	
+.	hasNoOtherValues	(	)	;	 assertThat	(	reservedListProcessingTime	)	 .	hasAnyValueForLabels	(	"str"	,	"str"	,	"str"	,	FULLY_BLOCKED	.	toString	(	)	)	
+ protected	void	insertRowNumberFunction	(	StringBuilder	sql	,	CharSequence	orderby	)	{	 
+SNodePointer	pointer	=	SNODE_POINTER_x583g4_a0a0a0a0b0c0a0a0b0a0a0a02	;	 if	(	!	(	PatternUtil	.	matchReferentWithNode	(	pointer	,	nodeToMatch_x583g4_a0a0a0a0u	.	getReferent	(	"str"	)	)	)	)	{	 return	false	;	
+changed	=	false	;	 Iterator	<	Map	.	Entry	<	String	,	Set	<	String	>	>	>	it	=	dependencyGraph	.	entrySet	(	)	.	iterator	(	)	;	 while	(	it	.	hasNext	(	)	)	{	
+checkConfig	.	addAttribute	(	"str"	,	"str"	)	;	 final	String	fileName	=	getPath	(	"str"	)	;	 final	String	[	]	expected	=	ArrayUtils	.	EMPTY_STRING_ARRAY	;	
+IPageLayout	.	BOTTOM	,	 0.2f	,	 FOLDER_NAVIGATION	)	;	
+public	void	testOperationTimeoutForLongRunningRemoteOperation	(	)	throws	Exception	{	 int	callTimeoutMillis	=	3000	;	 Config	config	=	new	Config	(	)	.	setProperty	(	OPERATION_CALL_TIMEOUT_MILLIS	.	getName	(	)	,	"str"	+	callTimeoutMillis	)	;	
+ private	transient	volatile	Thread	myThread	;	 
+min	=	0	,	 max	=	1	 )	
+ protected	transient	Random	rng	;	 
+ package	org	.	languagetool	.	tagging	.	pl	;	 
+return	new	HttpProbeConfig	(	 uri	.	getPort	(	)	=	=	-	1	?	80	:	uri	.	getPort	(	)	,	 uri	.	getHost	(	)	,	
+ String	getOriginalValue	(	)	;	 
+i	&	=	0x7f	;	 ret	+	=	(	(	(	long	)	i	)	<	<	bytePos	)	;	 byteCount	+	+	;	
+LOGGER	.	debug	(	"str"	,	provider	)	;	 return	new	HashSet	<	>	(	0	)	;	 }	
+boolean	waitTimeValid	=	(	duration	>	=	nmRmConnectionWaitMs	)	&	&	 (	duration	<	(	nmRmConnectionWaitMs	+	delta	)	)	;	 
+ Matcher	<	?	super	Iterable	<	Diagnostic	<	JavaFileObject	>	>	>	matcher	=	hasItem	(	 diagnosticMessage	(	containsString	(	"str"	)	)	)	;	
+if	(	matcher	.	find	(	)	)	{	 bingo	(	Alert	.	RISK_HIGH	,	Alert	.	WARNING	,	"str"	,	param	,	null	,	TARGETS	[	i	]	,	msg	)	;	 break	;	
+public	static	Object	sum	(	Collection	self	)	{	 Object	result	=	new	Integer	(	0	)	;	 Object	[	]	param	=	new	Object	[	1	]	;	
+ doc	.	add	(	Field	.	Keyword	(	"str"	,	DateField	.	timeToString	(	now	+	888888	)	)	)	;	 doc	.	add	(	Field	.	Text	(	"str"	,	"str"	)	)	;	
+  
+keyPressedCount	-	-	;	 keyPressed	=	(	keyPressedCount	>	0	)	;	 keyReleased	(	keyEvent	)	;	
+java	.	lang	.	String	body	,	 com	.	liferay	.	portal	.	kernel	.	service	.	ServiceContext	serviceContext	)	 throws	RemoteException	{	
+ @Test	(	groups	=	"str"	)	 public	void	streamedResponseTest	(	)	throws	Throwable	{	
+ private	static	final	org	.	apache	.	juli	.	logging	.	Log	log	=	 org	.	apache	.	juli	.	logging	.	LogFactory	.	getLog	(	ReplicationValve	.	class	)	;	
+if	(	!	blocking	&	&	!	daemon	.	isPresent	(	)	)	{	 LOG	.	info	(	 "str"	)	;	
+final	List	<	String	>	lines	=	Lists	.	newArrayList	(	)	;	 final	FileInputStream	fr	=	new	FileInputStream	(	fileName	)	;	 LineNumberReader	lnr	=	null	;	
+try	{	 enforceTimeLimits	(	)	;	 }	
+ public	EditorCell	createCollection_7442_2	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	
+ @UriEndpoint	(	firstVersion	=	"str"	,	scheme	=	"str"	,	title	=	"str"	,	syntax	=	"str"	,	label	=	"str"	,	producerOnly	=	true	)	 public	class	GoogleBigQueryEndpoint	extends	DefaultEndpoint	{	
+ CompletableFuture	<	JobStatus	>	jobRunningFuture	=	FutureUtils	.	retrySuccessfulWithDelay	(	 (	)	-	>	clusterClient	.	getJobStatus	(	jobToMigrate	.	getJobID	(	)	)	,	
+definitionsBuilder	.	addAll	(	resourceCollector	.	getResources	(	)	)	;	 for	(	Path	depRTxt	:	pathsToSymbolsOfDeps	)	{	 Iterable	<	String	>	lines	=	FluentIterable	.	from	(	filesystem	.	readLines	(	depRTxt	)	)	
+@Override	 protected	final	boolean	mustCheckName	(	DetailAST	ast	)	 {	
+"str"	)	;	 }	 return	result	;	
+try	{	 channelIdle	(	ctx	,	IdleState	.	ALL_IDLE	,	lastIoTime	)	;	 }	catch	(	Throwable	t	)	{	
+name	,	 WindowState	.	NORMAL	,	 (	int	)	(	Window	.	getClientHeight	(	)	*	bottomDefaultPct	)	)	;	
+private	static	final	String	MTU_LENGTH_PROP_NAME	=	"str"	;	 private	static	final	int	MTU_LENGTH_DEFAULT	=	4096	;	 
+final	String	id	)	throws	GenieException	{	 LOG	.	info	(	"str"	+	id	)	;	 return	this	.	acs	.	getTagsForApplication	(	id	)	;	
+.	setAllowExpression	(	true	)	 .	setDefaultValue	(	new	ModelNode	(	)	.	set	(	0	)	)	 .	build	(	)	;	
+ public	EditorCell	createProperty_8529_2_internal	(	EditorContext	context	,	SNode	node	,	CellProviderWithRole	aProvider	)	{	 CellProviderWithRole	provider	=	aProvider	;	
+}	 return	theClass	.	getConstructor	(	)	;	 }	
+ public	void	setFile	(	String	fileName	)	 throws	CheckstyleException	
+public	ServletContext	getServletContext	(	)	{	 return	ctxt	.	getServletContext	(	)	;	 }	
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_RefNode_3190_0	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+ protected	long	hashSaltValue	(	)	{	 return	Utils	.	RANDOM	.	nextLong	(	)	;	
+ public	EditorCell	createCollection_6148_0	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createHorizontal	(	context	,	node	)	;	
+ private	final	FieldFrame	parent	;	 
+Assert	.	assertEquals	(	true	,	manager	.	isServerService	(	"str"	)	)	;	 Assert	.	assertEquals	(	false	,	manager	.	validateDomain	(	"str"	)	)	;	 
+String	systemPackagesExtra	=	_getSystemPackagesExtra	(	)	;	  properties	.	put	(	
+indexabstractContainercount	+	=	theSearch	.	abstractsCount	(	wordhash	)	;	 indexabstract	.	append	(	"str"	+	new	String	(	wordhash	)	+	"str"	)	.	append	(	theSearch	.	abstractsString	(	wordhash	)	)	.	append	(	serverCore	.	CRLF_STRING	)	;	 }	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_0528_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+if	(	mc	=	=	MetricsConstants	.	KILOMETERS_AND_METERS	)	{	 return	(	(	int	)	(	alt	+	0.5	)	)	+	"str"	+	ctx	.	getString	(	R	.	string	.	m	)	;	 }	else	{	
+public	static	final	class	MTLightCustomDefaults	{	 public	static	ColorUIResource	notificationsColor	=	new	ColorUIResource	(	0x80cbc4	)	;	 public	static	Color	treeSelectionColor	=	ColorUtil	.	toAlpha	(	new	ColorUIResource	(	0x546E7A	)	,	50	)	;	
+private	static	int	[	]	zzUnpackRowMap	(	)	{	 int	[	]	result	=	new	int	[	106	]	;	 int	offset	=	0	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_RefCell_6697_1	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+@RequestMapping	(	value	=	"str"	,	method	=	RequestMethod	.	PUT	)	 public	boolean	updateRule	(	@PathVariable	String	id	,	@RequestBody	TagRouteDTO	routeDTO	,	@PathVariable	String	env	)	{	 if	(	routeService	.	findConditionRoute	(	id	)	=	=	null	)	{	
+.	serviceTask	(	)	 .	camundaDelegateExpression	(	"str"	)	 .	done	(	)	;	
+ DRL5xParser	parser	=	getParser	(	input	)	;	 parser	.	enableEditorInterface	(	)	;	
+new	Asynch	(	fakeRepository	)	.	perform	(	)	;	 await	(	)	.	until	(	in	(	fakeRepository	)	.	ofType	(	int	.	class	)	.	andWithName	(	"str"	)	,	equalTo	(	1	)	)	;	 assertEquals	(	1	,	fakeRepository	.	getValue	(	)	)	;	
+{	 if	(	paramSpec	=	=	ElGamalParameterSpec	.	class	|	|	paramSpec	=	=	AlgorithmParameterSpec	.	class	)	 {	
+.	add	(	new	KnownError	(	NO_SUCH_SESSION	,	"str"	,	404	,	NoSuchSessionException	.	class	,	true	,	true	)	)	 .	add	(	new	KnownError	(	NO_SUCH_WINDOW	,	"str"	,	404	,	NoSuchWindowException	.	class	,	true	,	true	)	)	 .	add	(	new	KnownError	(	SESSION_NOT_CREATED	,	"str"	,	500	,	SessionNotCreatedException	.	class	,	true	,	true	)	)	
+setAllowBlockAttachment	(	true	)	;	 setBypassSelectionRay	(	false	)	;	 setBlockForm	(	BLOCK_FORM	.	DEFAULT	)	;	
+public	void	testTypingStaticFieldAfterErrorInPreviousFieldDeclaration	(	)	throws	Exception	{	 performTest	(	"str"	,	849	,	"str"	,	"str"	)	;	 }	
+SootMethod	m	=	cls	.	getMethod	(	subSig	)	;	 if	(	m	.	isConcrete	(	)	|	|	m	.	isNative	(	)	|	|	m	.	isPhantom	(	)	)	{	 ret	=	cls	.	getMethod	(	subSig	)	;	
+public	void	testPositiveCase	(	)	throws	Exception	{	 compilationHelper	.	assertCompileFailsWithMessages	(	 new	File	(	this	.	getClass	(	)	.	getResource	(	"str"	)	.	toURI	(	)	)	)	;	
+ private	static	void	setupLabel_Constant_1228495418218_1228495418218	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+try	{	 HttpClient	.	doRequest	(	HttpMethod	.	DELETE	,	"str"	,	null	,	true	,	null	)	;	 fail	(	)	;	
+this	.	cctx	=	cctx	;	 this	.	listenerLock	=	cctx	.	group	(	)	.	listenerLock	(	)	;	 
+Assert	.	assertEquals	(	succeeded	,	remote	.	isBeforeCompletion	(	)	)	;	 Assert	.	assertEquals	(	(	Boolean	)	succeeded	,	remote	.	getCommitSucceeded	(	)	)	;	 }	
+String	enabled	=	curatorFrameworkOp	.	getData	(	enabledNodePath	)	;	 if	(	Boolean	.	parseBoolean	(	enabled	)	)	{	 long	mtime	=	curatorFrameworkOp	.	getMtime	(	enabledNodePath	)	;	
+ private	void	fireTreeStructureChanged	(	Object	source	,	Object	[	]	path	,	 int	[	]	childIndices	,	
+ public	static	List	<	INodeSubstituteAction	>	rightTransform_ActionsFactory_Expression_1197474170530	(	final	SNode	sourceNode	,	final	SModel	model	,	String	transformationTag	,	final	IOperationContext	operationContext	)	{	 List	<	INodeSubstituteAction	>	result	=	new	ArrayList	<	INodeSubstituteAction	>	(	)	;	
+ if	(	PostingsEnum	.	featureRequested	(	flags	,	PostingsEnum	.	POSITIONS	)	)	{	 FreqProxPostingsEnum	posEnum	;	
+assertNotNull	(	"str"	,	 constructor	.	newInstance	(	new	Object	[	]	{	null	}	)	)	;	 }	
+referent	=	(	SNode	)	this	.	AntiquotationField_n8ubly_a0a0a0a0a	;	 if	(	nodeToMatch_1220523357854	.	getReferent	(	"str"	)	!	=	referent	)	{	 return	false	;	
+ public	void	testScsiReadCommand	(	)	{	 
+MacroArg	.	toMacroArgFunction	(	MACRO_HANDLER	,	buildTarget	,	cellRoots	,	resolver	)	;	 JavaLibrary	testsLibrary	=	resolver	.	addToIndex	(	scalaLibraryBuilder	.	buildLibrary	(	)	)	;	 
+import	com	.	liferay	.	portal	.	kernel	.	util	.	Accessor	;	 import	com	.	liferay	.	portal	.	kernel	.	model	.	PersistedModel	;	 
+if	(	start	<	min	)	{	 throw	new	IllegalArgumentException	(	"str"	+	start	+	"str"	+	min	)	;	 }	
+ private	static	void	setupBasic_Collection_6697_1	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+properties	.	getDouble	(	"str"	,	2	)	,	 properties	.	getBool	(	"str"	,	false	)	?	1	:	0	 )	;	
+try	{	 this	.	lock	.	lock	(	)	;	 this	.	delegateGlobalResolver	=	globalResolver	;	
+ private	static	void	setupLabel_Constant_6270_2	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+}	 }	catch	(	FileNotFoundException	ex	)	{	 err	.	jspError	(	mark	,	"str"	,	tldName	)	;	
+String	[	]	commandArray	=	new	String	[	envp	.	size	(	)	]	;	 if	(	envp	!	=	null	)	{	 Iterator	it	=	envp	.	iterator	(	)	;	
+ if	(	myNamesLoadingState	.	compareTo	(	ModelLoadingState	.	ROOTS_LOADED	)	<	=	0	)	{	 for	(	SNode	root	:	structureModel	.	roots	(	)	)	{	
+editDecompiledButton	.	setVisible	(	false	)	;	 experimentalLabel	.	setVisible	(	false	)	;	 cancelDecompiledButton	.	setVisible	(	true	)	;	
+reset	(	)	;	 clobberedRegisters	=	new	HashMap	<	>	(	)	;	 reportedThisMethod	=	false	;	
+boolean	success	=	initialListFetchedLatch	.	await	(	INITIAL_MEMBERS_TIMEOUT_SECONDS	,	TimeUnit	.	SECONDS	)	;	 if	(	!	success	)	{	 LOGGER	.	warning	(	"str"	)	;	
+ static	final	String	MAGIC	=	"str"	;	 public	void	testStringArgumentReturn	(	)	{	
+if	(	this	.	serverSender	!	=	null	)	{	 if	(	this	.	localLastResultReceived	)	{	 return	;	
+ package	edu	.	umd	.	cs	.	findbugs	.	ba	;	 
+while	(	!	detachPointList	.	isEmpty	(	)	)	{	 DetachPoint	entry	=	detachPointList	.	remove	(	detachPointList	.	size	(	)	-	1	)	;	 entry	.	reattach	(	)	;	
+{	 if	(	name	=	=	null	)	{	 throw	new	NullPointerException	(	"str"	)	;	
+ public	int	nonpreferredTransferPenalty	=	180	;	 
+ private	static	void	setupLabel_Constant_2890_0	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ private	boolean	ignoreMethods	;	 
+ public	EditorCell	createProperty_7442_0_internal	(	EditorContext	context	,	SNode	node	,	CellProviderWithRole	aProvider	)	{	 CellProviderWithRole	provider	=	aProvider	;	
+ fetchKModuleFromSpring	(	url	)	;	 return	null	;	
+final	SessionCookieConfig	sessionConfig	=	new	SessionCookieConfig	(	)	;	 final	SessionAttachmentHandler	handler	=	new	SessionAttachmentHandler	(	new	InMemorySessionManager	(	"str"	,	1	,	true	)	,	sessionConfig	)	;	 handler	.	setNext	(	new	HttpHandler	(	)	{	
+NodeTraversal	.	traverse	(	compiler	,	root	,	namingCallback	)	;	 logger	.	fine	(	"str"	+	namedCount	+	"str"	+	 bytesUsed	+	"str"	)	;	
+@Test	public	void	testA	(	)	{	super	.	testErrors	(	A	)	;	}	 @Test	public	void	testU	(	)	{	super	.	testErrors	(	U	)	;	}	 }	
+ public	static	List	<	Short	>	getElementPropertyAsShortDataListByStack	(	 RStack	stack	,	
+ final	Set	<	String	>	abstractClasses	=	new	HashSet	<	>	(	)	;	 
+ Iterable	<	Map	.	Entry	<	Path	,	String	>	>	iter	=	 ImmutableList	.	copyOf	(	getAllPaths	(	Optional	.	of	(	workingDir	)	)	)	.	reverse	(	)	;	
+boolean	isExtra	=	true	;	 for	(	final	HtmlTag	td	:	htmlStack	)	{	 
+}	else	{	  session	.	expire	(	)	;	
+ private	static	void	setupBasic_refNodeList_tabs1228495418285	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+aWriter	.	print	(	aDesc	.	getTag	(	)	)	;	 storeConnectorAttributes	(	aWriter	,	indent	,	bean	,	aDesc	)	;	 aWriter	.	println	(	"str"	)	;	
+{	 SNode	childVar_pezsk4_a0a0	=	nodeToMatch_pezsk4_a0a	.	getChildren	(	childRole_WhileNotNull_pezsk4_	)	.	get	(	0	)	;	 {	
+ public	void	testDynamicRuleRemovals	(	)	throws	Exception	{	 
+int	sliceOffset	=	randomIntBetween	(	0	,	length	/	2	)	;	 int	sliceLength	=	Math	.	max	(	0	,	length	-	sliceOffset	-	1	)	;	 BytesReference	slice	=	pbr	.	slice	(	sliceOffset	,	sliceLength	)	;	
+_escapeXml	=	true	;	 _inlineLabels	=	false	;	 _name	=	"str"	;	
+}	 field	.	set	(	dest	,	message	)	;	 }	catch	(	Exception	e	)	{	
+if	(	fqdn	!	=	null	&	&	!	fqdn	.	trim	(	)	.	isEmpty	(	)	)	 {	 return	fqdn	.	trim	(	)	.	toLowerCase	(	)	;	
+path	+	=	jarName	;	 }	else	if	(	path	.	endsWith	(	KieModuleModelImpl	.	KMODULE_JAR_PATH	)	)	{	 path	=	path	.	substring	(	0	,	path	.	length	(	)	-	(	"str"	+	KieModuleModelImpl	.	KMODULE_JAR_PATH	)	.	length	(	)	)	;	
+selectList	.	add	(	new	LongObject	(	2l	,	"str"	)	)	;	 selectList	.	add	(	new	LongObject	(	300000000l	,	"str"	)	)	;	 testAction	.	setList2	(	selectList	)	;	
+XMLEvent	xmlEvent	=	StaxParserUtil	.	getNextEvent	(	xmlEventReader	)	;	 if	(	!	(	xmlEvent	instanceof	StartElement	)	)	 throw	new	TransformerException	(	ErrorCodes	.	WRITER_SHOULD_START_ELEMENT	)	;	
+ private	final	String	errorKey	;	 
+if	(	progress	.	isCanceled	(	)	)	{	 progress	.	finishAnyway	(	)	;	 return	result	;	
+else	{	 setVariable	(	key	,	Const	.	NVL	(	value	,	"str"	)	)	;	 }	
+  
+TransHopMeta	candidate	,	Point	drop_candidate	,	Rectangle	selrect	,	List	<	AreaOwner	>	areaOwners	,	List	<	StepMeta	>	mouseOverSteps	,	 int	iconsize	,	int	linewidth	,	int	gridsize	,	int	shadowSize	,	boolean	antiAliasing	,	String	noteFontName	,	int	noteFontHeight	)	{	 
+ final	int	RECORD_LENGTH	=	0	;	 Frame	[	]	images	;	
+ private	List	<	String	>	editPartActionIDs	=	new	ArrayList	<	>	(	)	;	 
+ public	EditorCell	createProperty1225468426392	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+handler	.	setServer	(	this	.	server	)	;	 handler	.	setObjectName	(	this	.	objectName	)	;	 handler	.	setOutputChannel	(	outputChannel	)	;	
+ public	EditorCell	createProperty1225460806096	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+long	mem4	=	this	.	getUsedMem	(	)	;	 Assert	.	assertTrue	(	2.5	*	(	mem2	-	mem1	)	<	(	mem4	-	mem3	)	)	;	 Assert	.	assertEquals	(	(	int	)	100000	,	(	int	)	ListSequence	.	fromList	(	liBox	)	.	count	(	)	)	;	
+"str"	,	 new	ExpectationToJavaSerializer	(	)	.	serializeAsJava	(	1	,	 new	Expectation	(	
+{	 int	setting	=	clientProvider	.	get	(	)	.	getSetting	(	Varbits	.	TRANSPARENT_CHATBOX	)	;	 
+ ambient	(	255	)	;	 specular	(	125	)	;	
+ if	(	isNewpage	&	&	newline	)	{	 newline	=	false	;	
+public	EditorCell	createEditorCell	(	EditorContext	context	,	SNode	node	)	{	 return	this	.	createCollection_6148_0	(	context	,	node	)	;	 }	
+case	109	:	 return	QueriesGenerated	.	sourceNodeQuery_3493971948087986700	(	ctx	)	;	 case	110	:	
+generator	.	getSentData	(	)	.	size	(	)	,	 100	)	;	 
+ private	static	void	drawText	(	DefaultScreen	screen	)	{	 ScreenWriter	writer	=	new	ScreenWriter	(	screen	)	;	
+ private	static	void	setupBasic_refNode_initBlock1225468426142	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ public	void	openFile	(	File	file	,	final	Component	parent	)	 {	
+ public	static	<	T	>	CompletableFuture	<	T	>	retrySuccessfulWithDelay	(	 final	Supplier	<	CompletableFuture	<	T	>	>	operation	,	
+if	(	(	flags	&	FormattableFlags	.	ALTERNATE	)	=	=	FormattableFlags	.	ALTERNATE	)	{	 formatter	.	format	(	"str"	,	toString	(	Verbosity	.	Id	)	)	;	 }	else	if	(	(	flags	&	FormattableFlags	.	UPPERCASE	)	=	=	FormattableFlags	.	UPPERCASE	)	{	
+@Override	 public	void	onRateLimitStatus	(	final	Consumer	<	RateLimitStatusEvent	>	action	)	{	 rateLimitStatusListeners	.	add	(	new	RateLimitStatusListener	(	)	{	
+public	SNode	getSubOrSuperType	(	SNode	byteType	)	{	 return	new	QuotationClass_66	(	)	.	createNode	(	)	;	 }	
+ public	CreateTransaction	withHost	(	String	host	)	{	 SpannerConfig	config	=	getSpannerConfig	(	)	;	
+ public	ResequenceDefinition	resequence	(	Expression	.	.	.	expressions	)	{	 List	<	Expression	>	list	=	new	ArrayList	<	Expression	>	(	)	;	
+}	 return	doc	=	refill	(	)	;	 }	
+protected	final	Pane	numTradesPane	;	 private	final	String	fullAddress	;	 private	final	double	scaleFactor	;	
+ Iterator	<	Map	.	Entry	<	String	,	Boolean	>	>	it	=	detectorEnablementMap	.	entrySet	(	)	.	iterator	(	)	;	 int	i	=	0	;	
+refreshTime	=	System	.	currentTimeMillis	(	)	-	refreshTime	;	 refreshes	.	add	(	index	.	getIndexName	(	)	)	;	 }	
+final	PhpLanguageLevel	php	=	PhpProjectConfigurationFacade	.	getInstance	(	project	)	.	getLanguageLevel	(	)	;	 if	(	php	.	hasFeature	(	PhpLanguageFeature	.	RETURN_TYPES	)	&	&	!	method	.	getDeclaredType	(	)	.	isEmpty	(	)	)	{	 final	PsiElement	methodNameNode	=	NamedElementUtil	.	getNameIdentifier	(	method	)	;	
+{	 return	null	;	 }	
+T	annotation	=	serviceBeanAopCacheManager	.	findAnnotation	(	 targetClass	,	method	,	_annotationClass	)	;	 
+ package	org	.	languagetool	.	server	;	 
+prlst	.	getStack	(	)	.	push	(	vartmp	.	copy	(	)	)	;	 return	prlst	;	 }	
+ this	.	dataSource	.	addContext	(	this	)	;	 }	finally	{	
+import	com	.	liferay	.	portal	.	kernel	.	util	.	PortalUtil	;	 import	com	.	liferay	.	portal	.	kernel	.	service	.	BaseServiceImpl	;	 import	com	.	liferay	.	portal	.	spring	.	extender	.	service	.	ServiceReference	;	
+ Set	<	Integer	>	items	=	new	HashSet	<	>	(	)	;	 for	(	int	i	=	0	;	i	<	s	.	length	;	i	+	+	)	{	
+ public	static	void	clearCounter	(	)	{	 visitCount	=	0	;	
+ SVM	<	double	[	]	>	svm	=	new	SVM	<	>	(	new	LinearKernel	(	)	,	10.0	,	Math	.	max	(	y	)	+	1	,	SVM	.	Multiclass	.	ONE_VS_ALL	)	;	 svm	.	learn	(	x	,	y	)	;	
+assertNull	(	p	[	3	]	)	;	 p	=	ServletUtil	.	prepareParameters	(	p	,	true	,	true	,	false	)	;	 assertNull	(	p	[	1	]	)	;	
+@Test	 public	void	testSimpleGetUsingCredentialsProviderService	(	)	throws	Throwable	{	 final	TestRunner	runner	=	TestRunners	.	newTestRunner	(	new	GetSQS	(	)	)	;	
+ private	Boolean	useList	=	false	;	 
+return	sourcePath	+	"str"	+	NodeNameUtil	.	getNamespace	(	INamedConcept_Behavior	.	call_getFqName_1213877404258	(	thisNode	)	)	.	replace	(	"str"	,	"str"	)	;	 }	 
+{	 if	(	!	skipKeySearch	&	&	!	model	.	isSingleSource	(	)	)	{	 throw	new	DBException	(	"str"	)	;	
+{	 switch	(	ast	.	getType	(	)	)	{	 case	TokenTypes	.	LITERAL_TRY	:	
+@Override	 public	void	generate	(	NodeLIRBuilderTool	gen	)	{	 
+this	.	cycleBuffer	=	Long	.	MIN_VALUE	;	 this	.	table	=	new	kelondroDyn	(	file	,	buffersize	,	preloadTime	,	keylength	,	nodesize	,	fillChar	,	true	,	false	)	;	 this	.	treeRAHandles	=	new	Hashtable	(	)	;	
+public	void	testAfterFirstTypeParam	(	)	throws	Exception	{	 performTest	(	"str"	,	859	,	null	,	"str"	)	;	 }	
+case	158	:	 return	QueriesGenerated	.	sourceNodeQuery_34441164341746669460	(	ctx	)	;	 case	159	:	
+final	StaticCatalog	currentCatalog	=	catalogService	.	getCurrentCatalog	(	context	)	;	 result	.	setRecurringBillingMode	(	currentCatalog	.	getRecurringBillingMode	(	)	)	;	 
+public	long	getSyncedCurrentTime	(	)	{	 return	System	.	currentTimeMillis	(	)	+	syncDelta	;	 }	
+ public	EditorCell	createConstant_9241_6	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_2675_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+ private	static	void	setupBasic_Constant_6671_4	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+g	.	setConstraints	(	min	,	c	)	;	 JLabel	max	=	new	JLabel	(	"str"	+	df	.	format	(	Float	.	valueOf	(	maxValue	)	)	)	;	 
+}	catch	(	IOException	e	)	{	 yacyCore	.	log	.	logSevere	(	"str"	+	e	.	getMessage	(	)	)	;	 keyIt	=	(	new	HashSet	(	)	)	.	iterator	(	)	;	
+String	query	=	"str"	+	abbrev	+	"str"	;	 Node	fbNode	=	pluginDescriptor	.	selectSingleNode	(	query	)	;	 int	cweid	=	0	;	
+ public	EditorCell	createCollection_6697_1	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createVertical	(	context	,	node	)	;	
+ nameMap	.	put	(	LocaleUtil	.	getDefault	(	)	,	name	)	;	 
+ public	class	DagController	extends	Controller	{	 
+ public	final	CookieAttribute	[	]	getOptions	(	)	{	 List	<	CookieAttribute	>	options	=	newArrayList	(	)	;	
+@Override	 public	String	getCCExpirationYear	(	)	{	 throw	new	UnsupportedOperationException	(	)	;	
+ public	static	final	String	USER_HOME_DIRECTORY	=	Const	.	isEmpty	(	System	.	getProperty	(	"str"	)	)	?	System	.	getProperty	(	"str"	)	:	System	.	getProperty	(	"str"	)	;	 
+{	 String	prefix	=	goalName	;	 
+public	final	DBObject	findOne	(	Object	obj	,	DBObject	fields	)	{	 Iterator	<	DBObject	>	iterator	=	__find	(	new	BasicDBObject	(	"str"	,	obj	)	,	fields	,	0	,	-	1	,	0	,	getOptions	(	)	,	getReadPreference	(	)	,	_decoderFactory	.	create	(	)	)	;	 return	(	iterator	!	=	null	?	iterator	.	next	(	)	:	null	)	;	
+ private	static	final	AtomicInteger	cnt	=	new	AtomicInteger	(	)	;	 
+ static	private	final	float	max	(	float	a	,	float	b	)	{	 return	(	a	>	b	)	?	a	:	b	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_RefNode_9241_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+public	class	TDoubleArrayListDecorator	extends	AbstractList	<	Double	>	implements	List	<	Double	>	,	Serializable	{	 private	static	final	long	serialVersionUID	=	-	4675825719645399432L	;	 
+ public	class	RootsElementHandler	extends	ModelReader7Handler	.	ElementHandler	{	 private	String	[	]	requiredAttributes	=	new	String	[	]	{	}	;	
+lock1	.	unlock	(	)	;	 Assert	.	assertTrue	(	latch	.	await	(	10	,	TimeUnit	.	SECONDS	)	)	;	 }	
+boolean	autoCommit	=	pass	%	2	=	=	0	;	 IndexWriter	writer	=	new	IndexWriter	(	directory	,	autoCommit	,	new	WhitespaceAnalyzer	(	)	,	true	,	IndexWriter	.	MaxFieldLength	.	LIMITED	)	;	 
+p2	.	x	=	(	mHTextView	.	getWidth	(	)	/	2	+	distWidth	/	2	)	;	 p2	.	y	=	(	mHTextView	.	getHeight	(	)	/	2	+	distHeight	/	2	-	gap	+	xLineWidth	/	2	)	*	percent	;	 canvas	.	drawLine	(	p2	.	x	,	p2	.	y	-	yLineLength	,	p2	.	x	,	p2	.	y	,	linePaint	)	;	
+ package	processing	.	app	.	debug	;	 
+@ConfigurationDefaultDouble	(	1.0	)	 @ConfigurationName	(	"str"	)	 public	static	final	ConfigurationItem	<	Double	>	lastSelectedExportZoom	=	null	;	
+ Mockito	.	verify	(	cas	)	.	getConfiguration	(	"str"	,	null	)	;	 Mockito	.	verify	(	conf	)	.	update	(	new	Hashtable	<	String	,	String	>	(	props	)	)	;	
+{	 final	int	headerLength	=	2	;	 final	int	limit	=	parentMessage	.	limit	(	)	;	
+ public	class	ModelElementHandler	extends	HistoryReaderHandler	.	ElementHandler	{	 private	String	[	]	requiredAttributes	=	new	String	[	]	{	"str"	,	"str"	,	"str"	}	;	
+public	void	testSucceededAsyncResultMap	(	)	{	 Future	<	String	>	f	=	Future	.	future	(	)	;	 AsyncResult	<	String	>	res	=	asyncResult	(	f	)	;	
+public	void	shouldThrowNullPointerExceptionIfTimeUnitParameterIsNull	(	)	{	 stopContainerParams	=	StopContainerParams	.	create	(	CONTAINER	)	 .	withTimeout	(	TIMEOUT	,	null	)	;	
+ @RequestMapping	(	value	=	"str"	)	 public	Result	<	String	>	removeMachineById	(	
+ public	EditorCell	createProperty1225468426470	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+ private	static	void	setupBasic_Constant_3584_9	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+}	  @Test	
+{	 return	valueOf	(	SeverityLevel	.	class	,	securityLevelName	.	trim	(	)	 .	toUpperCase	(	)	)	;	
+{	 SNode	childVar_l7cfoj_a0a0	=	nodeToMatch_l7cfoj_a0a	.	getChildren	(	childRole_list_covariant_with_extends_l7cfoj_	)	.	get	(	0	)	;	 this	.	patternVar_sub	=	childVar_l7cfoj_a0a0	;	
+start	=	System	.	currentTimeMillis	(	)	;	 LSH	<	double	[	]	>	lsh	=	new	LSH	<	>	(	x	,	x	)	;	 
+ public	void	setApplyToPrivate	(	boolean	applyTo	)	 {	
+private	static	final	Logger	LOG	=	LoggerFactory	.	getLogger	(	FileRegistry	.	class	)	;	 private	ORCSchemaProvider	schemaProvider	;	 
+t	=	(	Token	)	input	.	LT	(	1	)	;	 match	(	input	,	PACKAGE	,	FOLLOW_PACKAGE_in_identifier4238	)	;	if	(	failed	)	return	tok	;	 
+float	normalShift	=	progress	*	mShiftRange	;	 LawnchairPreferences	prefs	=	Utilities	.	getLawnchairPrefs	(	mLauncher	)	;	 if	(	prefs	.	getAllAppsSearch	(	)	!	=	prefs	.	getDockSearchBar	(	)	)	{	
+}	 return	new	LongIntIntByteByteStringValue	(	receivedTimeMillis	,	type	,	durationTimeMicroseconds	,	idlePercent	,	busyPercent	,	null	)	;	 }	
+ private	static	void	setupLabel_Constant_1225468421487_1225468421487	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
++	"str"	 +	"str"	)	;	 
+Context	context	=	new	Context	(	)	;	 TestMessager	testMessager	=	new	TestMessager	(	context	)	;	 
+ public	LineColumn	(	int	line	,	int	col	)	 {	
+ return	expired	?	null	:	oldValue	;	 }	
+}	 }	 return	ia	=	=	arrayContainer	.	getCardinality	(	)	;	
+this	.	status	=	values	.	get	(	"str"	)	.	getAsInt	(	)	;	 this	.	error	=	values	.	has	(	"str"	)	?	values	.	get	(	"str"	)	.	toString	(	)	:	null	;	 }	
+ float	rh	=	(	strokeWeight	/	len	)	/	2	;	 
+{	 return	curSelection	=	=	null	?	0	:	1	;	 }	
+ SampleComponent	(	boolean	fallback	)	{	 this	.	fallback	=	fallback	;	
+ private	static	void	setupBasic_RefNode_9241_2	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+show	(	isTray	)	;	 if	(	uri	!	=	null	|	|	!	browser	.	isLoad	(	)	)	{	 browser	.	load	(	url	)	;	
+public	boolean	isAvailableServer	(	final	String	ip	)	{	 return	jobNodeStorage	.	isJobNodeExisted	(	ServerNode	.	getStatusNode	(	ip	)	)	&	&	!	jobNodeStorage	.	isJobNodeExisted	(	ServerNode	.	getPausedNode	(	ip	)	)	 &	&	!	jobNodeStorage	.	isJobNodeExisted	(	ServerNode	.	getDisabledNode	(	ip	)	)	&	&	!	jobNodeStorage	.	isJobNodeExisted	(	ServerNode	.	getShutdownNode	(	ip	)	)	;	
+TestAlgoCollector	testCollector	=	new	TestAlgoCollector	(	"str"	)	;	 testCollector	.	queryIndex	(	unterfrankenGraph	,	idx	,	50.080539	,	10.125854	,	63.35	)	;	 testCollector	.	queryIndex	(	unterfrankenGraph	,	idx	,	50.081146	,	10.124496	,	0.0	)	;	
+ public	static	void	appendClassPath	(	String	pathname	)	throws	NotFoundException	{	 classPool	.	appendClassPath	(	pathname	)	;	
+@Inherited	 @Target	(	value	=	{	ElementType	.	METHOD	}	)	 public	@interface	NewSpan	{	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_7895_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+ public	EditorCell	createProperty_3263_9	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+if	(	moduleToModelsMap	!	=	null	&	&	!	moduleToModelsMap	.	isEmpty	(	)	)	{	 ProgressManager	.	getInstance	(	)	.	run	(	new	Modal	(	refactoringContext	.	getCurrentOperationContext	(	)	.	getComponent	(	Project	.	class	)	,	"str"	,	true	)	{	 public	void	run	(	@NotNull	ProgressIndicator	progress	)	{	
+if	(	text	!	=	null	)	{	 text	=	text	.	trim	(	)	.	toLowerCase	(	)	;	 return	text	.	startsWith	(	"str"	)	|	|	text	.	startsWith	(	"str"	)	;	
+CompilationMetricsArtifact	metrics	,	PrintWriter	pw	)	{	 pw	.	append	(	"str"	+	metrics	.	getPermutationId	(	)	+	"str"	)	;	 pw	.	append	(	"str"	+	metrics	.	getCompileElapsedMilliseconds	(	)	+	"str"	)	;	
+float	textSizePixels	)	{	 mTextPaint	.	setTextSize	(	textSizePixels	)	;	 
+ private	static	void	setupBasic_property_name1228495418234	(	EditorCell	editorCell	,	SNode	node	,	EditorContext	context	)	{	 editorCell	.	setCellId	(	"str"	)	;	
+ protected	static	class	ResponseAllHeaderElement	implements	AccessLogElement	{	 private	final	String	header	;	
+case	Id_getUTCDay	:	 if	(	!	Double	.	isNaN	(	t	)	)	{	 if	(	id	=	=	Id_getDay	)	t	=	LocalTime	(	t	)	;	
+}	else	{	 log	.	warn	(	"str"	,	error	)	;	 response	.	resume	(	Response	.	serverError	(	)	.	build	(	)	)	;	
+{	 this	.	getCOSObject	(	)	.	setItem	(	COSName	.	BS	,	bs	)	;	 }	
+}	 if	(	inSwitch	&	&	nextIndex	>	=	switchOffsets	.	length	)	 inSwitch	=	false	;	
+this	.	rhsToNumber	=	new	HashMap	<	Value	,	Integer	>	(	)	;	 this	.	mergeToNumber	=	new	HashMap	<	BinaryIdentitySet	<	Object	>	,	Integer	>	(	)	;	 
+java	.	util	.	Map	<	java	.	util	.	Locale	,	java	.	lang	.	String	>	descriptionMap	,	 com	.	liferay	.	portal	.	kernel	.	service	.	ServiceContext	serviceContext	)	 throws	com	.	liferay	.	portal	.	kernel	.	exception	.	PortalException	{	
+ for	(	int	i	=	lastBucket	-	1	;	i	>	=	0	;	i	-	-	)	 {	
+loc	=	(	Token	)	input	.	LT	(	1	)	;	 match	(	input	,	LEFT_SQUARE	,	FOLLOW_LEFT_SQUARE_in_square_chunk3062	)	;	if	(	failed	)	return	text	;	 if	(	backtracking	=	=	0	)	{	
+}	 if	(	!	dme	.	hasErrorHandler	(	)	&	&	this	.	getErrorChannel	(	)	!	=	null	&	&	!	this	.	getErrorChannel	(	)	.	equals	(	channel	)	)	{	 dme	.	setErrorHandler	(	new	MessagePublishingErrorHandler	(	this	.	getErrorChannel	(	)	)	)	;	
+if	(	writeMethod2	!	=	null	)	{	 writeMethod2	.	addScopedInterceptor	(	NettyConstants	.	INTERCEPTOR_CHANNEL_PIPELINE_WRITE	,	NettyConstants	.	SCOPE_WRITE	,	ExecutionPolicy	.	BOUNDARY	)	;	 }	
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_Property_3584_0	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+if	(	region	.	getSystem	(	)	.	getConfig	(	)	.	getRemoveUnresponsiveClient	(	)	)	{	 isClientSlowReceiver	=	true	;	 }	else	{	
+.	newInstance	(	fakeBuildRule	)	;	 defaultFlags	.	appendToRuleKey	(	builder	,	CxxPlatformUtils	.	DEFAULT_COMPILER_DEBUG_PATH_SANITIZER	)	;	 RuleKey	defaultRuleKey	=	builder	.	build	(	)	;	
+}	 else	if	(	ast	.	getType	(	)	=	=	TokenTypes	.	METHOD_DEF	)	{	 final	DetailAST	modifiers	=	
+ private	static	final	String	RESOURCE_LOCATION	 =	"str"	;	
+String	DFS_HA_NAMENODES_KEY_PREFIX	=	"str"	;	 int	DFS_NAMENODE_RPC_PORT_DEFAULT	=	8020	;	 String	DFS_NAMENODE_KERBEROS_PRINCIPAL_KEY	=	
+addJob	(	jobConfig	)	;	 Thread	.	sleep	(	2000	)	;	 assertThat	(	InitNewJobService	
+ private	final	VisitorService	visitorService	=	new	VisitorService	(	)	;	 
+}	else	{	 writeTextContent	(	res	,	new	BufferedWriter	(	new	OutputStreamWriter	(	outStream	,	responseHeader	.	getCharSet	(	)	)	)	)	;	 }	
+PDField	field	=	null	;	 PDAnnotationWidget	widget	;	 if	(	next	instanceof	PDField	)	
+ package	org	.	languagetool	.	language	;	 
+ private	Integer	httpRetryIntervalSeconds	=	5	;	 
+if	(	tagMatcher	.	find	(	)	)	{	 if	(	tagMessageRegexp	!	=	null	)	{	 final	Matcher	messageMatcher	=	
+}	else	if	(	valueSelector	.	getItemClass	(	)	=	=	ContactItem	.	class	)	{	  if	(	valueSelector	=	=	RFXComValueSelector	.	CONTACT	)	{	
+ private	static	void	premultiply	(	int	[	]	p	)	{	 int	length	=	p	.	length	;	
+ private	volatile	Dictionary	dictionary	;	 private	List	<	String	>	possibleTags	;	
+return	null	;	 }	 
+public	TextInputLayout	(	Context	context	,	AttributeSet	attrs	)	{	 this	(	context	,	attrs	,	R	.	attr	.	textInputLayoutStyle	)	;	 }	
+  
+@Test	(	description	=	"str"	,	 dependsOnMethods	=	"str"	,	enabled	=	false	)	 public	void	testSeverSocketDelayiedAccept	(	)	{	
+else	if	(	(	(	TerrainPatch	)	s	)	.	getQuadrant	(	)	=	=	3	)	 ur	=	(	(	TerrainPatch	)	s	)	.	getHeightMap	(	)	;	 else	if	(	(	(	TerrainPatch	)	s	)	.	getQuadrant	(	)	=	=	4	)	
+int	answer	=	md	.	open	(	)	;	 overwrite	=	(	answer	&	0xFF	)	=	=	0	;	 askOverwrite	=	!	md	.	getToggleState	(	)	;	
+public	void	cacheMaterialRevisionsForPipelines	(	Set	<	Long	>	pipelineIds	)	{	 List	<	Long	>	ids	=	new	ArrayList	<	>	(	pipelineIds	)	;	 
+while	(	(	sCurrentLine	=	br	.	readLine	(	)	)	!	=	null	)	{	 pageContent	.	append	(	sCurrentLine	)	;	 }	
+case	TokenTypes	.	POST_DEC	:	 visitIncDec	(	ast	)	;	 break	;	
+@Inject	 private	BoostsOverlay	boostsOverlay	;	 
+ while	(	stream	.	toByteArray	(	)	.	length	/	1024	>	size	&	&	options	>	6	)	{	 stream	.	reset	(	)	;	
+ table	.	setColumnHeader	(	"str"	,	"str"	)	;	 table	.	setColumnHeader	(	"str"	,	"str"	)	;	
+}	else	if	(	unwrapped	instanceof	UndeclaredThrowableException	)	{	 unwrapped	=	(	(	UndeclaredThrowableException	)	unwrapped	)	.	getUndeclaredThrowable	(	)	;	 }	else	{	
+final	Object	supportsReferences	=	getContainer	(	)	.	getDriver	(	)	.	getDriverParameter	(	GenericConstants	.	PARAM_SUPPORTS_REFERENCES	)	;	 if	(	supportsReferences	!	=	null	)	{	 info	.	setSupportsReferences	(	Boolean	.	valueOf	(	supportsReferences	.	toString	(	)	)	)	;	
+ task	.	triggerCheckpoint	(	new	CheckpointMetaData	(	42	,	17	)	,	CheckpointOptions	.	forCheckpointWithDefaultLocation	(	)	)	;	 
+List	<	Item	>	locals	=	getInitialLocals	(	descriptor	)	;	 List	<	Item	>	stack	=	new	ArrayList	<	>	(	)	;	 BitSet	jumpEntryLocations	=	new	BitSet	(	)	;	
+ protected	static	native	void	deleteSearchResult	(	long	searchResultHandle	)	;	 
+ private	final	NodePathFormatter	prefixFormatter	=	new	DefaultPrefixFormatter	(	)	;	 
+try	{	 mailTransport	.	sendMessage	(	msg	,	msg	.	getAllRecipients	(	)	)	;	 }	catch	(	MessagingException	mex	)	{	
+ fixture	.	provider	.	register	(	new	SecurityAuthorityImpl	(	)	)	;	 
+ package	com	.	liferay	.	xsl	.	content	.	util	;	 
+public	void	shouldCreateParamsObjectWithRequiredParameters	(	)	{	 getEventsParams	=	GetEventsParams	.	create	(	)	;	 
+COSStream	stream	=	(	COSStream	)	selectedNode	;	 InputStream	ioStream	=	stream	.	createInputStream	(	)	;	 ByteArrayOutputStream	byteArray	=	new	ByteArrayOutputStream	(	)	;	
+final	String	stripped	=	CommonUtils	.	relativizeAndNormalizePath	(	basedir	,	fileName	)	;	 final	AuditEvent	event	=	new	AuditEvent	(	this	,	stripped	)	;	 for	(	final	AuditListener	listener	:	listeners	)	{	
+ return	artifactResolver	.	collect	(	request	)	;	 }	
+ void	intervalElapsed	(	)	{	 RequestProcessor	.	getDefault	(	)	.	post	(	new	Runnable	(	)	{	
+"str"	,	 Integer	.	class	,	10000	)	,	 
+ protected	int	_outputHead	;	 
+ private	final	HttpServerExchange	exchange	;	 
+ Collection	<	SourceLineAnnotation	>	result	=	new	ArrayList	<	>	(	)	;	 for	(	BugAnnotation	annotation	:	annotationList	)	{	
+final	Method	getRequestMethod	=	getGetRequestMethod	(	object	)	;	 if	(	getRequestMethod	!	=	null	)	{	 final	Request	request	=	(	Request	)	getRequestMethod	.	invoke	(	object	)	;	
+public	void	authenticationEnabled_anonymous_forbidden	(	)	throws	IOException	,	URISyntaxException	{	 Boolean	defaultValue	=	jenkins	.	get	(	GitLabConnectionConfig	.	class	)	.	isUseAuthenticatedEndpoint	(	)	;	 assertTrue	(	defaultValue	)	;	
+ public	static	final	int	GELF_HEADER_LENGTH	=	12	;	 
+@Override	 public	void	beginTree	(	DetailAST	rootAST	)	 {	
+ public	void	setDestfile	(	final	File	destfile	)	{	 this	.	destfile	=	destfile	;	
+ private	static	int	precedence	(	String	operator	)	{	 if	(	operator	.	equals	(	"str"	)	)	{	
+DBCExecutionPurpose	.	META	,	"str"	)	;	 List	<	String	>	result	=	new	ArrayList	<	>	(	)	;	 try	{	
+try	{	 HddsProtos	.	GetScmInfoResponseProto	resp	=	rpcProxy	.	getScmInfo	(	 NULL_RPC_CONTROLLER	,	request	)	;	
+ File	[	]	files	=	dir	.	listFiles	(	)	;	 for	(	File	f	:	files	)	{	
+ Thread	client	=	new	Thread	(	tg	,	"str"	)	{	 
+String	[	]	args	=	{	"str"	,	"str"	,	"str"	,	name	.	getMethodName	(	)	}	;	 assertEquals	(	0	,	ToolRunner	.	run	(	testingUtility	.	getConfiguration	(	)	,	canary	,	args	)	)	;	 assertEquals	(	"str"	,	0	,	canary	.	getReadFailures	(	)	.	size	(	)	)	;	
+public	Optional	<	Map	<	String	,	CustomItemFunction	<	?	,	S	>	>	>	 getCustomItemFunctionsOptional	(	)	{	 
+final	AzureBlobFileSystem	fs	=	this	.	getFileSystem	(	)	;	 assumeTrue	(	fs	.	getIsNamespaceEnabled	(	)	)	;	 path	=	new	Path	(	testRoot	,	UUID	.	randomUUID	(	)	.	toString	(	)	)	;	
+displayStyleGroupId	,	PortalUtil	.	getClassNameId	(	_className	)	,	 displayStyle	,	true	)	;	 
+return	"str"	+	getTagName	(	)	+	"str"	+	getLineNo	(	)	 +	"str"	+	columnNo	+	"str"	+	getArg1	(	)	+	"str"	;	 }	
+item	.	setOnMouseClicked	(	event	-	>	{	 if	(	event	.	getButton	(	)	=	=	MouseButton	.	SECONDARY	)	{	 rightClickedVersion	=	id	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_property_icon1225468426392	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+if	(	vd	.	getParentNode	(	)	.	isPresent	(	)	&	&	vd	.	getParentNode	(	)	.	get	(	)	instanceof	NodeWithVariables	)	{	 NodeWithVariables	<	?	>	nodeWithVariables	=	(	NodeWithVariables	<	?	>	)	vd	.	getParentNode	(	)	.	get	(	)	;	 
+@API	(	help	=	"str"	,	level	=	API	.	Level	.	secondary	,	direction	=	API	.	Direction	.	INOUT	)	 public	double	epsilon	;	 
+ public	EditorCell	createProperty1228495418273	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	PropertyCellProvider	(	node	,	context	)	;	
+EditorCell	editorCell	=	provider	.	createEditorCell	(	context	)	;	 setupBasic_Property_5161_0	(	editorCell	,	node	,	context	)	;	 if	(	editorCell	instanceof	EditorCell_Label	)	{	
+if	(	ms	.	isUseCache	(	)	&	&	resultHandler	=	=	null	)	{	 ensureNoOutParams	(	ms	,	boundSql	)	;	 @SuppressWarnings	(	"str"	)	
+ private	List	<	ExceptionInfo	>	getThrows	(	DetailAST	ast	)	 {	
+if	(	stageList	=	=	null	)	{	 stageList	=	new	SimpleOrderedMap	<	>	(	)	;	 rb	.	addDebug	(	stageList	,	"str"	,	stages	.	get	(	rb	.	stage	)	)	;	
+Boolean	expandLocations	,	 Object	makeVariablesUnchecked	,	 SkylarkList	tools	,	
+ private	final	int	N_HEIGHT	;	 
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_property_name_1225460806373	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+ public	EditorCell	createConstant1225460806264	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+if	(	prev	.	getResult	(	)	=	=	Result	.	FAILURE	)	 return	createBackToNormalMail	(	build	,	"str"	,	listener	)	;	 if	(	prev	.	getResult	(	)	=	=	Result	.	UNSTABLE	)	
+}	else	{	 this	.	offset	=	0	;	 }	
+ static	class	CoinbaseCurrencyDeserializer	extends	JsonDeserializer	<	CoinbaseCurrency	>	{	 
+ fbs	.	setTimeOffset	(	timeOffset	,	false	)	;	 return	fbs	;	
+ URL	url	=	Hudson	.	getInstance	(	)	.	servletContext	.	getResource	(	"str"	+	dtdFileName	)	;	 if	(	url	!	=	null	)	
+}	else	if	(	meters	>	0.999f	*	mainUnitInMeters	)	{	 return	MessageFormat	.	format	(	"str"	+	ctx	.	getString	(	mainUnitStr	)	,	(	(	float	)	meters	+	0.5	)	/	mainUnitInMeters	)	;	 }	else	{	
+if	(	null	=	=	functionsSet	)	{	 functionsSet	=	new	HashSet	<	String	>	(	)	;	 
+@Override	 public	Map	<	String	,	String	>	updatePartitionColumnStatistics	(	ColumnStatistics	statsObj	,	 List	<	String	>	partVals	,	String	validWriteIds	,	long	writeId	)	
+eq	(	post3	.	likes	.	size	(	)	,	1	)	;	 eq	(	post3	.	likes	.	iterator	(	)	.	next	(	)	.	name	,	"str"	)	;	 
+{	 List	<	DBSObject	>	path	=	new	ArrayList	<	>	(	)	;	 for	(	DBSObject	obj	=	includeSelf	?	object	:	object	.	getParentObject	(	)	;	obj	!	=	null	;	obj	=	obj	.	getParentObject	(	)	)	{	
+protected	Number	mod	(	Number	num0	,	Number	num1	)	{	 return	Double	.	valueOf	(	num0	.	doubleValue	(	)	%	num1	.	doubleValue	(	)	)	;	 }	
+query	.	append	(	"str"	)	.	append	(	DBUtils	.	getObjectFullName	(	keyColumn	.	getParentObject	(	)	)	)	;	 List	<	String	>	conditions	=	new	ArrayList	<	>	(	)	;	 if	(	keyPattern	!	=	null	)	{	
+readListener	.	onError	(	t	)	;	 success	=	false	;	 }	finally	{	
+@Inject	 private	ImplingsOverlay	overlay	;	 
+HtmlComment	comment	=	new	HtmlComment	(	"str"	)	;	 assertEquals	(	"str"	+	endl	,	comment	.	html	(	)	)	;	 }	
+ public	static	final	Simple	INT	=	Simple	.	forClass	(	Integer	.	class	)	;	 
+dataTypeCache	.	getAllObjects	(	monitor	,	this	)	;	 }	catch	(	Exception	e	)	{	 log	.	warn	(	"str"	,	e	)	;	
+ public	static	void	render	(	StringBuilder	buffer	,	ProcessorDefinition	processor	)	{	 ConvertBodyDefinition	convertBody	=	(	ConvertBodyDefinition	)	processor	;	
+PdePreprocessor	pdePreprocessor	=	new	PdePreprocessor	(	)	;	 String	strippedOutput	=	pdePreprocessor	.	strip	(	s	)	;	 String	expectedStrippedOutput	=	FileUtils	.	readFileToString	(	new	File	(	PdePreprocessorTest	.	class	.	getResource	(	"str"	)	.	getFile	(	)	)	)	;	
+GHGeocodingResponse	response	=	geocoding	.	geocode	(	new	GHGeocodingRequest	(	false	,	null	,	"str"	,	"str"	,	5	,	"str"	,	5000	)	)	;	 assertEquals	(	4	,	response	.	getHits	(	)	.	size	(	)	)	;	 assertTrue	(	response	.	getHits	(	)	.	get	(	0	)	.	getName	(	)	.	contains	(	"str"	)	)	;	
+ private	Boolean	ignoreUnexpectedRecords	=	false	;	 
+{	 return	treeTableModel	.	getColumnClass	(	column	)	;	 }	
+ shard	.	applyIndexOperationOnReplica	(	3	,	1	,	VersionType	.	EXTERNAL	,	IndexRequest	.	UNSET_AUTO_GENERATED_TIMESTAMP	,	false	,	 SourceToParse	.	source	(	shard	.	shardId	(	)	.	getIndexName	(	)	,	"str"	,	"str"	,	new	BytesArray	(	"str"	)	,	XContentType	.	JSON	)	,	mappingConsumer	)	;	
+alarmInfo	=	new	AlarmInfo	(	AlarmInfoType	.	RAILWAY	,	locInd	)	;	 }	else	if	(	"str"	.	equals	(	ruleType	.	getTag	(	)	)	&	&	"str"	.	equals	(	ruleType	.	getValue	(	)	)	)	{	 alarmInfo	=	new	AlarmInfo	(	AlarmInfoType	.	PEDESTRIAN	,	locInd	)	;	
+public	DoubleStreamEx	newDoubleStreamEx	(	DoubleStream	src	)	{	 return	new	DoubleStreamEx	(	src	)	;	 }	
+final	int	blockSize	,	 @Nullable	final	IgniteUuid	affKey	,	 final	boolean	evictExclude	,	
+@Override	 public	BoltResponseHandler	responseHandler	(	)	 {	
+double	lon_east	=	Double	.	parseDouble	(	coord	[	2	]	)	;	 if	(	lon	<	lon_west	|	|	lon	>	lon_east	)	continue	messageloop	;	 double	lat	=	message	.	getLocationPoint	(	)	[	1	]	;	
+if	(	configuration	=	=	null	)	{	 configuration	=	new	Configuration	(	)	;	 configuration	.	setTemplateLoader	(	new	URLTemplateLoader	(	)	{	
+Memory	.	purge	(	)	;	 for	(	int	i	=	0	;	i	<	GC_WAITS	&	&	ref	.	get	(	)	!	=	null	;	i	+	+	)	{	 Thread	.	sleep	(	GC_WAIT_INTERVAL	)	;	
+logger	.	error	(	"str"	)	;	 }	 }	finally	{	
+ int	itemsPerPage	=	Math	.	min	(	(	authenticated	)	?	1000	:	20	,	post	.	getInt	(	"str"	,	post	.	getInt	(	"str"	,	10	)	)	)	;	 int	offset	=	(	newsearch	)	?	0	:	post	.	getInt	(	"str"	,	post	.	getInt	(	"str"	,	0	)	)	;	
+ private	DBDDataFilter	restoreDataFilter	(	final	DBSDataContainer	dataContainer	)	{	 
+@Override	 public	TABLE	getParentObject	(	)	 {	
+}	 catch	(	Exception	e	)	{	 if	(	config	.	isIgnoreInvalidRows	(	)	)	{	
+ public	EditorCell	createRefNode_4178_0_internal	(	EditorContext	context	,	SNode	node	,	CellProviderWithRole	aProvider	)	{	 CellProviderWithRole	provider	=	aProvider	;	
+{	 elements	=	Arrays	.	copyOf	(	elements	,	Math	.	max	(	INITIAL_CAPACITY	,	size	)	)	;	 }	
+ private	static	void	setupLabel_Constant_7442_0	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+ public	EditorCell	createCollection_3263_1	(	EditorContext	context	,	SNode	node	)	{	 EditorCell_Collection	editorCell	=	EditorCell_Collection	.	createVertical	(	context	,	node	)	;	
+ package	org	.	languagetool	;	 
+String	name	;	 if	(	context	!	=	null	&	&	context	.	getPkg	(	)	!	=	null	&	&	context	.	getPkg	(	)	.	getName	(	)	!	=	null	)	{	 if	(	context	instanceof	RuleBuildContext	)	{	
+final	InternalTenantContext	context	)	throws	CatalogApiException	,	SubscriptionBaseApiException	{	 final	Catalog	catalog	=	catalogService	.	getFullCatalog	(	true	,	context	)	;	 final	ProductCategory	currentCategory	=	currentPlan	.	getProduct	(	)	.	getCategory	(	)	;	
+@Override	 public	int	countMissing	(	)	{	 int	count	=	0	;	
+ package	edu	.	umd	.	cs	.	findbugs	.	ba	;	 
+editorCell	.	addEditorCell	(	this	.	createConstantCell1	(	context	,	node	,	"str"	)	)	;	 editorCell	.	putUserObject	(	EditorCell	.	CELL_ID	,	node	.	getId	(	)	+	"str"	)	;	 editorCell	.	setLayoutConstraint	(	"str"	)	;	
+@Override	 public	boolean	accept	(	AuditEvent	event	)	 {	
+case	57	:	 return	QueriesGenerated	.	sourceNodeQuery_35671420849450755380	(	ctx	)	;	 case	58	:	
+public	List	<	PluggableSCMMaterialConfig	>	pluggableSCMMaterialConfigs	(	)	{	 return	new	ArrayList	<	>	(	select	(	materialConfigs	(	)	,	new	Predicate	(	)	{	 @Override	
+smi	.	close	(	)	;	 }	 
+Globals	.	prefs	.	putBoolean	(	JabRefPreferences	.	AUTOLINK_EXACT_KEY_ONLY	,	oldAutoLinkExcatKeyOnly	)	;	 Globals	.	prefs	.	putBoolean	(	JabRefPreferences	.	AUTOLINK_USE_REG_EXP_SEARCH_KEY	,	oldUseRegExp	)	;	 Globals	.	prefs	.	put	(	"str"	,	oldPdfDirectory	)	;	
+ public	ObfuscatedNameSupplier	(	 RenameStrategy	renameStrategy	,	BiMap	<	String	,	String	>	previousMappings	)	{	
+}	 if	(	"str"	.	equals	(	trace	[	i	]	.	getMethodName	(	)	)	)	{	 sawMerge	=	true	;	
+ if	(	(	root	.	isXmlSyntax	(	)	&	&	root	.	isEncodingSpecifiedInProlog	(	)	)	|	|	root	.	isBomPresent	(	)	)	{	 String	pageEnc	=	root	.	getPageEncoding	(	)	.	toUpperCase	(	)	;	
+Set	<	String	>	resourceIds	,	String	redirectUri	,	Set	<	String	>	responseTypes	,	Map	<	String	,	Serializable	>	extensionProperties	)	{	 return	new	OAuth2Request	(	requestParameters	,	clientId	,	authorities	,	approved	,	scope	=	=	null	?	null	:	new	LinkedHashSet	<	String	>	(	scope	)	,	resourceIds	,	redirectUri	,	 responseTypes	,	extensionProperties	)	;	
+.	locateFinest	(	"str"	)	)	;	 assertNull	(	"str"	,	icRoot	.	locateFinest	(	"str"	)	)	;	 }	
+int	lastChar	=	dict	.	getInt	(	COSName	.	LAST_CHAR	,	-	1	)	;	 if	(	!	getWidths	(	)	.	isEmpty	(	)	&	&	code	>	=	firstChar	&	&	code	<	=	lastChar	)	 {	
+ static	final	ThreadLocal	<	String	>	relativeSourceBase	=	new	ThreadLocal	<	>	(	)	;	 
+ public	<	RET	extends	List	<	?	>	>	RET	query	(	final	OQuery	<	?	>	iCommand	,	final	Object	.	.	.	iArgs	)	;	 
+ HighlightedText	text	=	textTag	.	getFormattedText	(	false	)	;	 boolean	allUpper	=	true	;	
+ private	void	route	(	final	MockUnit	unit	,	final	Router	route	,	 final	String	pattern	,	final	Route	.	Handler	handler	)	throws	Exception	{	
+{	 final	int	headerLength	=	2	;	 final	int	limit	=	parentMessage	.	limit	(	)	;	
+continue	;	 }	 ASTTransformationCodeVisitor	stage	=	stageVisitors	.	get	(	
+@SuppressWarnings	(	"str"	)	 public	V	get	(	K	key	)	{	 return	(	V	)	binarySearch	(	root	,	key	)	;	
+ private	static	void	setupLabel_Constant_1225460806045_1225460806045	(	EditorCell_Label	editorCell	,	SNode	node	,	EditorContext	context	)	{	 }	
+@Override	 public	void	generate	(	NodeLIRBuilderTool	gen	)	{	 }	
+ boolean	themeCssFastLoad	=	PropsValues	.	THEME_CSS_FAST_LOAD	;	 
+String	retval	=	LE_NONE	;	 COSArray	array	=	(	COSArray	)	getCOSObject	(	)	.	getDictionaryObject	(	COSName	.	LE	)	;	 if	(	array	!	=	null	)	
+ package	org	.	languagetool	.	dev	;	 
+if	(	checkSum	=	=	expectedCheckSum	)	{	 if	(	remoteIp	.	equals	(	HttpRequestUtils	.	getAddr	(	ctx	.	getRequest	(	)	)	)	)	{	 if	(	lastLoginDate	+	ONE_DAY	>	System	.	currentTimeMillis	(	)	)	{	
+return	false	;	 }	else	if	(	(	expressionType	.	getModifiers	(	)	&	Opcodes	.	ACC_FINAL	)	=	=	0	&	&	targetType	.	isInterface	(	)	)	{	 return	true	;	
+ package	edu	.	umd	.	cs	.	findbugs	.	ba	;	 
+ if	(	tokens	.	length	+	1	>	position	&	&	position	>	2	&	&	tokens	[	position	-	2	]	.	matchesPosTagRegex	(	"str"	)	&	&	tokens	[	position	-	1	]	.	getToken	(	)	.	equals	(	"str"	)	&	&	 tokens	[	position	]	.	getToken	(	)	.	equals	(	"str"	)	&	&	(	tokens	[	position	+	1	]	.	hasPosTag	(	"str"	)	)	)	{	
+@Override	 protected	synchronized	boolean	areSomeRegionReplicasColocated	(	Cluster	c	)	{	 regionReplicaHostCostFunction	.	init	(	c	)	;	
+channel	.	sendResponse	(	result	)	;	 }	catch	(	Throwable	e	)	{	 onFailure	(	e	)	;	
+public	FirstVersionMatcher	(	String	versionAsString	,	RelationalOp	relOp	)	{	 this	(	Long	.	parseLong	(	versionAsString	)	,	relOp	)	;	 }	
+private	Decision	getRandomDecision	(	)	{	 if	(	alwaysSayYes	)	{	 return	Decision	.	YES	;	
+ public	static	final	int	TYPE_WRONG_LAR_SCHEMA_VERSION	=	2	;	 
+ public	EditorCell	createConstant_8529_2	(	EditorContext	context	,	SNode	node	,	String	text	)	{	 EditorCell_Constant	editorCell	=	new	EditorCell_Constant	(	context	,	node	,	text	)	;	
+return	true	;	 }	 
+provider	.	setAllowsEmptyTarget	(	false	)	;	 EditorCell	cellWithRole	=	this	.	createRefNode1225460806417_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+String	[	]	nextLine	;	 try	(	CSVReader	reader	=	new	CSVReader	(	new	InputStreamReader	(	resourceAsStream	)	)	)	{	 
+closeConnection	(	connection	)	;	 timeout	=	connectionTimeout	-	elapsedTimeMs	(	start	)	;	 continue	;	
+groupId	,	folderId	,	classNameId	,	xml	,	ddmStructureKey	,	 ddmTemplateKey	,	LocaleUtil	.	getSiteDefault	(	)	)	;	 }	
+provider	.	setAllowsEmptyTarget	(	true	)	;	 EditorCell	cellWithRole	=	this	.	createProperty_0905_0_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+0x71	,	 0x03	,	 0x03	,	
+public	SNode	getSubOrSuperType	(	SNode	byteType	)	{	 return	new	QuotationClass_74	(	)	.	createNode	(	)	;	 }	
+public	String	getSchemaType	(	Schema	p	)	{	 String	openAPIType	=	super	.	getSchemaType	(	p	)	;	 String	type	=	null	;	
+provider	.	setAllowsEmptyTarget	(	false	)	;	 EditorCell	cellWithRole	=	this	.	createRefCell_4976_0_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+{	 if	(	strength	<	512	|	|	strength	>	4096	|	|	(	(	strength	<	1024	)	&	&	strength	%	64	!	=	0	)	|	|	(	strength	>	=	1024	&	&	strength	%	1024	!	=	0	)	)	 {	
+ setMaxConnections	(	getMaxThreadsExecutor	(	true	)	)	;	 }	
+ private	ConcurrentMap	<	Process	,	ProcessWrapper	>	processMap	=	new	ConcurrentHashMap	<	>	(	)	;	 
+Tag	par	=	fni	.	getParent	(	)	;	 int	frame	=	fni	.	getFrame	(	)	-	1	;	 int	parentId	=	0	;	
+default	OContext	time	(	)	{	 return	(	)	-	>	0	;	 }	
+}	 }	else	if	(	isStateName	(	wordRelation	,	tokenItem	,	tokenVal	)	)	{	 
+DistanceSet	(	)	{	 dist	=	new	ArrayList	<	>	(	)	;	 }	
+ private	Boolean	defaultBlockWhenFull	=	false	;	 
+}	catch	(	ClassNotFoundException	ignore	)	{	 rxJavaAvailable	=	false	;	 }	
+}	 public	static	SNode	sourceNodeQuery_35671420849457820030	(	final	SourceSubstituteMacroNodeContext	_context	)	{	 return	SLinkOperations	.	getTarget	(	_context	.	getNode	(	)	,	MetaAdapterFactory	.	getContainmentLink	(	0x8388864671ce4f1cL	,	0x9c53c54016f6ad4fL	,	0x489c7f2006b0588eL	,	0x489c7f2006b05890L	,	"str"	)	)	;	
+Analyzer	a	=	new	MockAnalyzer	(	random	(	)	)	;	 AnalyzingSuggester	suggester	=	new	AnalyzingSuggester	(	a	,	a	,	AnalyzingSuggester	.	PRESERVE_SEP	,	256	,	-	1	,	true	)	;	 suggester	.	build	(	new	InputArrayIterator	(	new	Input	[	]	{	
+for	(	ORecordOperation	entry	:	txEntries	)	{	 if	(	entry	.	getRecord	(	)	.	getIdentity	(	)	.	isTemporary	(	)	&	&	entry	.	type	!	=	ORecordOperation	.	DELETED	)	 totalAvailableRecords	+	+	;	
+ private	boolean	checkSwitch	(	final	DetailAST	ast	,	boolean	useContinue	)	 {	
+ public	EditorCell	createRefNode_6321_11	(	EditorContext	context	,	SNode	node	)	{	 CellProviderWithRole	provider	=	new	RefNodeCellProvider	(	node	,	context	)	;	
+if	(	autoMapping	=	=	null	)	{	 autoMapping	=	new	ArrayList	<	UnMappedColumnAutoMapping	>	(	)	;	 final	List	<	String	>	unmappedColumnNames	=	rsw	.	getUnmappedColumnNames	(	resultMap	,	columnPrefix	)	;	
+if	(	modelNode	.	hasDefined	(	SYSTEM_PROPERTIES	)	)	{	 writeProperties	(	writer	,	modelNode	.	get	(	SYSTEM_PROPERTIES	)	,	Element	.	SYSTEM_PROPERTIES	)	;	 }	
+provider	.	setAllowsEmptyTarget	(	false	)	;	 EditorCell	cellWithRole	=	this	.	createProperty1228495419324_internal	(	context	,	node	,	provider	)	;	 SNode	attributeConcept	=	provider	.	getRoleAttribute	(	)	;	
+}	else	{	 for	(	int	i	=	0	;	!	node	.	joined	(	)	&	&	i	<	2000	;	i	+	+	)	{	 try	{	
+}	catch	(	Exception	e	)	{	 logger	.	error	(	"str"	,	path	.	getFileName	(	)	,	e	)	;	 }	
+}	else	if	(	memberValue	instanceof	ClassExpression	)	{	 val	=	(	(	Expression	)	memberValue	)	.	getText	(	)	+	"str"	;	 }	
+@AdminPresentation	(	friendlyName	=	"str"	,	order	=	4	,	group	=	"str"	,	fieldType	=	SupportedFieldType	.	BROADLEAF_ENUMERATION	,	broadleafEnumeration	=	"str"	)	 protected	String	type	=	FulfillmentType	.	PHYSICAL	.	getType	(	)	;	 
+public	void	doAfterFlush	(	)	{	 assertTrue	(	"str"	+	docsInSegment	.	get	(	)	+	"str"	,	closing	.	get	(	)	|	|	docsInSegment	.	get	(	)	>	=	7	)	;	 docsInSegment	.	set	(	0	)	;	
+ import	org	.	languagetool	.	tools	.	StringTools	;	 
+DetailAST	modifier	;	 final	Iterator	<	DetailAST	>	it	=	modifiers	.	iterator	(	)	;	 
+.	addDuplicate	(	BatchReport	.	Duplicate	.	newBuilder	(	)	 .	setRange	(	BatchReport	.	TextRange	.	newBuilder	(	)	 .	setStartLine	(	6	)	
+}	 parent	.	get	(	)	.	updateEligibility	(	)	;	 }	
+ populateLabelAttribute	(	rulePkg	,	attribute	)	;	 }	
+@SerializedName	(	SERIALIZED_NAME_FILES	)	 private	List	<	java	.	io	.	File	>	files	=	new	ArrayList	<	java	.	io	.	File	>	(	)	;	 
+}	 return	newName	;	 }	
+Variable	key	=	foreach	.	getKey	(	)	;	 if	(	null	!	=	key	&	&	!	StringUtil	.	isEmpty	(	key	.	getName	(	)	)	)	{	 allModifiedVariables	.	add	(	key	.	getName	(	)	)	;	
+t	.	printStackTrace	(	)	;	 spoon	.	getLog	(	)	.	logError	(	spoon	.	toString	(	)	,	"str"	+	dialogClassName	,	t	)	;	 }	
+private	String	templatesPath	=	"str"	;	 private	int	cacheSize	=	100	;	 private	boolean	staticallyCompile	;	
+if	(	failureDesc	.	contains	(	"str"	)	|	|	failureDesc	.	contains	(	"str"	)	 |	|	failureDesc	.	contains	(	"str"	)	|	|	failureDesc	.	contains	(	"str"	)	)	{	 fail	(	"str"	+	result	.	asString	(	)	)	;	
+  
+if	(	editorCell	instanceof	EditorCell_Label	)	{	 setupLabel_RefCell_6321_1	(	(	EditorCell_Label	)	editorCell	,	node	,	context	)	;	 }	
+if	(	!	e	.	isCurved	(	)	)	{	 if	(	e	.	showLabel	(	)	&	&	e	.	hasLabel	(	)	&	&	e	.	getLabel	(	)	.	getFont	(	)	!	=	null	)	{	 renderEdgeLabel	(	e	.	getLabel	(	)	)	;	
+{	 if	(	isBooleanLiteralReturnStatement	(	ast	)	)	{	 return	true	;	
+assertThat	(	dto	.	getId	(	)	)	.	isEqualTo	(	100L	)	;	 assertThat	(	dto	.	getIssueKey	(	)	)	.	isEqualTo	(	"str"	)	;	 assertThat	(	dto	.	getUserLogin	(	)	)	.	isEqualTo	(	"str"	)	;	
+if	(	nodeDistance	.	compareTo	(	lastDistance	)	<	0	)	{	 if	(	results	.	size	(	)	=	=	K	&	&	lastNode	!	=	null	)	results	.	remove	(	lastNode	)	;	 results	.	add	(	node	)	;	
