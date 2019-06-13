@@ -7,15 +7,24 @@ The subdirectories are as follows:
   4) reference_translations: the results of 5 different models that we already ran
   5) train.tgz/test.tgz: the files which the modified Tensor2Tensor implementation we used will download to generate
    data and run the model on
-  
+
 Details about the project and results can be viewed in the report file.
 
 # Technologies/Repos Used
   - Tensor2Tensor (https://github.com/tensorflow/tensor2tensor)
   - SentencePiece (https://github.com/google/sentencepiece)
   - Transformer Model (https://github.com/DongjunLee/transformer-tensorflow/blob/master/hook.py)
-  
+
 # Data Processing
+
+We collected different commits from multiple repositories in a database. All commits taken from java code, saving up to 2 lines of context, both before and after the changed line.
+To ensure all commits where code patching problems, we made sure every commit had at least one of the following keywords: ”fix”, ”bug”, ”typo”, ”error”, ”mistake”, ”fault”, ”defect”, ”flaw”, ”incorrect”.
+15% of the total commits are used for testing and 85%.
+
+There are 4 files after the data processing:
+
+- **train.enc & test.enc**: this files represent the line change prior to the commit, for both train and test.
+- **train.dec & test.dec**: this files represent the line change after to the commit, for both train and test.
 
 # Running Models
 
@@ -25,7 +34,7 @@ First, install the Tensor2Tensor library with pip using:
 
 The next step is a little hack to get Tensor2Tensor to work with our data. Go to where pip installed Tensor2Tensor on
 your local machine. This could either be python2.7/site-packages/ or python3.5/site-packages/, depending on your Python version.
-Change the top of the file data_generators/translate_ende.py to 
+Change the top of the file data_generators/translate_ende.py to
 
 ```
 _ENDE_TRAIN_DATASETS = [
@@ -71,7 +80,7 @@ We trained 5 models to 100,000 steps and provided the finals results in the refe
 # Pretrained Model
 
 Due to the size of the trained models, we have only provided the pretrained base model [here](https://drive.google.com/file/d/16EqMnwRA93j2ymXMryPQKydCbUuRZ5gn/view?usp=sharing). Download the file, unzip it, and put it into this repo. By using this pretrained model, you can skip the data generation and training phases, and immediately skip to the decoding phase.
- 
+
 Set the following parameters:
 ```
 DATA_DIR=base_model_trained/t2t_data
