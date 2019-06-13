@@ -70,8 +70,8 @@ We trained 5 models to 100,000 steps and provided the finals results in the refe
 
 # Pretrained Model
 
-Due to the size of the trained models, we have only provided the pretrained base model in the base_model_trained folder. By using this model, you can skip the data generation and training phases, and immediately skip to the decoding phase.
-
+Due to the size of the trained models, we have only provided the pretrained base model [here](https://drive.google.com/file/d/16EqMnwRA93j2ymXMryPQKydCbUuRZ5gn/view?usp=sharing). Download the file, unzip it, and put it into this repo. By using this pretrained model, you can skip the data generation and training phases, and immediately skip to the decoding phase.
+ 
 Set the following parameters:
 ```
 DATA_DIR=base_model_trained/t2t_data
