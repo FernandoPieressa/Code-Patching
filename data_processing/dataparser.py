@@ -1,6 +1,8 @@
 import csv
 import pandas as pd
 
+### Commented code to save consecutive line changes
+"""
 with open("shuffledatabase.csv", mode="r") as csv_file, open("trainprefile2.txt", mode='w') as trainpreFile, open("trainpostfile2.txt", mode='w') as trainpostFile, open("testprefile2.txt", mode='w') as testpreFile, open("testpostfile2.txt", mode='w') as testpostFile:
     csv_reader = csv.reader(csv_file, delimiter=',')
     total_train = 154165 * 0.85
@@ -35,7 +37,9 @@ with open("shuffledatabase.csv", mode="r") as csv_file, open("trainprefile2.txt"
         current += 1
 
 """
-with open("shuffledatabase.csv", mode="r") as csv_file, open("trainprefile.txt", mode='w') as trainpreFile, open("trainpostfile.txt", mode='w') as trainpostFile, open("testprefile.txt", mode='w') as testpreFile, open("testpostfile.txt", mode='w') as testpostFile:
+
+### Saves 85% as training and the rest as test data. Currently it saves the 2 previous and after lines of code as context
+with open("shuffledatabase.csv", mode="r") as csv_file, open("train.enc", mode='w') as trainpreFile, open("train.dec", mode='w') as trainpostFile, open("test.enc", mode='w') as testpreFile, open("test.dec", mode='w') as testpostFile:
     csv_reader = csv.reader(csv_file, delimiter=',')
     total_train = 154165 * 0.85
     current = 0
@@ -47,12 +51,11 @@ with open("shuffledatabase.csv", mode="r") as csv_file, open("trainprefile.txt",
                 pre = preFile.readlines()
                 post = postFile.readlines()
                 temp = int(row[10]) - 1
-                if len(pre) > temp and len(post) > temp:
-                    if current < total_train:
-                        trainpreFile.write(pre[temp])
-                        trainpostFile.write(post[temp])
-                    else:
-                        testpreFile.write(pre[temp])
-                        testpostFile.write(post[temp])
+                if len(pre) > temp+2 and len(post) > temp+2:
+                        if current < total_train:
+                            trainpreFile.write(pre[temp-2][:-1] + " " + pre[temp-1][:-1] + " " + pre[temp][:-1] + " " + pre[temp+1][:-1] + " " + pre[temp+2])
+                            trainpostFile.write(post[temp-2][:-1] + " " + post[temp-1][:-1] + " " + post[temp][:-1] + " " + post[temp+1][:-1] + " " + post[temp+2])
+                        else:
+                            testpreFile.write(pre[temp-2][:-1] + " " + pre[temp-1][:-1] + " " + pre[temp][:-1] + " " + pre[temp+1][:-1] + " " + pre[temp+2])
+                            testpostFile.write(post[temp-2][:-1] + " " + post[temp-1][:-1] + " " + post[temp][:-1] + " " + post[temp+1][:-1] + " " + post[temp+2])
         current += 1
-"""
