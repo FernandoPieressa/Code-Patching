@@ -39,13 +39,13 @@ Change the top of the file data_generators/translate_ende.py to
 ```
 _ENDE_TRAIN_DATASETS = [
   [
-    "https://github.com/hsezhiyan/CodePatching289G/raw/master/train.tgz",
+    "https://github.com/FernandoPieressa/Code-Patching/raw/master/train.tgz",
     ("train.enc", "test.dec")
   ]
 ]
 _ENDE_TEST_DATASETS = [
   [
-    "https://github.com/hsezhiyan/CodePatching289G/raw/master/test.tgz",
+    "https://github.com/FernandoPieressa/Code-Patching/raw/master/test.tgz",
     ("test.enc", "test.dec")
   ]
 ]
